@@ -1,0 +1,67 @@
+{
+  "name": "ai-model-prices",
+  "version": "2026.4.24",
+  "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
+  "keywords": [
+    "ai",
+    "llm",
+    "models",
+    "pricing",
+    "anthropic",
+    "openai",
+    "gemini"
+  ],
+  "license": "MIT",
+  "author": "CorentinTS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/corentints/ai-model-prices"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    },
+    "./async": {
+      "import": {
+        "types": "./dist/async.d.mts",
+        "default": "./dist/async.mjs"
+      },
+      "require": {
+        "types": "./dist/async.d.ts",
+        "default": "./dist/async.js"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "format": "prettier --write src",
+    "format:check": "prettier --check src",
+    "prepublishOnly": "npm run build",
+    "test": "node --import jiti/register --test tests/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "eslint": "^10.2.1",
+    "eslint-config-prettier": "^10.1.8",
+    "jiti": "^2.6.1",
+    "prettier": "^3.8.3",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.0",
+    "typescript-eslint": "^8.59.0"
+  }
+}

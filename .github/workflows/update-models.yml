@@ -1,0 +1,89 @@
+name: Update model data
+
+on:
+  schedule:
+    # Runs daily at 02:00 UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Force publish even without data changes'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Update data
+        run: node scripts/update-data.mjs
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet src/data.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build, commit and publish
+        if: steps.changes.outputs.changed == 'true' || inputs.force == true
+        run: |
+          npm run build
+
+          BASE=$(date -u +"%Y.%-m.%-d")
+          EXISTING=$(npm view ai-model-prices versions --json 2>/dev/null || echo "[]")
+          NEW_VERSION=$(node -e "
+            const versions = $EXISTING;
+            const base = '$BASE';
+            const same = versions.filter(v => v === base || v.startsWith(base + '.'));
+            console.log(same.length === 0 ? base : base + '.' + same.length);
+          ")
+          npm version "$NEW_VERSION" --no-git-tag-version --allow-same-version
+
+          CHANGELOG=$(node scripts/diff-data.mjs)
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data.json package.json package-lock.json
+          if ! git diff --cached --quiet; then
+            if [ -n "$CHANGELOG" ]; then
+              git commit -m "chore: update model data to v${NEW_VERSION}" -m "$CHANGELOG"
+            else
+              git commit -m "chore: update model data to v${NEW_VERSION}"
+            fi
+            git tag -f "v${NEW_VERSION}"
+            git push origin HEAD
+            git push origin "v${NEW_VERSION}" --force
+          fi
+
+          npm publish --access public
+
+          if [ -n "$CHANGELOG" ]; then
+            gh release create "v${NEW_VERSION}" --title "v${NEW_VERSION}" --notes "$CHANGELOG" || true
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: No changes
+        if: steps.changes.outputs.changed == 'false'
+        run: echo "Model data is already up to date. No publish needed."
