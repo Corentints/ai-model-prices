@@ -75,7 +75,7 @@ jobs:
             git push origin "v${NEW_VERSION}" --force
           fi
 
-          npm publish --access public
+          npm publish --access public --provenance
 
           if [ -n "$CHANGELOG" ]; then
             gh release create "v${NEW_VERSION}" --title "v${NEW_VERSION}" --notes "$CHANGELOG" || true
