@@ -2,9 +2,7 @@
 import { writeFile, mkdir, readFile } from 'node:fs/promises';
 import { defineConfig } from 'tsup';
 
-async function writeProviderFiles() {
-  const data = JSON.parse(await readFile('src/data.json', 'utf8')) as Record<string, unknown>;
-
+async function writeProviderFiles(data: Record<string, unknown>) {
   await mkdir('dist/providers', { recursive: true });
   await Promise.all([
     ...Object.entries(data).map(([pid, provider]) =>
@@ -26,6 +24,7 @@ export default defineConfig({
   clean: true,
   minify: true,
   async onSuccess() {
-    await writeProviderFiles();
+    const data = JSON.parse(await readFile('src/data.json', 'utf8'));
+    await writeProviderFiles(data);
   },
 });
