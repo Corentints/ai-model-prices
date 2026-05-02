@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/ai-model-prices)](https://www.npmjs.com/package/ai-model-prices)
 [![npm downloads](https://img.shields.io/npm/dm/ai-model-prices)](https://www.npmjs.com/package/ai-model-prices)
 
-Typed AI model pricing data, auto-updated daily from [models.dev](https://models.dev).
+Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
 **113 providers · 4167 models · Updated 2026-05-01**
@@ -38,20 +38,20 @@ const provider = getProvider('amazon-bedrock');
 
 ### Provider adapters
 
-Each provider has a lightweight adapter with types scoped to that provider's models only:
+Each provider has a lightweight adapter. Types are scoped to that provider's models only:
 
 ```ts
 import { getPrice, getModel, getProvider, getModels } from 'ai-model-prices/openai';
 import { getPrice as bedrockPrice } from 'ai-model-prices/amazon-bedrock';
 
-// Provider is pre-bound — no need to specify it
+// provider is pre-bound
 const price = getPrice('gpt-4.1-mini', { noCacheInput: 1000, noCacheOutput: 500 });
-const model = getModel('gpt-4.1-mini'); // fully typed to OpenAI models only
+const model = getModel('gpt-4.1-mini'); // typed to OpenAI models only
 ```
 
 ### Async (lazy-loaded)
 
-For environments where bundle size matters — loads each provider's data on demand:
+If bundle size matters, provider data is loaded on demand:
 
 ```ts
 import { getPrice, getModels, filterModels } from 'ai-model-prices/async';
@@ -63,7 +63,7 @@ const models = await filterModels({ maxInputCost: 1, tool_call: true });
 
 ### `getPrice(model, tokens)`
 
-Returns a `PriceBreakdown` or `null` if the model has no pricing data.
+Returns a `PriceBreakdown`, or `null` if the model has no pricing data.
 
 ```ts
 // Three call signatures:
@@ -96,15 +96,15 @@ interface PriceBreakdown {
 
 ### `getModel(providerId, modelId)`
 
-Strict ID lookup — fully typed, both arguments are constrained to known values.
+Both arguments are typed to known IDs.
 
 ### `getProvider(id)`
 
-Get provider metadata by ID.
+Look up a provider by ID.
 
 ### `getModels()` / `getProviders()` / `getModelsByProvider(providerId)`
 
-Return all models or providers from the bundled data.
+Return everything from the bundled data.
 
 ### `filterModels(filter)`
 
