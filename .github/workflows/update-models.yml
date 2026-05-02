@@ -34,7 +34,7 @@ jobs:
         run: npm ci
 
       - name: Update data
-        run: node scripts/update-data.mjs
+        run: node --experimental-strip-types scripts/update-data.ts
 
       - name: Check for changes
         id: changes
@@ -48,6 +48,10 @@ jobs:
       - name: Build, commit and publish
         if: steps.changes.outputs.changed == 'true' || inputs.force == true
         run: |
+          CHANGELOG=$(node --experimental-strip-types scripts/diff-data.ts)
+
+          node --experimental-strip-types scripts/generate-readme.ts
+
           npm run build
 
           BASE=$(date -u +"%Y.%-m.%-d")
@@ -60,11 +64,9 @@ jobs:
           ")
           npm version "$NEW_VERSION" --no-git-tag-version --allow-same-version
 
-          CHANGELOG=$(node scripts/diff-data.mjs)
-
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/data.json package.json package-lock.json
+          git add src/data.json src/generated-types.gen.ts README.md package.json package-lock.json
           if ! git diff --cached --quiet; then
             if [ -n "$CHANGELOG" ]; then
               git commit -m "chore: update model data to v${NEW_VERSION}" -m "$CHANGELOG"
@@ -78,9 +80,10 @@ jobs:
 
           npm publish --access public --provenance
 
-          if [ -n "$CHANGELOG" ]; then
-            gh release create "v${NEW_VERSION}" --title "v${NEW_VERSION}" --notes "$CHANGELOG" || true
-          fi
+          RELEASE_BODY="## What changed\n\n${CHANGELOG:-No model changes.}"
+          gh release create "v${NEW_VERSION}" \
+            --title "v${NEW_VERSION}" \
+            --notes "$(printf '%b' "$RELEASE_BODY")" || true
         env:
           GH_TOKEN: ${{ github.token }}
 
