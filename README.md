@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**113 providers · 4167 models · Updated 2026-05-01**
+**114 providers · 4227 models · Updated 2026-05-03**
 <!-- STATS:END -->
 
 ## Installation
@@ -224,6 +224,7 @@ filterModels({
 | Moonshot AI | `moonshotai` |
 | Berget.AI | `berget` |
 | GitHub Models | `github-models` |
+| Neuralwatt | `neuralwatt` |
 | Together AI | `togetherai` |
 | QiHang | `qihang-ai` |
 | Tencent TokenHub | `tencent-tokenhub` |
