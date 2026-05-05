@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.5.4",
+  "version": "2026.5.5",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -541,6 +541,16 @@
         "default": "./dist/adapters/baseten.js"
       }
     },
+    "./frogbot": {
+      "import": {
+        "types": "./dist/adapters/frogbot.d.mts",
+        "default": "./dist/adapters/frogbot.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/frogbot.d.ts",
+        "default": "./dist/adapters/frogbot.js"
+      }
+    },
     "./zhipuai-coding-plan": {
       "import": {
         "types": "./dist/adapters/zhipuai-coding-plan.d.mts",
@@ -589,16 +599,6 @@
       "require": {
         "types": "./dist/adapters/cerebras.d.ts",
         "default": "./dist/adapters/cerebras.js"
-      }
-    },
-    "./firmware": {
-      "import": {
-        "types": "./dist/adapters/firmware.d.mts",
-        "default": "./dist/adapters/firmware.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/firmware.d.ts",
-        "default": "./dist/adapters/firmware.js"
       }
     },
     "./lmstudio": {

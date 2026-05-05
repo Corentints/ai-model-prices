@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**114 providers · 4233 models · Updated 2026-05-04**
+**114 providers · 4240 models · Updated 2026-05-05**
 <!-- STATS:END -->
 
 ## Installation
@@ -175,12 +175,12 @@ filterModels({
 | Z.AI Coding Plan | `zai-coding-plan` |
 | Amazon Bedrock | `amazon-bedrock` |
 | Baseten | `baseten` |
+| FrogBot | `frogbot` |
 | Zhipu AI Coding Plan | `zhipuai-coding-plan` |
 | Alibaba Coding Plan | `alibaba-coding-plan` |
 | Venice AI | `venice` |
 | AIHubMix | `aihubmix` |
 | Cerebras | `cerebras` |
-| Firmware | `firmware` |
 | LMStudio | `lmstudio` |
 | LucidQuery AI | `lucidquery` |
 | Moonshot AI (China) | `moonshotai-cn` |
