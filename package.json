@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.5.6",
+  "version": "2026.5.7",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -379,6 +379,16 @@
       "require": {
         "types": "./dist/adapters/deepinfra.d.ts",
         "default": "./dist/adapters/deepinfra.js"
+      }
+    },
+    "./qiniu-ai": {
+      "import": {
+        "types": "./dist/adapters/qiniu-ai.d.mts",
+        "default": "./dist/adapters/qiniu-ai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/qiniu-ai.d.ts",
+        "default": "./dist/adapters/qiniu-ai.js"
       }
     },
     "./kilo": {
@@ -779,6 +789,16 @@
       "require": {
         "types": "./dist/adapters/openai.d.ts",
         "default": "./dist/adapters/openai.js"
+      }
+    },
+    "./kiro": {
+      "import": {
+        "types": "./dist/adapters/kiro.d.mts",
+        "default": "./dist/adapters/kiro.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/kiro.d.ts",
+        "default": "./dist/adapters/kiro.js"
       }
     },
     "./requesty": {

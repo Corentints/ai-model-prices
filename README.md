@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**114 providers · 4255 models · Updated 2026-05-06**
+**116 providers · 4266 models · Updated 2026-05-07**
 <!-- STATS:END -->
 
 ## Installation
@@ -159,6 +159,7 @@ filterModels({
 | DInference | `dinference` |
 | Vivgrid | `vivgrid` |
 | Deep Infra | `deepinfra` |
+| Qiniu | `qiniu-ai` |
 | Kilo Gateway | `kilo` |
 | SAP AI Core | `sap-ai-core` |
 | Morph | `morph` |
@@ -199,6 +200,7 @@ filterModels({
 | Inference | `inference` |
 | Inception | `inception` |
 | OpenAI | `openai` |
+| Kiro | `kiro` |
 | Requesty | `requesty` |
 | DigitalOcean | `digitalocean` |
 | Vultr | `vultr` |
