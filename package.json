@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.5.9",
+  "version": "2026.5.10",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -229,6 +229,16 @@
       "require": {
         "types": "./dist/adapters/alibaba-cn.d.ts",
         "default": "./dist/adapters/alibaba-cn.js"
+      }
+    },
+    "./firepass": {
+      "import": {
+        "types": "./dist/adapters/firepass.d.mts",
+        "default": "./dist/adapters/firepass.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/firepass.d.ts",
+        "default": "./dist/adapters/firepass.js"
       }
     },
     "./minimax-cn-coding-plan": {

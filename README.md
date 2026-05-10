@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**116 providers · 4276 models · Updated 2026-05-09**
+**117 providers · 4271 models · Updated 2026-05-10**
 <!-- STATS:END -->
 
 ## Installation
@@ -144,6 +144,7 @@ filterModels({
 | OpenCode Go | `opencode-go` |
 | IO.NET | `io-net` |
 | Alibaba (China) | `alibaba-cn` |
+| Fireworks (Firepass) | `firepass` |
 | MiniMax Coding Plan (minimaxi.com) | `minimax-cn-coding-plan` |
 | Jiekou.AI | `jiekou` |
 | Bailing | `bailing` |
