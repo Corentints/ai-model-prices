@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**117 providers · 4271 models · Updated 2026-05-10**
+**116 providers · 4260 models · Updated 2026-05-11**
 <!-- STATS:END -->
 
 ## Installation
@@ -201,7 +201,6 @@ filterModels({
 | Inference | `inference` |
 | Inception | `inception` |
 | OpenAI | `openai` |
-| Kiro | `kiro` |
 | Requesty | `requesty` |
 | DigitalOcean | `digitalocean` |
 | Vultr | `vultr` |

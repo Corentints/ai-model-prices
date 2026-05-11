@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.5.10",
+  "version": "2026.5.11",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -799,16 +799,6 @@
       "require": {
         "types": "./dist/adapters/openai.d.ts",
         "default": "./dist/adapters/openai.js"
-      }
-    },
-    "./kiro": {
-      "import": {
-        "types": "./dist/adapters/kiro.d.mts",
-        "default": "./dist/adapters/kiro.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/kiro.d.ts",
-        "default": "./dist/adapters/kiro.js"
       }
     },
     "./requesty": {
