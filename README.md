@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**116 providers · 4260 models · Updated 2026-05-11**
+**117 providers · 4265 models · Updated 2026-05-12**
 <!-- STATS:END -->
 
 ## Installation
@@ -142,6 +142,7 @@ filterModels({
 | Kimi For Coding | `kimi-for-coding` |
 | Moark | `moark` |
 | OpenCode Go | `opencode-go` |
+| Databricks | `databricks` |
 | IO.NET | `io-net` |
 | Alibaba (China) | `alibaba-cn` |
 | Fireworks (Firepass) | `firepass` |

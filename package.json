@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.5.11",
+  "version": "2026.5.12",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -209,6 +209,16 @@
       "require": {
         "types": "./dist/adapters/opencode-go.d.ts",
         "default": "./dist/adapters/opencode-go.js"
+      }
+    },
+    "./databricks": {
+      "import": {
+        "types": "./dist/adapters/databricks.d.mts",
+        "default": "./dist/adapters/databricks.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/databricks.d.ts",
+        "default": "./dist/adapters/databricks.js"
       }
     },
     "./io-net": {
