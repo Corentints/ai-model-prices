@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**117 providers · 4265 models · Updated 2026-05-12**
+**119 providers · 4281 models · Updated 2026-05-13**
 <!-- STATS:END -->
 
 ## Installation
@@ -134,6 +134,7 @@ filterModels({
 | SiliconFlow (China) | `siliconflow-cn` |
 | submodel | `submodel` |
 | MiniMax Coding Plan (minimax.io) | `minimax-coding-plan` |
+| Claudinio | `claudinio` |
 | Perplexity | `perplexity` |
 | DeepSeek | `deepseek` |
 | Llama | `llama` |
@@ -164,6 +165,7 @@ filterModels({
 | Qiniu | `qiniu-ai` |
 | Kilo Gateway | `kilo` |
 | SAP AI Core | `sap-ai-core` |
+| Auriko | `auriko` |
 | Morph | `morph` |
 | Cloudflare AI Gateway | `cloudflare-ai-gateway` |
 | GitHub Copilot | `github-copilot` |

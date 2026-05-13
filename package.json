@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.5.12",
+  "version": "2026.5.13",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -129,6 +129,16 @@
       "require": {
         "types": "./dist/adapters/minimax-coding-plan.d.ts",
         "default": "./dist/adapters/minimax-coding-plan.js"
+      }
+    },
+    "./claudinio": {
+      "import": {
+        "types": "./dist/adapters/claudinio.d.mts",
+        "default": "./dist/adapters/claudinio.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/claudinio.d.ts",
+        "default": "./dist/adapters/claudinio.js"
       }
     },
     "./perplexity": {
@@ -429,6 +439,16 @@
       "require": {
         "types": "./dist/adapters/sap-ai-core.d.ts",
         "default": "./dist/adapters/sap-ai-core.js"
+      }
+    },
+    "./auriko": {
+      "import": {
+        "types": "./dist/adapters/auriko.d.mts",
+        "default": "./dist/adapters/auriko.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/auriko.d.ts",
+        "default": "./dist/adapters/auriko.js"
       }
     },
     "./morph": {
