@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**119 providers · 4281 models · Updated 2026-05-13**
+**120 providers · 4292 models · Updated 2026-05-14**
 <!-- STATS:END -->
 
 ## Installation
@@ -140,6 +140,7 @@ filterModels({
 | Llama | `llama` |
 | OpenRouter | `openrouter` |
 | Fireworks AI | `fireworks-ai` |
+| Ambient | `ambient` |
 | Kimi For Coding | `kimi-for-coding` |
 | Moark | `moark` |
 | OpenCode Go | `opencode-go` |
