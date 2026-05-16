@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**124 providers · 4342 models · Updated 2026-05-15**
+**126 providers · 4601 models · Updated 2026-05-16**
 <!-- STATS:END -->
 
 ## Installation
@@ -183,6 +183,7 @@ filterModels({
 | OpenRouter | `openrouter` |
 | Regolo AI | `regolo-ai` |
 | Claudinio | `claudinio` |
+| OrcaRouter | `orcarouter` |
 | OpenCode Go | `opencode-go` |
 | LLM Gateway | `llmgateway` |
 | Poe | `poe` |
@@ -241,6 +242,7 @@ filterModels({
 | Alibaba (China) | `alibaba-cn` |
 | D.Run (China) | `drun` |
 | Hugging Face | `huggingface` |
+| Umans AI Coding Plan | `umans-ai-coding-plan` |
 | Tencent TokenHub | `tencent-tokenhub` |
 | GitLab Duo | `gitlab` |
 | Nebius Token Factory | `nebius` |

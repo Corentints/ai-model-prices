@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.5.15",
+  "version": "2026.5.16",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -621,6 +621,16 @@
         "default": "./dist/adapters/claudinio.js"
       }
     },
+    "./orcarouter": {
+      "import": {
+        "types": "./dist/adapters/orcarouter.d.mts",
+        "default": "./dist/adapters/orcarouter.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/orcarouter.d.ts",
+        "default": "./dist/adapters/orcarouter.js"
+      }
+    },
     "./opencode-go": {
       "import": {
         "types": "./dist/adapters/opencode-go.d.mts",
@@ -1199,6 +1209,16 @@
       "require": {
         "types": "./dist/adapters/huggingface.d.ts",
         "default": "./dist/adapters/huggingface.js"
+      }
+    },
+    "./umans-ai-coding-plan": {
+      "import": {
+        "types": "./dist/adapters/umans-ai-coding-plan.d.mts",
+        "default": "./dist/adapters/umans-ai-coding-plan.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/umans-ai-coding-plan.d.ts",
+        "default": "./dist/adapters/umans-ai-coding-plan.js"
       }
     },
     "./tencent-tokenhub": {
