@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**126 providers · 4544 models · Updated 2026-05-17**
+**127 providers · 4548 models · Updated 2026-05-18**
 <!-- STATS:END -->
 
 ## Installation
@@ -239,6 +239,7 @@ filterModels({
 | Zhipu AI | `zhipuai` |
 | Bailing | `bailing` |
 | QiHang | `qihang-ai` |
+| Lilac | `lilac` |
 | Alibaba (China) | `alibaba-cn` |
 | D.Run (China) | `drun` |
 | Hugging Face | `huggingface` |
