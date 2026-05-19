@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**127 providers · 4548 models · Updated 2026-05-18**
+**128 providers · 4587 models · Updated 2026-05-19**
 <!-- STATS:END -->
 
 ## Installation
@@ -143,6 +143,7 @@ filterModels({
 | Weights & Biases | `wandb` |
 | GMI Cloud | `gmicloud` |
 | Ambient | `ambient` |
+| routing.run | `routing-run` |
 | FastRouter | `fastrouter` |
 | Tencent Coding Plan (China) | `tencent-coding-plan` |
 | Cortecs | `cortecs` |
