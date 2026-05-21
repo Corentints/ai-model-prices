@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**128 providers · 4576 models · Updated 2026-05-20**
+**129 providers · 4567 models · Updated 2026-05-21**
 <!-- STATS:END -->
 
 ## Installation
@@ -252,6 +252,7 @@ filterModels({
 | Xiaomi | `xiaomi` |
 | GitHub Copilot | `github-copilot` |
 | Together AI | `togetherai` |
+| StepFun | `stepfun-ai` |
 | Inference | `inference` |
 <!-- PROVIDERS:END -->
 

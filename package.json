@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.5.20",
+  "version": "2026.5.21",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -1309,6 +1309,16 @@
       "require": {
         "types": "./dist/adapters/togetherai.d.ts",
         "default": "./dist/adapters/togetherai.js"
+      }
+    },
+    "./stepfun-ai": {
+      "import": {
+        "types": "./dist/adapters/stepfun-ai.d.mts",
+        "default": "./dist/adapters/stepfun-ai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/stepfun-ai.d.ts",
+        "default": "./dist/adapters/stepfun-ai.js"
       }
     },
     "./inference": {
