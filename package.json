@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.5.21",
+  "version": "2026.5.22",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -209,6 +209,16 @@
       "require": {
         "types": "./dist/adapters/gmicloud.d.ts",
         "default": "./dist/adapters/gmicloud.js"
+      }
+    },
+    "./crof": {
+      "import": {
+        "types": "./dist/adapters/crof.d.mts",
+        "default": "./dist/adapters/crof.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/crof.d.ts",
+        "default": "./dist/adapters/crof.js"
       }
     },
     "./ambient": {
@@ -969,6 +979,16 @@
       "require": {
         "types": "./dist/adapters/azure.d.ts",
         "default": "./dist/adapters/azure.js"
+      }
+    },
+    "./inceptron": {
+      "import": {
+        "types": "./dist/adapters/inceptron.d.mts",
+        "default": "./dist/adapters/inceptron.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/inceptron.d.ts",
+        "default": "./dist/adapters/inceptron.js"
       }
     },
     "./minimax-coding-plan": {

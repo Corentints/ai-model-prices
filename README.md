@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**129 providers · 4567 models · Updated 2026-05-21**
+**131 providers · 4602 models · Updated 2026-05-22**
 <!-- STATS:END -->
 
 ## Installation
@@ -142,6 +142,7 @@ filterModels({
 | Cohere | `cohere` |
 | Weights & Biases | `wandb` |
 | GMI Cloud | `gmicloud` |
+| CrofAI | `crof` |
 | Ambient | `ambient` |
 | routing.run | `routing-run` |
 | FastRouter | `fastrouter` |
@@ -218,6 +219,7 @@ filterModels({
 | Meganova | `meganova` |
 | Synthetic | `synthetic` |
 | Azure | `azure` |
+| Inceptron | `inceptron` |
 | MiniMax Token Plan (minimax.io) | `minimax-coding-plan` |
 | Upstage | `upstage` |
 | Amazon Bedrock | `amazon-bedrock` |
