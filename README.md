@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**131 providers · 4610 models · Updated 2026-05-24**
+**132 providers · 4613 models · Updated 2026-05-26**
 <!-- STATS:END -->
 
 ## Installation
@@ -256,6 +256,7 @@ filterModels({
 | Together AI | `togetherai` |
 | StepFun | `stepfun-ai` |
 | Inference | `inference` |
+| Poolside | `poolside` |
 <!-- PROVIDERS:END -->
 
 ## License
