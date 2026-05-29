@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**132 providers · 4626 models · Updated 2026-05-28**
+**133 providers · 4727 models · Updated 2026-05-29**
 <!-- STATS:END -->
 
 ## Installation
@@ -125,138 +125,139 @@ filterModels({
 <!-- PROVIDERS:START -->
 | Provider | ID |
 |---|---|
-| Helicone | `helicone` |
-| Auriko | `auriko` |
-| Fireworks (Firepass) | `firepass` |
-| NanoGPT | `nano-gpt` |
-| IO.NET | `io-net` |
-| Inception | `inception` |
-| submodel | `submodel` |
-| Requesty | `requesty` |
-| Z.AI | `zai` |
-| Z.AI Coding Plan | `zai-coding-plan` |
-| Deep Infra | `deepinfra` |
-| Clarifai | `clarifai` |
-| Moark | `moark` |
-| FrogBot | `frogbot` |
-| Cohere | `cohere` |
-| Weights & Biases | `wandb` |
-| GMI Cloud | `gmicloud` |
-| CrofAI | `crof` |
-| Ambient | `ambient` |
-| routing.run | `routing-run` |
-| FastRouter | `fastrouter` |
-| Tencent Coding Plan (China) | `tencent-coding-plan` |
-| Cortecs | `cortecs` |
-| Baseten | `baseten` |
-| Llama | `llama` |
-| NovitaAI | `novita-ai` |
-| DigitalOcean | `digitalocean` |
-| Moonshot AI | `moonshotai` |
-| Mistral | `mistral` |
-| Kilo Gateway | `kilo` |
-| Vertex (Anthropic) | `google-vertex-anthropic` |
-| Cloudflare Workers AI | `cloudflare-workers-ai` |
-| LMStudio | `lmstudio` |
-| Xiaomi Token Plan (China) | `xiaomi-token-plan-cn` |
-| v0 | `v0` |
-| Morph | `morph` |
-| NEAR AI Cloud | `nearai` |
-| Abacus | `abacus` |
-| Privatemode AI | `privatemode-ai` |
-| MiniMax Token Plan (minimaxi.com) | `minimax-cn-coding-plan` |
-| Xiaomi Token Plan (Europe) | `xiaomi-token-plan-ams` |
-| CloudFerro Sherlock | `cloudferro-sherlock` |
-| OpenAI | `openai` |
-| DInference | `dinference` |
-| Vivgrid | `vivgrid` |
-| Cerebras | `cerebras` |
-| Cloudflare AI Gateway | `cloudflare-ai-gateway` |
-| Vultr | `vultr` |
-| KUAE Cloud Coding Plan | `kuae-cloud-coding-plan` |
-| ModelScope | `modelscope` |
-| Kimi For Coding | `kimi-for-coding` |
-| LucidQuery AI | `lucidquery` |
-| Neuralwatt | `neuralwatt` |
-| Azure Cognitive Services | `azure-cognitive-services` |
-| Jiekou.AI | `jiekou` |
-| OVHcloud AI Endpoints | `ovhcloud` |
-| Friendli | `friendli` |
-| OpenRouter | `openrouter` |
-| Regolo AI | `regolo-ai` |
-| Claudinio | `claudinio` |
-| OrcaRouter | `orcarouter` |
-| OpenCode Go | `opencode-go` |
-| LLM Gateway | `llmgateway` |
-| Poe | `poe` |
-| MiniMax (minimax.io) | `minimax` |
-| Groq | `groq` |
-| Xiaomi Token Plan (Singapore) | `xiaomi-token-plan-sgp` |
-| SiliconFlow | `siliconflow` |
-| Vertex | `google-vertex` |
-| Databricks | `databricks` |
-| Berget.AI | `berget` |
-| Moonshot AI (China) | `moonshotai-cn` |
-| Alibaba Coding Plan (China) | `alibaba-coding-plan-cn` |
-| MiniMax (minimaxi.com) | `minimax-cn` |
-| Chutes | `chutes` |
-| SiliconFlow (China) | `siliconflow-cn` |
-| AIHubMix | `aihubmix` |
-| Nvidia | `nvidia` |
-| Anthropic | `anthropic` |
-| Zhipu AI Coding Plan | `zhipuai-coding-plan` |
-| Atomic Chat | `atomic-chat` |
-| GitHub Models | `github-models` |
-| Qiniu | `qiniu-ai` |
-| Google | `google` |
-| SAP AI Core | `sap-ai-core` |
-| Scaleway | `scaleway` |
-| OpenCode Zen | `opencode` |
-| Mixlayer | `mixlayer` |
-| ZenMux | `zenmux` |
-| Perplexity Agent | `perplexity-agent` |
-| Alibaba Coding Plan | `alibaba-coding-plan` |
-| Meganova | `meganova` |
-| Synthetic | `synthetic` |
-| Azure | `azure` |
-| Inceptron | `inceptron` |
-| MiniMax Token Plan (minimax.io) | `minimax-coding-plan` |
 | Upstage | `upstage` |
-| Amazon Bedrock | `amazon-bedrock` |
-| Vercel AI Gateway | `vercel` |
-| abliteration.ai | `abliteration-ai` |
-| DeepSeek | `deepseek` |
-| Perplexity | `perplexity` |
-| iFlow | `iflowcn` |
-| STACKIT | `stackit` |
-| Wafer | `wafer.ai` |
-| evroc | `evroc` |
-| Nova | `nova` |
-| Venice AI | `venice` |
+| Clarifai | `clarifai` |
 | Fireworks AI | `fireworks-ai` |
-| Alibaba | `alibaba` |
+| Ambient | `ambient` |
+| STACKIT | `stackit` |
+| OVHcloud AI Endpoints | `ovhcloud` |
+| iFlow | `iflowcn` |
 | 302.AI | `302ai` |
-| Xpersona | `xpersona` |
-| StepFun | `stepfun` |
-| xAI | `xai` |
-| Zhipu AI | `zhipuai` |
-| Bailing | `bailing` |
-| QiHang | `qihang-ai` |
-| Lilac | `lilac` |
+| NanoGPT | `nano-gpt` |
 | Alibaba (China) | `alibaba-cn` |
-| D.Run (China) | `drun` |
-| Hugging Face | `huggingface` |
-| Umans AI Coding Plan | `umans-ai-coding-plan` |
-| Tencent TokenHub | `tencent-tokenhub` |
-| GitLab Duo | `gitlab` |
-| Nebius Token Factory | `nebius` |
-| HPC-AI | `hpc-ai` |
+| DigitalOcean | `digitalocean` |
+| submodel | `submodel` |
+| Bailing | `bailing` |
+| Kimi For Coding | `kimi-for-coding` |
+| DInference | `dinference` |
+| NovitaAI | `novita-ai` |
+| Kilo Gateway | `kilo` |
+| Regolo AI | `regolo-ai` |
+| Vertex | `google-vertex` |
+| DeepSeek | `deepseek` |
+| OrcaRouter | `orcarouter` |
+| Moonshot AI (China) | `moonshotai-cn` |
+| MiniMax Token Plan (minimaxi.com) | `minimax-cn-coding-plan` |
+| Inception | `inception` |
+| KUAE Cloud Coding Plan | `kuae-cloud-coding-plan` |
+| Chutes | `chutes` |
+| CrofAI | `crof` |
+| FrogBot | `frogbot` |
+| Anthropic | `anthropic` |
+| Alibaba | `alibaba` |
 | Xiaomi | `xiaomi` |
+| Mistral | `mistral` |
+| Vivgrid | `vivgrid` |
+| Databricks | `databricks` |
+| SiliconFlow (China) | `siliconflow-cn` |
+| Zhipu AI Coding Plan | `zhipuai-coding-plan` |
+| xAI | `xai` |
+| v0 | `v0` |
+| Neuralwatt | `neuralwatt` |
+| Friendli | `friendli` |
 | GitHub Copilot | `github-copilot` |
-| Together AI | `togetherai` |
-| StepFun | `stepfun-ai` |
 | Inference | `inference` |
+| Hugging Face | `huggingface` |
+| Cohere | `cohere` |
+| Azure Cognitive Services | `azure-cognitive-services` |
+| OpenRouter | `openrouter` |
+| Privatemode AI | `privatemode-ai` |
+| Moonshot AI | `moonshotai` |
+| Perplexity | `perplexity` |
+| LLM Gateway | `llmgateway` |
+| Together AI | `togetherai` |
+| Moark | `moark` |
+| GitHub Models | `github-models` |
+| Xiaomi Token Plan (China) | `xiaomi-token-plan-cn` |
+| LMStudio | `lmstudio` |
+| ZenMux | `zenmux` |
+| Claudinio | `claudinio` |
+| Alibaba Coding Plan | `alibaba-coding-plan` |
+| ModelScope | `modelscope` |
+| QiHang | `qihang-ai` |
+| AIHubMix | `aihubmix` |
+| Poe | `poe` |
+| Umans AI Coding Plan | `umans-ai-coding-plan` |
+| Fireworks (Firepass) | `firepass` |
+| GMI Cloud | `gmicloud` |
+| Mixlayer | `mixlayer` |
+| MiniMax Token Plan (minimax.io) | `minimax-coding-plan` |
+| evroc | `evroc` |
+| Nvidia | `nvidia` |
+| Vertex (Anthropic) | `google-vertex-anthropic` |
+| routing.run | `routing-run` |
+| Xiaomi Token Plan (Europe) | `xiaomi-token-plan-ams` |
+| Deep Infra | `deepinfra` |
+| Zhipu AI | `zhipuai` |
+| IO.NET | `io-net` |
+| Groq | `groq` |
+| SAP AI Core | `sap-ai-core` |
+| Lilac | `lilac` |
+| StepFun | `stepfun-ai` |
+| Tencent Coding Plan (China) | `tencent-coding-plan` |
+| OpenCode Go | `opencode-go` |
+| GitLab Duo | `gitlab` |
+| Cortecs | `cortecs` |
+| Auriko | `auriko` |
+| Wafer | `wafer.ai` |
+| Berget.AI | `berget` |
+| Cloudflare AI Gateway | `cloudflare-ai-gateway` |
+| Requesty | `requesty` |
+| Venice AI | `venice` |
+| Azure | `azure` |
+| Atomic Chat | `atomic-chat` |
+| Merge Gateway | `merge-gateway` |
+| StepFun | `stepfun` |
+| Vultr | `vultr` |
+| Z.AI Coding Plan | `zai-coding-plan` |
+| Amazon Bedrock | `amazon-bedrock` |
+| Synthetic | `synthetic` |
+| CloudFerro Sherlock | `cloudferro-sherlock` |
+| Helicone | `helicone` |
+| Z.AI | `zai` |
+| Nova | `nova` |
+| NEAR AI Cloud | `nearai` |
+| Inceptron | `inceptron` |
+| Xpersona | `xpersona` |
+| Perplexity Agent | `perplexity-agent` |
+| Jiekou.AI | `jiekou` |
+| abliteration.ai | `abliteration-ai` |
+| MiniMax (minimaxi.com) | `minimax-cn` |
+| Qiniu | `qiniu-ai` |
+| Morph | `morph` |
+| Xiaomi Token Plan (Singapore) | `xiaomi-token-plan-sgp` |
+| FastRouter | `fastrouter` |
+| SiliconFlow | `siliconflow` |
+| Vercel AI Gateway | `vercel` |
+| Abacus | `abacus` |
+| D.Run (China) | `drun` |
+| Google | `google` |
+| Weights & Biases | `wandb` |
+| Meganova | `meganova` |
+| OpenCode Zen | `opencode` |
+| OpenAI | `openai` |
 | Poolside | `poolside` |
+| Baseten | `baseten` |
+| LucidQuery AI | `lucidquery` |
+| Scaleway | `scaleway` |
+| Cerebras | `cerebras` |
+| HPC-AI | `hpc-ai` |
+| Tencent TokenHub | `tencent-tokenhub` |
+| Alibaba Coding Plan (China) | `alibaba-coding-plan-cn` |
+| Cloudflare Workers AI | `cloudflare-workers-ai` |
+| Nebius Token Factory | `nebius` |
+| MiniMax (minimax.io) | `minimax` |
+| Llama | `llama` |
 <!-- PROVIDERS:END -->
 
 ## License
