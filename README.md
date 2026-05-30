@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**133 providers · 4727 models · Updated 2026-05-29**
+**133 providers · 4729 models · Updated 2026-05-30**
 <!-- STATS:END -->
 
 ## Installation
@@ -217,7 +217,7 @@ filterModels({
 | Azure | `azure` |
 | Atomic Chat | `atomic-chat` |
 | Merge Gateway | `merge-gateway` |
-| StepFun | `stepfun` |
+| StepFun (China) | `stepfun` |
 | Vultr | `vultr` |
 | Z.AI Coding Plan | `zai-coding-plan` |
 | Amazon Bedrock | `amazon-bedrock` |
