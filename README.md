@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**133 providers · 4712 models · Updated 2026-06-02**
+**134 providers · 4732 models · Updated 2026-06-03**
 <!-- STATS:END -->
 
 ## Installation
@@ -252,6 +252,7 @@ filterModels({
 | Scaleway | `scaleway` |
 | Cerebras | `cerebras` |
 | HPC-AI | `hpc-ai` |
+| Alibaba Token Plan | `alibaba-token-plan` |
 | Tencent TokenHub | `tencent-tokenhub` |
 | Alibaba Coding Plan (China) | `alibaba-coding-plan-cn` |
 | Cloudflare Workers AI | `cloudflare-workers-ai` |
