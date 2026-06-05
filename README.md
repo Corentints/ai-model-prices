@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**134 providers · 4834 models · Updated 2026-06-04**
+**134 providers · 4838 models · Updated 2026-06-05**
 <!-- STATS:END -->
 
 ## Installation
@@ -203,7 +203,7 @@ filterModels({
 | Groq | `groq` |
 | SAP AI Core | `sap-ai-core` |
 | Lilac | `lilac` |
-| StepFun | `stepfun-ai` |
+| StepFun AI | `stepfun-ai` |
 | Tencent Coding Plan (China) | `tencent-coding-plan` |
 | OpenCode Go | `opencode-go` |
 | GitLab Duo | `gitlab` |
@@ -217,7 +217,7 @@ filterModels({
 | Azure | `azure` |
 | Atomic Chat | `atomic-chat` |
 | Merge Gateway | `merge-gateway` |
-| StepFun (China) | `stepfun` |
+| StepFun | `stepfun` |
 | Vultr | `vultr` |
 | Z.AI Coding Plan | `zai-coding-plan` |
 | Amazon Bedrock | `amazon-bedrock` |
