@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.6.7",
+  "version": "2026.6.8",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -809,6 +809,16 @@
       "require": {
         "types": "./dist/adapters/sap-ai-core.d.ts",
         "default": "./dist/adapters/sap-ai-core.js"
+      }
+    },
+    "./freemodel": {
+      "import": {
+        "types": "./dist/adapters/freemodel.d.mts",
+        "default": "./dist/adapters/freemodel.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/freemodel.d.ts",
+        "default": "./dist/adapters/freemodel.js"
       }
     },
     "./lilac": {

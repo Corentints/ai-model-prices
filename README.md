@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**134 providers · 4841 models · Updated 2026-06-07**
+**135 providers · 4840 models · Updated 2026-06-08**
 <!-- STATS:END -->
 
 ## Installation
@@ -202,6 +202,7 @@ filterModels({
 | IO.NET | `io-net` |
 | Groq | `groq` |
 | SAP AI Core | `sap-ai-core` |
+| FreeModel | `freemodel` |
 | Lilac | `lilac` |
 | StepFun AI | `stepfun-ai` |
 | Tencent Coding Plan (China) | `tencent-coding-plan` |
