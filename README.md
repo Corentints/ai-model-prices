@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**135 providers · 4818 models · Updated 2026-06-10**
+**136 providers · 4823 models · Updated 2026-06-11**
 <!-- STATS:END -->
 
 ## Installation
@@ -174,6 +174,7 @@ filterModels({
 | Privatemode AI | `privatemode-ai` |
 | Moonshot AI | `moonshotai` |
 | Perplexity | `perplexity` |
+| LLMTR | `llmtr` |
 | LLM Gateway | `llmgateway` |
 | Together AI | `togetherai` |
 | Moark | `moark` |

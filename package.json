@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.6.10",
+  "version": "2026.6.11",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -529,6 +529,16 @@
       "require": {
         "types": "./dist/adapters/perplexity.d.ts",
         "default": "./dist/adapters/perplexity.js"
+      }
+    },
+    "./llmtr": {
+      "import": {
+        "types": "./dist/adapters/llmtr.d.mts",
+        "default": "./dist/adapters/llmtr.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/llmtr.d.ts",
+        "default": "./dist/adapters/llmtr.js"
       }
     },
     "./llmgateway": {
