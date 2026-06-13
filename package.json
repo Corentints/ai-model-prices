@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.6.12",
+  "version": "2026.6.13",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -941,6 +941,16 @@
         "default": "./dist/adapters/xiaomi-token-plan-cn.js"
       }
     },
+    "./zeldoc": {
+      "import": {
+        "types": "./dist/adapters/zeldoc.d.mts",
+        "default": "./dist/adapters/zeldoc.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/zeldoc.d.ts",
+        "default": "./dist/adapters/zeldoc.js"
+      }
+    },
     "./scaleway": {
       "import": {
         "types": "./dist/adapters/scaleway.d.mts",
@@ -1059,6 +1069,16 @@
       "require": {
         "types": "./dist/adapters/amazon-bedrock.d.ts",
         "default": "./dist/adapters/amazon-bedrock.js"
+      }
+    },
+    "./umans-ai": {
+      "import": {
+        "types": "./dist/adapters/umans-ai.d.mts",
+        "default": "./dist/adapters/umans-ai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/umans-ai.d.ts",
+        "default": "./dist/adapters/umans-ai.js"
       }
     },
     "./togetherai": {

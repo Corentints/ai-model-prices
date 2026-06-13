@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**138 providers · 4873 models · Updated 2026-06-12**
+**140 providers · 4886 models · Updated 2026-06-13**
 <!-- STATS:END -->
 
 ## Installation
@@ -215,6 +215,7 @@ filterModels({
 | IO.NET | `io-net` |
 | GMI Cloud | `gmicloud` |
 | Xiaomi Token Plan (China) | `xiaomi-token-plan-cn` |
+| Zeldoc | `zeldoc` |
 | Scaleway | `scaleway` |
 | OVHcloud AI Endpoints | `ovhcloud` |
 | Friendli | `friendli` |
@@ -227,6 +228,7 @@ filterModels({
 | Meganova | `meganova` |
 | Perplexity | `perplexity` |
 | Amazon Bedrock | `amazon-bedrock` |
+| Umans AI | `umans-ai` |
 | Together AI | `togetherai` |
 | FrogBot | `frogbot` |
 | OpenRouter | `openrouter` |
