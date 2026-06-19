@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**140 providers · 4901 models · Updated 2026-06-18**
+**140 providers · 4902 models · Updated 2026-06-19**
 <!-- STATS:END -->
 
 ## Installation
@@ -224,7 +224,7 @@ filterModels({
 | KUAE Cloud Coding Plan | `kuae-cloud-coding-plan` |
 | GitLab Duo | `gitlab` |
 | Kilo Gateway | `kilo` |
-| LucidQuery AI | `lucidquery` |
+| LucidQuery | `lucidquery` |
 | Meganova | `meganova` |
 | Perplexity | `perplexity` |
 | Amazon Bedrock | `amazon-bedrock` |
