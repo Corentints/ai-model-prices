@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.6.20",
+  "version": "2026.6.21",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -309,16 +309,6 @@
       "require": {
         "types": "./dist/adapters/bailing.d.ts",
         "default": "./dist/adapters/bailing.js"
-      }
-    },
-    "./firepass": {
-      "import": {
-        "types": "./dist/adapters/firepass.d.mts",
-        "default": "./dist/adapters/firepass.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/firepass.d.ts",
-        "default": "./dist/adapters/firepass.js"
       }
     },
     "./google": {

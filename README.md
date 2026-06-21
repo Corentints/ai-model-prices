@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**140 providers · 4910 models · Updated 2026-06-20**
+**139 providers · 4914 models · Updated 2026-06-21**
 <!-- STATS:END -->
 
 ## Installation
@@ -152,7 +152,6 @@ filterModels({
 | Mistral | `mistral` |
 | Cloudflare Workers AI | `cloudflare-workers-ai` |
 | Bailing | `bailing` |
-| Fireworks (Firepass) | `firepass` |
 | Google | `google` |
 | OpenCode Go | `opencode-go` |
 | DigitalOcean | `digitalocean` |
