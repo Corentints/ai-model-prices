@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**139 providers · 4950 models · Updated 2026-06-23**
+**139 providers · 4933 models · Updated 2026-06-24**
 <!-- STATS:END -->
 
 ## Installation
