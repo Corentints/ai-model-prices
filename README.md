@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**139 providers · 4931 models · Updated 2026-06-26**
+**140 providers · 4914 models · Updated 2026-06-27**
 <!-- STATS:END -->
 
 ## Installation
@@ -149,6 +149,7 @@ filterModels({
 | Auriko | `auriko` |
 | StepFun AI | `stepfun-ai` |
 | Vivgrid | `vivgrid` |
+| Tinfoil | `tinfoil` |
 | Mistral | `mistral` |
 | Cloudflare Workers AI | `cloudflare-workers-ai` |
 | Bailing | `bailing` |

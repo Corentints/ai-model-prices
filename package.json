@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.6.26",
+  "version": "2026.6.27",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -279,6 +279,16 @@
       "require": {
         "types": "./dist/adapters/vivgrid.d.ts",
         "default": "./dist/adapters/vivgrid.js"
+      }
+    },
+    "./tinfoil": {
+      "import": {
+        "types": "./dist/adapters/tinfoil.d.mts",
+        "default": "./dist/adapters/tinfoil.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/tinfoil.d.ts",
+        "default": "./dist/adapters/tinfoil.js"
       }
     },
     "./mistral": {
