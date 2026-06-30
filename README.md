@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**140 providers · 4866 models · Updated 2026-06-29**
+**141 providers · 4874 models · Updated 2026-06-30**
 <!-- STATS:END -->
 
 ## Installation
@@ -156,6 +156,7 @@ filterModels({
 | Google | `google` |
 | OpenCode Go | `opencode-go` |
 | DigitalOcean | `digitalocean` |
+| Subconscious | `subconscious` |
 | Venice AI | `venice` |
 | LMStudio | `lmstudio` |
 | Poolside | `poolside` |
