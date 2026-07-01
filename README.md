@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**141 providers · 4874 models · Updated 2026-06-30**
+**142 providers · 4894 models · Updated 2026-07-01**
 <!-- STATS:END -->
 
 ## Installation
@@ -183,6 +183,7 @@ filterModels({
 | Cloudflare AI Gateway | `cloudflare-ai-gateway` |
 | Moonshot AI (China) | `moonshotai-cn` |
 | Morph | `morph` |
+| Sakana AI | `sakana` |
 | Deep Infra | `deepinfra` |
 | Vertex (Anthropic) | `google-vertex-anthropic` |
 | v0 | `v0` |

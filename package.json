@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.6.30",
+  "version": "2026.7.1",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -619,6 +619,16 @@
       "require": {
         "types": "./dist/adapters/morph.d.ts",
         "default": "./dist/adapters/morph.js"
+      }
+    },
+    "./sakana": {
+      "import": {
+        "types": "./dist/adapters/sakana.d.mts",
+        "default": "./dist/adapters/sakana.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/sakana.d.ts",
+        "default": "./dist/adapters/sakana.js"
       }
     },
     "./deepinfra": {
