@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.7.2",
+  "version": "2026.7.3",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -401,6 +401,16 @@
         "default": "./dist/adapters/zenmux.js"
       }
     },
+    "./kenari": {
+      "import": {
+        "types": "./dist/adapters/kenari.d.mts",
+        "default": "./dist/adapters/kenari.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/kenari.d.ts",
+        "default": "./dist/adapters/kenari.js"
+      }
+    },
     "./openai": {
       "import": {
         "types": "./dist/adapters/openai.d.mts",
@@ -419,6 +429,16 @@
       "require": {
         "types": "./dist/adapters/berget.d.ts",
         "default": "./dist/adapters/berget.js"
+      }
+    },
+    "./tencent-token-plan": {
+      "import": {
+        "types": "./dist/adapters/tencent-token-plan.d.mts",
+        "default": "./dist/adapters/tencent-token-plan.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/tencent-token-plan.d.ts",
+        "default": "./dist/adapters/tencent-token-plan.js"
       }
     },
     "./github-models": {

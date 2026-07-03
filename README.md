@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**142 providers · 4899 models · Updated 2026-07-02**
+**144 providers · 4937 models · Updated 2026-07-03**
 <!-- STATS:END -->
 
 ## Installation
@@ -161,8 +161,10 @@ filterModels({
 | LMStudio | `lmstudio` |
 | Poolside | `poolside` |
 | ZenMux | `zenmux` |
+| Kenari | `kenari` |
 | OpenAI | `openai` |
 | Berget.AI | `berget` |
+| Tencent Token Plan | `tencent-token-plan` |
 | GitHub Models | `github-models` |
 | Neuralwatt | `neuralwatt` |
 | SiliconFlow (China) | `siliconflow-cn` |
