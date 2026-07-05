@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**144 providers · 4937 models · Updated 2026-07-04**
+**145 providers · 4953 models · Updated 2026-07-05**
 <!-- STATS:END -->
 
 ## Installation
@@ -210,6 +210,7 @@ filterModels({
 | HPC-AI | `hpc-ai` |
 | MiniMax (minimaxi.com) | `minimax-cn` |
 | Alibaba Coding Plan | `alibaba-coding-plan` |
+| LongCat | `longcat` |
 | Poe | `poe` |
 | Kimi For Coding | `kimi-for-coding` |
 | DInference | `dinference` |

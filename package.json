@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.7.4",
+  "version": "2026.7.5",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -889,6 +889,16 @@
       "require": {
         "types": "./dist/adapters/alibaba-coding-plan.d.ts",
         "default": "./dist/adapters/alibaba-coding-plan.js"
+      }
+    },
+    "./longcat": {
+      "import": {
+        "types": "./dist/adapters/longcat.d.mts",
+        "default": "./dist/adapters/longcat.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/longcat.d.ts",
+        "default": "./dist/adapters/longcat.js"
       }
     },
     "./poe": {
