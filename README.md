@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**145 providers · 4951 models · Updated 2026-07-08**
+**146 providers · 4983 models · Updated 2026-07-09**
 <!-- STATS:END -->
 
 ## Installation
@@ -160,6 +160,7 @@ filterModels({
 | Venice AI | `venice` |
 | LMStudio | `lmstudio` |
 | Poolside | `poolside` |
+| Zenifra | `zenifra` |
 | ZenMux | `zenmux` |
 | Kenari | `kenari` |
 | OpenAI | `openai` |

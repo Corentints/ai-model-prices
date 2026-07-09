@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.7.8",
+  "version": "2026.7.9",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -389,6 +389,16 @@
       "require": {
         "types": "./dist/adapters/poolside.d.ts",
         "default": "./dist/adapters/poolside.js"
+      }
+    },
+    "./zenifra": {
+      "import": {
+        "types": "./dist/adapters/zenifra.d.mts",
+        "default": "./dist/adapters/zenifra.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/zenifra.d.ts",
+        "default": "./dist/adapters/zenifra.js"
       }
     },
     "./zenmux": {
