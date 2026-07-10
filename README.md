@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**146 providers · 4983 models · Updated 2026-07-09**
+**148 providers · 5031 models · Updated 2026-07-10**
 <!-- STATS:END -->
 
 ## Installation
@@ -158,6 +158,7 @@ filterModels({
 | DigitalOcean | `digitalocean` |
 | Subconscious | `subconscious` |
 | Venice AI | `venice` |
+| CrossModel | `crossmodel` |
 | LMStudio | `lmstudio` |
 | Poolside | `poolside` |
 | Zenifra | `zenifra` |
@@ -250,6 +251,7 @@ filterModels({
 | Azure Cognitive Services | `azure-cognitive-services` |
 | Baseten | `baseten` |
 | Atomic Chat | `atomic-chat` |
+| Meta | `meta` |
 | routing.run | `routing-run` |
 | AIHubMix | `aihubmix` |
 | Vertex | `google-vertex` |

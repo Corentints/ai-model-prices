@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.7.9",
+  "version": "2026.7.10",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -369,6 +369,16 @@
       "require": {
         "types": "./dist/adapters/venice.d.ts",
         "default": "./dist/adapters/venice.js"
+      }
+    },
+    "./crossmodel": {
+      "import": {
+        "types": "./dist/adapters/crossmodel.d.mts",
+        "default": "./dist/adapters/crossmodel.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/crossmodel.d.ts",
+        "default": "./dist/adapters/crossmodel.js"
       }
     },
     "./lmstudio": {
@@ -1289,6 +1299,16 @@
       "require": {
         "types": "./dist/adapters/atomic-chat.d.ts",
         "default": "./dist/adapters/atomic-chat.js"
+      }
+    },
+    "./meta": {
+      "import": {
+        "types": "./dist/adapters/meta.d.mts",
+        "default": "./dist/adapters/meta.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/meta.d.ts",
+        "default": "./dist/adapters/meta.js"
       }
     },
     "./routing-run": {
