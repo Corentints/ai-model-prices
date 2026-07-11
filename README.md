@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**148 providers · 5031 models · Updated 2026-07-10**
+**151 providers · 5208 models · Updated 2026-07-11**
 <!-- STATS:END -->
 
 ## Installation
@@ -180,6 +180,7 @@ filterModels({
 | Helicone | `helicone` |
 | Z.AI | `zai` |
 | NEAR AI Cloud | `nearai` |
+| Pioneer | `pioneer` |
 | LLM Gateway | `llmgateway` |
 | Alibaba Coding Plan (China) | `alibaba-coding-plan-cn` |
 | Abacus | `abacus` |
@@ -211,6 +212,7 @@ filterModels({
 | StepFun | `stepfun` |
 | HPC-AI | `hpc-ai` |
 | MiniMax (minimaxi.com) | `minimax-cn` |
+| UnoRouter | `unorouter` |
 | Alibaba Coding Plan | `alibaba-coding-plan` |
 | LongCat | `longcat` |
 | Poe | `poe` |
@@ -224,6 +226,7 @@ filterModels({
 | Xiaomi Token Plan (China) | `xiaomi-token-plan-cn` |
 | Zeldoc | `zeldoc` |
 | Scaleway | `scaleway` |
+| EmpirioLabs AI | `empiriolabs` |
 | OVHcloud AI Endpoints | `ovhcloud` |
 | Friendli | `friendli` |
 | Tencent TokenHub | `tencent-tokenhub` |

@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.7.10",
+  "version": "2026.7.11",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -591,6 +591,16 @@
         "default": "./dist/adapters/nearai.js"
       }
     },
+    "./pioneer": {
+      "import": {
+        "types": "./dist/adapters/pioneer.d.mts",
+        "default": "./dist/adapters/pioneer.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/pioneer.d.ts",
+        "default": "./dist/adapters/pioneer.js"
+      }
+    },
     "./llmgateway": {
       "import": {
         "types": "./dist/adapters/llmgateway.d.mts",
@@ -901,6 +911,16 @@
         "default": "./dist/adapters/minimax-cn.js"
       }
     },
+    "./unorouter": {
+      "import": {
+        "types": "./dist/adapters/unorouter.d.mts",
+        "default": "./dist/adapters/unorouter.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/unorouter.d.ts",
+        "default": "./dist/adapters/unorouter.js"
+      }
+    },
     "./alibaba-coding-plan": {
       "import": {
         "types": "./dist/adapters/alibaba-coding-plan.d.mts",
@@ -1029,6 +1049,16 @@
       "require": {
         "types": "./dist/adapters/scaleway.d.ts",
         "default": "./dist/adapters/scaleway.js"
+      }
+    },
+    "./empiriolabs": {
+      "import": {
+        "types": "./dist/adapters/empiriolabs.d.mts",
+        "default": "./dist/adapters/empiriolabs.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/empiriolabs.d.ts",
+        "default": "./dist/adapters/empiriolabs.js"
       }
     },
     "./ovhcloud": {
