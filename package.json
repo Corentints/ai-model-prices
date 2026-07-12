@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.7.11",
+  "version": "2026.7.12",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -1149,6 +1149,16 @@
       "require": {
         "types": "./dist/adapters/meganova.d.ts",
         "default": "./dist/adapters/meganova.js"
+      }
+    },
+    "./inferx": {
+      "import": {
+        "types": "./dist/adapters/inferx.d.mts",
+        "default": "./dist/adapters/inferx.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/inferx.d.ts",
+        "default": "./dist/adapters/inferx.js"
       }
     },
     "./perplexity": {

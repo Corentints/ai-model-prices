@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**151 providers · 5208 models · Updated 2026-07-11**
+**152 providers · 5210 models · Updated 2026-07-12**
 <!-- STATS:END -->
 
 ## Installation
@@ -236,6 +236,7 @@ filterModels({
 | Kilo Gateway | `kilo` |
 | LucidQuery | `lucidquery` |
 | Meganova | `meganova` |
+| InferX | `inferx` |
 | Perplexity | `perplexity` |
 | Amazon Bedrock | `amazon-bedrock` |
 | Umans AI | `umans-ai` |
