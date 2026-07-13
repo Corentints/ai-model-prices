@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**152 providers · 5210 models · Updated 2026-07-12**
+**154 providers · 5239 models · Updated 2026-07-13**
 <!-- STATS:END -->
 
 ## Installation
@@ -190,6 +190,7 @@ filterModels({
 | Morph | `morph` |
 | Sakana AI | `sakana` |
 | Deep Infra | `deepinfra` |
+| DaoXE | `daoxe` |
 | Vertex (Anthropic) | `google-vertex-anthropic` |
 | v0 | `v0` |
 | Azure | `azure` |
@@ -221,6 +222,7 @@ filterModels({
 | Perplexity Agent | `perplexity-agent` |
 | SiliconFlow | `siliconflow` |
 | Umans AI Coding Plan | `umans-ai-coding-plan` |
+| AI-ROUTER | `ai-router` |
 | IO.NET | `io-net` |
 | GMI Cloud | `gmicloud` |
 | Xiaomi Token Plan (China) | `xiaomi-token-plan-cn` |

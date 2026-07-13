@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.7.12",
+  "version": "2026.7.13",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -691,6 +691,16 @@
         "default": "./dist/adapters/deepinfra.js"
       }
     },
+    "./daoxe": {
+      "import": {
+        "types": "./dist/adapters/daoxe.d.mts",
+        "default": "./dist/adapters/daoxe.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/daoxe.d.ts",
+        "default": "./dist/adapters/daoxe.js"
+      }
+    },
     "./google-vertex-anthropic": {
       "import": {
         "types": "./dist/adapters/google-vertex-anthropic.d.mts",
@@ -999,6 +1009,16 @@
       "require": {
         "types": "./dist/adapters/umans-ai-coding-plan.d.ts",
         "default": "./dist/adapters/umans-ai-coding-plan.js"
+      }
+    },
+    "./ai-router": {
+      "import": {
+        "types": "./dist/adapters/ai-router.d.mts",
+        "default": "./dist/adapters/ai-router.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/ai-router.d.ts",
+        "default": "./dist/adapters/ai-router.js"
       }
     },
     "./io-net": {
