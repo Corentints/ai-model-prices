@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**154 providers · 5239 models · Updated 2026-07-13**
+**156 providers · 5268 models · Updated 2026-07-14**
 <!-- STATS:END -->
 
 ## Installation
@@ -138,6 +138,7 @@ filterModels({
 | xAI | `xai` |
 | Privatemode AI | `privatemode-ai` |
 | D.Run (China) | `drun` |
+| EBCloud | `ebcloud` |
 | Alibaba Token Plan (China) | `alibaba-token-plan-cn` |
 | Moonshot AI | `moonshotai` |
 | Fireworks AI | `fireworks-ai` |
@@ -147,7 +148,7 @@ filterModels({
 | Cortecs | `cortecs` |
 | Nebius Token Factory | `nebius` |
 | Auriko | `auriko` |
-| StepFun AI | `stepfun-ai` |
+| StepFun (Global) | `stepfun-ai` |
 | Vivgrid | `vivgrid` |
 | Tinfoil | `tinfoil` |
 | Mistral | `mistral` |
@@ -202,6 +203,7 @@ filterModels({
 | Inception | `inception` |
 | Anthropic | `anthropic` |
 | Tencent Coding Plan (China) | `tencent-coding-plan` |
+| Lynkr | `lynkr` |
 | FreeModel | `freemodel` |
 | SAP AI Core | `sap-ai-core` |
 | OpenCode Zen | `opencode` |
@@ -210,7 +212,7 @@ filterModels({
 | Llama | `llama` |
 | LLMTR | `llmtr` |
 | Cohere | `cohere` |
-| StepFun | `stepfun` |
+| StepFun (China) | `stepfun` |
 | HPC-AI | `hpc-ai` |
 | MiniMax (minimaxi.com) | `minimax-cn` |
 | UnoRouter | `unorouter` |

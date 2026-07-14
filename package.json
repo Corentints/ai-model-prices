@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.7.13",
+  "version": "2026.7.14",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -169,6 +169,16 @@
       "require": {
         "types": "./dist/adapters/drun.d.ts",
         "default": "./dist/adapters/drun.js"
+      }
+    },
+    "./ebcloud": {
+      "import": {
+        "types": "./dist/adapters/ebcloud.d.mts",
+        "default": "./dist/adapters/ebcloud.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/ebcloud.d.ts",
+        "default": "./dist/adapters/ebcloud.js"
       }
     },
     "./alibaba-token-plan-cn": {
@@ -809,6 +819,16 @@
       "require": {
         "types": "./dist/adapters/tencent-coding-plan.d.ts",
         "default": "./dist/adapters/tencent-coding-plan.js"
+      }
+    },
+    "./lynkr": {
+      "import": {
+        "types": "./dist/adapters/lynkr.d.mts",
+        "default": "./dist/adapters/lynkr.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/lynkr.d.ts",
+        "default": "./dist/adapters/lynkr.js"
       }
     },
     "./freemodel": {
