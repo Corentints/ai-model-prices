@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**156 providers · 5268 models · Updated 2026-07-16**
+**157 providers · 5294 models · Updated 2026-07-17**
 <!-- STATS:END -->
 
 ## Installation
@@ -210,6 +210,7 @@ filterModels({
 | Privatemode AI | `privatemode-ai` |
 | Neon | `neon` |
 | Tencent Coding Plan (China) | `tencent-coding-plan` |
+| Thinking Machines | `thinkingmachines` |
 | Nebius Token Factory | `nebius` |
 | Perplexity | `perplexity` |
 | SiliconFlow (China) | `siliconflow-cn` |

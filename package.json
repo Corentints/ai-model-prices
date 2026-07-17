@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.7.16",
+  "version": "2026.7.17",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -889,6 +889,16 @@
       "require": {
         "types": "./dist/adapters/tencent-coding-plan.d.ts",
         "default": "./dist/adapters/tencent-coding-plan.js"
+      }
+    },
+    "./thinkingmachines": {
+      "import": {
+        "types": "./dist/adapters/thinkingmachines.d.mts",
+        "default": "./dist/adapters/thinkingmachines.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/thinkingmachines.d.ts",
+        "default": "./dist/adapters/thinkingmachines.js"
       }
     },
     "./nebius": {
