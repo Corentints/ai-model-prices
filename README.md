@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**157 providers · 5297 models · Updated 2026-07-21**
+**159 providers · 5329 models · Updated 2026-07-22**
 <!-- STATS:END -->
 
 ## Installation
@@ -185,6 +185,7 @@ filterModels({
 | Merge Gateway | `merge-gateway` |
 | Azure Cognitive Services | `azure-cognitive-services` |
 | UnoRouter | `unorouter` |
+| ClinePass | `cline-pass` |
 | Cerebras | `cerebras` |
 | Kenari | `kenari` |
 | Auriko | `auriko` |
@@ -236,6 +237,7 @@ filterModels({
 | GMI Cloud | `gmicloud` |
 | Xiaomi Token Plan (China) | `xiaomi-token-plan-cn` |
 | Anthropic | `anthropic` |
+| AKI.IO | `aki-io` |
 | Kilo Gateway | `kilo` |
 | Scaleway | `scaleway` |
 | Tencent TokenHub | `tencent-tokenhub` |

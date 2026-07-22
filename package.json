@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.7.21",
+  "version": "2026.7.22",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -641,6 +641,16 @@
         "default": "./dist/adapters/unorouter.js"
       }
     },
+    "./cline-pass": {
+      "import": {
+        "types": "./dist/adapters/cline-pass.d.mts",
+        "default": "./dist/adapters/cline-pass.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/cline-pass.d.ts",
+        "default": "./dist/adapters/cline-pass.js"
+      }
+    },
     "./cerebras": {
       "import": {
         "types": "./dist/adapters/cerebras.d.mts",
@@ -1149,6 +1159,16 @@
       "require": {
         "types": "./dist/adapters/anthropic.d.ts",
         "default": "./dist/adapters/anthropic.js"
+      }
+    },
+    "./aki-io": {
+      "import": {
+        "types": "./dist/adapters/aki-io.d.mts",
+        "default": "./dist/adapters/aki-io.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/aki-io.d.ts",
+        "default": "./dist/adapters/aki-io.js"
       }
     },
     "./kilo": {
