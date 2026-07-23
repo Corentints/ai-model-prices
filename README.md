@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**159 providers · 5329 models · Updated 2026-07-22**
+**160 providers · 5366 models · Updated 2026-07-23**
 <!-- STATS:END -->
 
 ## Installation
@@ -141,6 +141,7 @@ filterModels({
 | CrossModel | `crossmodel` |
 | evroc | `evroc` |
 | Databricks | `databricks` |
+| Ofox | `ofox` |
 | Vertex | `google-vertex` |
 | Meganova | `meganova` |
 | Fireworks AI | `fireworks-ai` |
