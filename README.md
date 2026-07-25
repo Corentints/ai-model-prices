@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**160 providers · 5393 models · Updated 2026-07-24**
+**162 providers · 5420 models · Updated 2026-07-25**
 <!-- STATS:END -->
 
 ## Installation
@@ -175,6 +175,7 @@ filterModels({
 | Upstage | `upstage` |
 | ClinePass | `cline-pass` |
 | Regolo AI | `regolo-ai` |
+| ai& | `aiand` |
 | Pioneer | `pioneer` |
 | SiliconFlow | `siliconflow` |
 | AI-ROUTER | `ai-router` |
@@ -215,6 +216,7 @@ filterModels({
 | Neuralwatt | `neuralwatt` |
 | AKI.IO | `aki-io` |
 | xAI | `xai` |
+| Hetzner | `hetzner` |
 | Zenifra | `zenifra` |
 | AIHubMix | `aihubmix` |
 | Morph | `morph` |

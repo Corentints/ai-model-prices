@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.7.24",
+  "version": "2026.7.25",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -541,6 +541,16 @@
         "default": "./dist/adapters/regolo-ai.js"
       }
     },
+    "./aiand": {
+      "import": {
+        "types": "./dist/adapters/aiand.d.mts",
+        "default": "./dist/adapters/aiand.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/aiand.d.ts",
+        "default": "./dist/adapters/aiand.js"
+      }
+    },
     "./pioneer": {
       "import": {
         "types": "./dist/adapters/pioneer.d.mts",
@@ -939,6 +949,16 @@
       "require": {
         "types": "./dist/adapters/xai.d.ts",
         "default": "./dist/adapters/xai.js"
+      }
+    },
+    "./hetzner": {
+      "import": {
+        "types": "./dist/adapters/hetzner.d.mts",
+        "default": "./dist/adapters/hetzner.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/hetzner.d.ts",
+        "default": "./dist/adapters/hetzner.js"
       }
     },
     "./zenifra": {
