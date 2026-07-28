@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**162 providers · 5348 models · Updated 2026-07-27**
+**163 providers · 5398 models · Updated 2026-07-28**
 <!-- STATS:END -->
 
 ## Installation
@@ -248,6 +248,7 @@ filterModels({
 | CloudFerro Sherlock | `cloudferro-sherlock` |
 | Subconscious | `subconscious` |
 | Tencent Coding Plan (China) | `tencent-coding-plan` |
+| Charm Hyper | `hyper` |
 | Alibaba | `alibaba` |
 | GitHub Models | `github-models` |
 | Vercel AI Gateway | `vercel` |
