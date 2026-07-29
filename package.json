@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.7.28",
+  "version": "2026.7.29",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -849,6 +849,16 @@
       "require": {
         "types": "./dist/adapters/kuae-cloud-coding-plan.d.ts",
         "default": "./dist/adapters/kuae-cloud-coding-plan.js"
+      }
+    },
+    "./modal": {
+      "import": {
+        "types": "./dist/adapters/modal.d.mts",
+        "default": "./dist/adapters/modal.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/modal.d.ts",
+        "default": "./dist/adapters/modal.js"
       }
     },
     "./qihang-ai": {

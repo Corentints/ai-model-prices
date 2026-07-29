@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**163 providers · 5398 models · Updated 2026-07-28**
+**164 providers · 5406 models · Updated 2026-07-29**
 <!-- STATS:END -->
 
 ## Installation
@@ -206,6 +206,7 @@ filterModels({
 | Auriko | `auriko` |
 | Azure | `azure` |
 | KUAE Cloud Coding Plan | `kuae-cloud-coding-plan` |
+| Modal | `modal` |
 | QiHang | `qihang-ai` |
 | Berget.AI | `berget` |
 | Vertex (Anthropic) | `google-vertex-anthropic` |
