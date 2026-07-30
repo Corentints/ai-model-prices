@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**164 providers · 5406 models · Updated 2026-07-29**
+**165 providers · 5489 models · Updated 2026-07-30**
 <!-- STATS:END -->
 
 ## Installation
@@ -129,6 +129,7 @@ filterModels({
 | LucidQuery | `lucidquery` |
 | Tencent TokenHub | `tencent-tokenhub` |
 | Fireworks AI | `fireworks-ai` |
+| GreenPT | `greenpt` |
 | Weights & Biases | `wandb` |
 | CrossModel | `crossmodel` |
 | LLMTR | `llmtr` |
