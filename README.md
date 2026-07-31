@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**165 providers · 5489 models · Updated 2026-07-30**
+**166 providers · 5504 models · Updated 2026-07-31**
 <!-- STATS:END -->
 
 ## Installation
@@ -150,6 +150,7 @@ filterModels({
 | NEAR AI Cloud | `nearai` |
 | DaoXE | `daoxe` |
 | CrofAI | `crof` |
+| QVAC | `qvac` |
 | abliteration.ai | `abliteration-ai` |
 | Alibaba Coding Plan (China) | `alibaba-coding-plan-cn` |
 | LLM Gateway | `llmgateway` |
