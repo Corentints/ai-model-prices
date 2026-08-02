@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.8.1",
+  "version": "2026.8.2",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -1241,6 +1241,16 @@
         "default": "./dist/adapters/requesty.js"
       }
     },
+    "./tensorx": {
+      "import": {
+        "types": "./dist/adapters/tensorx.d.mts",
+        "default": "./dist/adapters/tensorx.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/tensorx.d.ts",
+        "default": "./dist/adapters/tensorx.js"
+      }
+    },
     "./llama": {
       "import": {
         "types": "./dist/adapters/llama.d.mts",
@@ -1279,6 +1289,16 @@
       "require": {
         "types": "./dist/adapters/cloudferro-sherlock.d.ts",
         "default": "./dist/adapters/cloudferro-sherlock.js"
+      }
+    },
+    "./modelis": {
+      "import": {
+        "types": "./dist/adapters/modelis.d.mts",
+        "default": "./dist/adapters/modelis.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/modelis.d.ts",
+        "default": "./dist/adapters/modelis.js"
       }
     },
     "./subconscious": {

@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**166 providers · 5505 models · Updated 2026-08-01**
+**168 providers · 5543 models · Updated 2026-08-02**
 <!-- STATS:END -->
 
 ## Installation
@@ -245,10 +245,12 @@ filterModels({
 | DeepSeek | `deepseek` |
 | Kimi For Coding | `kimi-for-coding` |
 | Requesty | `requesty` |
+| TensorX | `tensorx` |
 | Llama | `llama` |
 | Kilo Gateway | `kilo` |
 | Merge Gateway | `merge-gateway` |
 | CloudFerro Sherlock | `cloudferro-sherlock` |
+| Modelis | `modelis` |
 | Subconscious | `subconscious` |
 | Tencent Coding Plan (China) | `tencent-coding-plan` |
 | Charm Hyper | `hyper` |
