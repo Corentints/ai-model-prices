@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.8.2",
+  "version": "2026.8.3",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -59,6 +59,16 @@
       "require": {
         "types": "./dist/adapters/lucidquery.d.ts",
         "default": "./dist/adapters/lucidquery.js"
+      }
+    },
+    "./impossibl": {
+      "import": {
+        "types": "./dist/adapters/impossibl.d.mts",
+        "default": "./dist/adapters/impossibl.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/impossibl.d.ts",
+        "default": "./dist/adapters/impossibl.js"
       }
     },
     "./tencent-tokenhub": {

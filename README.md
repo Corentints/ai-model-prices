@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**168 providers · 5543 models · Updated 2026-08-02**
+**169 providers · 5635 models · Updated 2026-08-03**
 <!-- STATS:END -->
 
 ## Installation
@@ -127,6 +127,7 @@ filterModels({
 |---|---|
 | Zhipu AI | `zhipuai` |
 | LucidQuery | `lucidquery` |
+| Impossibl | `impossibl` |
 | Tencent TokenHub | `tencent-tokenhub` |
 | Fireworks AI | `fireworks-ai` |
 | GreenPT | `greenpt` |
