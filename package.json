@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.8.3",
+  "version": "2026.8.4",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -1349,16 +1349,6 @@
       "require": {
         "types": "./dist/adapters/alibaba.d.ts",
         "default": "./dist/adapters/alibaba.js"
-      }
-    },
-    "./github-models": {
-      "import": {
-        "types": "./dist/adapters/github-models.d.mts",
-        "default": "./dist/adapters/github-models.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/github-models.d.ts",
-        "default": "./dist/adapters/github-models.js"
       }
     },
     "./vercel": {

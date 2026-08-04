@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**169 providers · 5635 models · Updated 2026-08-03**
+**168 providers · 5615 models · Updated 2026-08-04**
 <!-- STATS:END -->
 
 ## Installation
@@ -256,7 +256,6 @@ filterModels({
 | Tencent Coding Plan (China) | `tencent-coding-plan` |
 | Charm Hyper | `hyper` |
 | Alibaba | `alibaba` |
-| GitHub Models | `github-models` |
 | Vercel AI Gateway | `vercel` |
 | Alibaba (China) | `alibaba-cn` |
 | NovitaAI | `novita-ai` |
