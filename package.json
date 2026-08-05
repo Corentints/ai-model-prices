@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.8.4",
+  "version": "2026.8.5",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -479,6 +479,16 @@
       "require": {
         "types": "./dist/adapters/neon.d.ts",
         "default": "./dist/adapters/neon.js"
+      }
+    },
+    "./infomaniak": {
+      "import": {
+        "types": "./dist/adapters/infomaniak.d.mts",
+        "default": "./dist/adapters/infomaniak.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/infomaniak.d.ts",
+        "default": "./dist/adapters/infomaniak.js"
       }
     },
     "./ambient": {
@@ -1289,6 +1299,16 @@
       "require": {
         "types": "./dist/adapters/merge-gateway.d.ts",
         "default": "./dist/adapters/merge-gateway.js"
+      }
+    },
+    "./scx": {
+      "import": {
+        "types": "./dist/adapters/scx.d.mts",
+        "default": "./dist/adapters/scx.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/scx.d.ts",
+        "default": "./dist/adapters/scx.js"
       }
     },
     "./cloudferro-sherlock": {

@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**168 providers · 5615 models · Updated 2026-08-04**
+**170 providers · 5649 models · Updated 2026-08-05**
 <!-- STATS:END -->
 
 ## Installation
@@ -169,6 +169,7 @@ filterModels({
 | Alibaba Coding Plan | `alibaba-coding-plan` |
 | submodel | `submodel` |
 | Neon | `neon` |
+| Infomaniak | `infomaniak` |
 | Ambient | `ambient` |
 | DInference | `dinference` |
 | Privatemode AI | `privatemode-ai` |
@@ -250,6 +251,7 @@ filterModels({
 | Llama | `llama` |
 | Kilo Gateway | `kilo` |
 | Merge Gateway | `merge-gateway` |
+| SCX.ai | `scx` |
 | CloudFerro Sherlock | `cloudferro-sherlock` |
 | Modelis | `modelis` |
 | Subconscious | `subconscious` |
