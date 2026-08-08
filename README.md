@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**170 providers · 5740 models · Updated 2026-08-07**
+**171 providers · 5816 models · Updated 2026-08-08**
 <!-- STATS:END -->
 
 ## Installation
@@ -159,6 +159,7 @@ filterModels({
 | Friendli | `friendli` |
 | OpenCode Zen | `opencode` |
 | Sakana AI | `sakana` |
+| SaladCloud AI Gateway | `salad-cloud` |
 | Atomic Chat | `atomic-chat` |
 | Inception | `inception` |
 | Cloudflare Workers AI | `cloudflare-workers-ai` |
