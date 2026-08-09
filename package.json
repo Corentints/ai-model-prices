@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.8.8",
+  "version": "2026.8.9",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -469,6 +469,16 @@
       "require": {
         "types": "./dist/adapters/alibaba-coding-plan.d.ts",
         "default": "./dist/adapters/alibaba-coding-plan.js"
+      }
+    },
+    "./watsonx": {
+      "import": {
+        "types": "./dist/adapters/watsonx.d.mts",
+        "default": "./dist/adapters/watsonx.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/watsonx.d.ts",
+        "default": "./dist/adapters/watsonx.js"
       }
     },
     "./submodel": {

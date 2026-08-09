@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**171 providers · 5816 models · Updated 2026-08-08**
+**172 providers · 5823 models · Updated 2026-08-09**
 <!-- STATS:END -->
 
 ## Installation
@@ -168,6 +168,7 @@ filterModels({
 | 302.AI | `302ai` |
 | Helicone | `helicone` |
 | Alibaba Coding Plan | `alibaba-coding-plan` |
+| watsonx.ai | `watsonx` |
 | submodel | `submodel` |
 | Neon | `neon` |
 | Infomaniak | `infomaniak` |
