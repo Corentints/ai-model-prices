@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**172 providers · 5832 models · Updated 2026-08-10**
+**173 providers · 5829 models · Updated 2026-08-11**
 <!-- STATS:END -->
 
 ## Installation
@@ -135,6 +135,7 @@ filterModels({
 | CrossModel | `crossmodel` |
 | LLMTR | `llmtr` |
 | Claudinio | `claudinio` |
+| CoralBricks | `coralbricks` |
 | Cohere | `cohere` |
 | OpenCode Go | `opencode-go` |
 | Poe | `poe` |
