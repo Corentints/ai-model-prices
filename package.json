@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.8.16",
+  "version": "2026.8.17",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -1471,6 +1471,16 @@
         "default": "./dist/adapters/xiaomi-token-plan-ams.js"
       }
     },
+    "./scnet-token-plan": {
+      "import": {
+        "types": "./dist/adapters/scnet-token-plan.d.mts",
+        "default": "./dist/adapters/scnet-token-plan.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/scnet-token-plan.d.ts",
+        "default": "./dist/adapters/scnet-token-plan.js"
+      }
+    },
     "./cerebras": {
       "import": {
         "types": "./dist/adapters/cerebras.d.mts",
@@ -1479,6 +1489,16 @@
       "require": {
         "types": "./dist/adapters/cerebras.d.ts",
         "default": "./dist/adapters/cerebras.js"
+      }
+    },
+    "./amd": {
+      "import": {
+        "types": "./dist/adapters/amd.d.mts",
+        "default": "./dist/adapters/amd.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/amd.d.ts",
+        "default": "./dist/adapters/amd.js"
       }
     },
     "./bailing": {
@@ -1589,6 +1609,16 @@
       "require": {
         "types": "./dist/adapters/groq.d.ts",
         "default": "./dist/adapters/groq.js"
+      }
+    },
+    "./runinfra": {
+      "import": {
+        "types": "./dist/adapters/runinfra.d.mts",
+        "default": "./dist/adapters/runinfra.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/runinfra.d.ts",
+        "default": "./dist/adapters/runinfra.js"
       }
     },
     "./gitlab": {

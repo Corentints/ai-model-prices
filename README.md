@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**175 providers · 6167 models · Updated 2026-08-16**
+**178 providers · 6251 models · Updated 2026-08-17**
 <!-- STATS:END -->
 
 ## Installation
@@ -268,7 +268,9 @@ filterModels({
 | Morph | `morph` |
 | Tencent Coding Plan (China) | `tencent-coding-plan` |
 | Xiaomi Token Plan (Europe) | `xiaomi-token-plan-ams` |
+| SCNet Token Plan | `scnet-token-plan` |
 | Cerebras | `cerebras` |
+| AMD | `amd` |
 | Bailing | `bailing` |
 | watsonx.ai | `watsonx` |
 | Vercel AI Gateway | `vercel` |
@@ -280,6 +282,7 @@ filterModels({
 | CrofAI | `crof` |
 | v0 | `v0` |
 | Groq | `groq` |
+| RunInfra | `runinfra` |
 | GitLab Duo | `gitlab` |
 | Alibaba Token Plan (China) | `alibaba-token-plan-cn` |
 | CoralBricks | `coralbricks` |
