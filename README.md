@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**178 providers · 6251 models · Updated 2026-08-17**
+**180 providers · 6287 models · Updated 2026-08-18**
 <!-- STATS:END -->
 
 ## Installation
@@ -144,6 +144,7 @@ filterModels({
 | NanoGPT | `nano-gpt` |
 | ModelScope | `modelscope` |
 | Synthetic | `synthetic` |
+| Jalapeno Cloud | `jalapeno` |
 | abliteration.ai | `abliteration-ai` |
 | DeepSeek | `deepseek` |
 | GreenPT | `greenpt` |
@@ -231,6 +232,7 @@ filterModels({
 | Umans AI | `umans-ai` |
 | SAP AI Core | `sap-ai-core` |
 | Inference | `inference` |
+| Arcee | `arcee` |
 | QiHang | `qihang-ai` |
 | KUAE Cloud Coding Plan | `kuae-cloud-coding-plan` |
 | submodel | `submodel` |

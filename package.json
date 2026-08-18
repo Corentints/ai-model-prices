@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.8.17",
+  "version": "2026.8.18",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -229,6 +229,16 @@
       "require": {
         "types": "./dist/adapters/synthetic.d.ts",
         "default": "./dist/adapters/synthetic.js"
+      }
+    },
+    "./jalapeno": {
+      "import": {
+        "types": "./dist/adapters/jalapeno.d.mts",
+        "default": "./dist/adapters/jalapeno.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/jalapeno.d.ts",
+        "default": "./dist/adapters/jalapeno.js"
       }
     },
     "./abliteration-ai": {
@@ -1099,6 +1109,16 @@
       "require": {
         "types": "./dist/adapters/inference.d.ts",
         "default": "./dist/adapters/inference.js"
+      }
+    },
+    "./arcee": {
+      "import": {
+        "types": "./dist/adapters/arcee.d.mts",
+        "default": "./dist/adapters/arcee.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/arcee.d.ts",
+        "default": "./dist/adapters/arcee.js"
       }
     },
     "./qihang-ai": {
