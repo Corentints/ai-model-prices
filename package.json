@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.8.18",
+  "version": "2026.8.19",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -471,16 +471,6 @@
         "default": "./dist/adapters/lucidquery.js"
       }
     },
-    "./scx": {
-      "import": {
-        "types": "./dist/adapters/scx.d.mts",
-        "default": "./dist/adapters/scx.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/scx.d.ts",
-        "default": "./dist/adapters/scx.js"
-      }
-    },
     "./auriko": {
       "import": {
         "types": "./dist/adapters/auriko.d.mts",
@@ -631,6 +621,16 @@
         "default": "./dist/adapters/alibaba-cn.js"
       }
     },
+    "./kosmik": {
+      "import": {
+        "types": "./dist/adapters/kosmik.d.mts",
+        "default": "./dist/adapters/kosmik.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/kosmik.d.ts",
+        "default": "./dist/adapters/kosmik.js"
+      }
+    },
     "./minimax-cn-coding-plan": {
       "import": {
         "types": "./dist/adapters/minimax-cn-coding-plan.d.mts",
@@ -759,6 +759,16 @@
       "require": {
         "types": "./dist/adapters/nebius.d.ts",
         "default": "./dist/adapters/nebius.js"
+      }
+    },
+    "./echo": {
+      "import": {
+        "types": "./dist/adapters/echo.d.mts",
+        "default": "./dist/adapters/echo.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/echo.d.ts",
+        "default": "./dist/adapters/echo.js"
       }
     },
     "./cloudferro-sherlock": {
@@ -1149,6 +1159,16 @@
       "require": {
         "types": "./dist/adapters/submodel.d.ts",
         "default": "./dist/adapters/submodel.js"
+      }
+    },
+    "./scx-ai": {
+      "import": {
+        "types": "./dist/adapters/scx-ai.d.mts",
+        "default": "./dist/adapters/scx-ai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/scx-ai.d.ts",
+        "default": "./dist/adapters/scx-ai.js"
       }
     },
     "./freemodel": {

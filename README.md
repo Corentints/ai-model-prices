@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**180 providers · 6287 models · Updated 2026-08-18**
+**182 providers · 6410 models · Updated 2026-08-19**
 <!-- STATS:END -->
 
 ## Installation
@@ -168,7 +168,6 @@ filterModels({
 | Regolo AI | `regolo-ai` |
 | Lynkr | `lynkr` |
 | LucidQuery | `lucidquery` |
-| SCX.ai | `scx` |
 | Auriko | `auriko` |
 | DaoXE | `daoxe` |
 | Moonshot AI | `moonshotai` |
@@ -184,6 +183,7 @@ filterModels({
 | Moark | `moark` |
 | SaladCloud AI Gateway | `salad-cloud` |
 | Alibaba (China) | `alibaba-cn` |
+| Kosmik Compute | `kosmik` |
 | MiniMax Token Plan (minimaxi.com) | `minimax-cn-coding-plan` |
 | Amazon Bedrock | `amazon-bedrock` |
 | UnoRouter | `unorouter` |
@@ -197,6 +197,7 @@ filterModels({
 | Ambient | `ambient` |
 | Vivgrid | `vivgrid` |
 | Nebius Token Factory | `nebius` |
+| Echo | `echo` |
 | CloudFerro Sherlock | `cloudferro-sherlock` |
 | NEAR AI Cloud | `nearai` |
 | Xiaomi Token Plan (China) | `xiaomi-token-plan-cn` |
@@ -236,6 +237,7 @@ filterModels({
 | QiHang | `qihang-ai` |
 | KUAE Cloud Coding Plan | `kuae-cloud-coding-plan` |
 | submodel | `submodel` |
+| SCX.ai | `scx-ai` |
 | FreeModel | `freemodel` |
 | Nova | `nova` |
 | Together AI | `togetherai` |
