@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.8.20",
+  "version": "2026.8.21",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -739,6 +739,16 @@
       "require": {
         "types": "./dist/adapters/ambient.d.ts",
         "default": "./dist/adapters/ambient.js"
+      }
+    },
+    "./llmgateway-providers": {
+      "import": {
+        "types": "./dist/adapters/llmgateway-providers.d.mts",
+        "default": "./dist/adapters/llmgateway-providers.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/llmgateway-providers.d.ts",
+        "default": "./dist/adapters/llmgateway-providers.js"
       }
     },
     "./vivgrid": {

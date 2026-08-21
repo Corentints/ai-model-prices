@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**182 providers · 6414 models · Updated 2026-08-20**
+**183 providers · 6797 models · Updated 2026-08-21**
 <!-- STATS:END -->
 
 ## Installation
@@ -195,6 +195,7 @@ filterModels({
 | StepFun (Global) | `stepfun-ai` |
 | LMStudio | `lmstudio` |
 | Ambient | `ambient` |
+| LLM Gateway | `llmgateway-providers` |
 | Vivgrid | `vivgrid` |
 | Nebius Token Factory | `nebius` |
 | Echo | `echo` |
@@ -281,7 +282,7 @@ filterModels({
 | Eden AI | `edenai` |
 | NovitaAI | `novita-ai` |
 | Upstage | `upstage` |
-| LLM Gateway | `llmgateway` |
+| DevPass (LLM Gateway) | `llmgateway` |
 | Chutes | `chutes` |
 | CrofAI | `crof` |
 | v0 | `v0` |
