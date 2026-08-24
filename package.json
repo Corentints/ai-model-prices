@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.8.23",
+  "version": "2026.8.24",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -699,6 +699,16 @@
       "require": {
         "types": "./dist/adapters/opencode-go.d.ts",
         "default": "./dist/adapters/opencode-go.js"
+      }
+    },
+    "./opper": {
+      "import": {
+        "types": "./dist/adapters/opper.d.mts",
+        "default": "./dist/adapters/opper.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/opper.d.ts",
+        "default": "./dist/adapters/opper.js"
       }
     },
     "./xai": {

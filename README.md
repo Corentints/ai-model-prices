@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**183 providers · 6826 models · Updated 2026-08-23**
+**184 providers · 6868 models · Updated 2026-08-24**
 <!-- STATS:END -->
 
 ## Installation
@@ -191,6 +191,7 @@ filterModels({
 | DInference | `dinference` |
 | OpenAI | `openai` |
 | OpenCode Go | `opencode-go` |
+| Opper | `opper` |
 | xAI | `xai` |
 | StepFun (Global) | `stepfun-ai` |
 | LMStudio | `lmstudio` |
