@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**184 providers · 6842 models · Updated 2026-08-25**
+**189 providers · 6868 models · Updated 2026-08-26**
 <!-- STATS:END -->
 
 ## Installation
@@ -131,6 +131,7 @@ filterModels({
 | Qiniu | `qiniu-ai` |
 | Neuralwatt | `neuralwatt` |
 | Umans AI Coding Plan | `umans-ai-coding-plan` |
+| IteraCompute | `iteracompute` |
 | Cloudflare Workers AI | `cloudflare-workers-ai` |
 | Meganova | `meganova` |
 | Infomaniak | `infomaniak` |
@@ -168,6 +169,7 @@ filterModels({
 | Regolo AI | `regolo-ai` |
 | Lynkr | `lynkr` |
 | LucidQuery | `lucidquery` |
+| Standard Compute | `standardcompute` |
 | Auriko | `auriko` |
 | DaoXE | `daoxe` |
 | Moonshot AI | `moonshotai` |
@@ -216,6 +218,7 @@ filterModels({
 | D.Run (China) | `drun` |
 | DigitalOcean | `digitalocean` |
 | Alibaba Coding Plan (China) | `alibaba-coding-plan-cn` |
+| NeoSmith | `neosmith` |
 | FastRouter | `fastrouter` |
 | Privatemode AI | `privatemode-ai` |
 | Zeldoc | `zeldoc` |
@@ -251,6 +254,7 @@ filterModels({
 | Neon | `neon` |
 | evroc | `evroc` |
 | Azure Cognitive Services | `azure-cognitive-services` |
+| Pendra | `pendra` |
 | 302.AI | `302ai` |
 | OpenCode Zen | `opencode` |
 | Requesty | `requesty` |
@@ -289,6 +293,7 @@ filterModels({
 | v0 | `v0` |
 | Groq | `groq` |
 | RunInfra | `runinfra` |
+| Agnes AI | `agnes` |
 | GitLab Duo | `gitlab` |
 | Alibaba Token Plan (China) | `alibaba-token-plan-cn` |
 | CoralBricks | `coralbricks` |

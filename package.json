@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.8.25",
+  "version": "2026.8.26",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -99,6 +99,16 @@
       "require": {
         "types": "./dist/adapters/umans-ai-coding-plan.d.ts",
         "default": "./dist/adapters/umans-ai-coding-plan.js"
+      }
+    },
+    "./iteracompute": {
+      "import": {
+        "types": "./dist/adapters/iteracompute.d.mts",
+        "default": "./dist/adapters/iteracompute.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/iteracompute.d.ts",
+        "default": "./dist/adapters/iteracompute.js"
       }
     },
     "./cloudflare-workers-ai": {
@@ -469,6 +479,16 @@
       "require": {
         "types": "./dist/adapters/lucidquery.d.ts",
         "default": "./dist/adapters/lucidquery.js"
+      }
+    },
+    "./standardcompute": {
+      "import": {
+        "types": "./dist/adapters/standardcompute.d.mts",
+        "default": "./dist/adapters/standardcompute.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/standardcompute.d.ts",
+        "default": "./dist/adapters/standardcompute.js"
       }
     },
     "./auriko": {
@@ -951,6 +971,16 @@
         "default": "./dist/adapters/alibaba-coding-plan-cn.js"
       }
     },
+    "./neosmith": {
+      "import": {
+        "types": "./dist/adapters/neosmith.d.mts",
+        "default": "./dist/adapters/neosmith.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/neosmith.d.ts",
+        "default": "./dist/adapters/neosmith.js"
+      }
+    },
     "./fastrouter": {
       "import": {
         "types": "./dist/adapters/fastrouter.d.mts",
@@ -1299,6 +1329,16 @@
       "require": {
         "types": "./dist/adapters/azure-cognitive-services.d.ts",
         "default": "./dist/adapters/azure-cognitive-services.js"
+      }
+    },
+    "./pendra": {
+      "import": {
+        "types": "./dist/adapters/pendra.d.mts",
+        "default": "./dist/adapters/pendra.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/pendra.d.ts",
+        "default": "./dist/adapters/pendra.js"
       }
     },
     "./302ai": {
@@ -1679,6 +1719,16 @@
       "require": {
         "types": "./dist/adapters/runinfra.d.ts",
         "default": "./dist/adapters/runinfra.js"
+      }
+    },
+    "./agnes": {
+      "import": {
+        "types": "./dist/adapters/agnes.d.mts",
+        "default": "./dist/adapters/agnes.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/agnes.d.ts",
+        "default": "./dist/adapters/agnes.js"
       }
     },
     "./gitlab": {
