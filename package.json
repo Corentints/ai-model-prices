@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.8.26",
+  "version": "2026.8.27",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -1131,6 +1131,16 @@
         "default": "./dist/adapters/perplexity.js"
       }
     },
+    "./llmtech": {
+      "import": {
+        "types": "./dist/adapters/llmtech.d.mts",
+        "default": "./dist/adapters/llmtech.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/llmtech.d.ts",
+        "default": "./dist/adapters/llmtech.js"
+      }
+    },
     "./gmicloud": {
       "import": {
         "types": "./dist/adapters/gmicloud.d.mts",
@@ -1139,6 +1149,16 @@
       "require": {
         "types": "./dist/adapters/gmicloud.d.ts",
         "default": "./dist/adapters/gmicloud.js"
+      }
+    },
+    "./aixy": {
+      "import": {
+        "types": "./dist/adapters/aixy.d.mts",
+        "default": "./dist/adapters/aixy.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/aixy.d.ts",
+        "default": "./dist/adapters/aixy.js"
       }
     },
     "./umans-ai": {
@@ -1279,6 +1299,16 @@
       "require": {
         "types": "./dist/adapters/inferx.d.ts",
         "default": "./dist/adapters/inferx.js"
+      }
+    },
+    "./volcengine": {
+      "import": {
+        "types": "./dist/adapters/volcengine.d.mts",
+        "default": "./dist/adapters/volcengine.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/volcengine.d.ts",
+        "default": "./dist/adapters/volcengine.js"
       }
     },
     "./helicone": {

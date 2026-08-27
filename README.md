@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**189 providers · 6868 models · Updated 2026-08-26**
+**192 providers · 6919 models · Updated 2026-08-27**
 <!-- STATS:END -->
 
 ## Installation
@@ -234,7 +234,9 @@ filterModels({
 | Perplexity Agent | `perplexity-agent` |
 | Alibaba Coding Plan | `alibaba-coding-plan` |
 | Perplexity | `perplexity` |
+| LLM Tech | `llmtech` |
 | GMI Cloud | `gmicloud` |
+| Aixy | `aixy` |
 | Umans AI | `umans-ai` |
 | SAP AI Core | `sap-ai-core` |
 | Inference | `inference` |
@@ -249,6 +251,7 @@ filterModels({
 | Ofox | `ofox` |
 | Friendli | `friendli` |
 | InferX | `inferx` |
+| Volcengine Ark | `volcengine` |
 | Helicone | `helicone` |
 | Zhipu AI | `zhipuai` |
 | Neon | `neon` |
