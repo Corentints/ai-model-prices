@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**192 providers · 6919 models · Updated 2026-08-27**
+**193 providers · 7002 models · Updated 2026-08-28**
 <!-- STATS:END -->
 
 ## Installation
@@ -135,6 +135,7 @@ filterModels({
 | Cloudflare Workers AI | `cloudflare-workers-ai` |
 | Meganova | `meganova` |
 | Infomaniak | `infomaniak` |
+| TokenGo | `tokengo` |
 | OrcaRouter | `orcarouter` |
 | Zenifra | `zenifra` |
 | Nvidia | `nvidia` |

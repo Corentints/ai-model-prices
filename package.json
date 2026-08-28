@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.8.27",
+  "version": "2026.8.28",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -139,6 +139,16 @@
       "require": {
         "types": "./dist/adapters/infomaniak.d.ts",
         "default": "./dist/adapters/infomaniak.js"
+      }
+    },
+    "./tokengo": {
+      "import": {
+        "types": "./dist/adapters/tokengo.d.mts",
+        "default": "./dist/adapters/tokengo.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/tokengo.d.ts",
+        "default": "./dist/adapters/tokengo.js"
       }
     },
     "./orcarouter": {
