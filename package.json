@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.8.28",
+  "version": "2026.8.29",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -109,6 +109,16 @@
       "require": {
         "types": "./dist/adapters/iteracompute.d.ts",
         "default": "./dist/adapters/iteracompute.js"
+      }
+    },
+    "./vancine": {
+      "import": {
+        "types": "./dist/adapters/vancine.d.mts",
+        "default": "./dist/adapters/vancine.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/vancine.d.ts",
+        "default": "./dist/adapters/vancine.js"
       }
     },
     "./cloudflare-workers-ai": {
@@ -819,6 +829,16 @@
       "require": {
         "types": "./dist/adapters/echo.d.ts",
         "default": "./dist/adapters/echo.js"
+      }
+    },
+    "./volcengine-coding-plan": {
+      "import": {
+        "types": "./dist/adapters/volcengine-coding-plan.d.mts",
+        "default": "./dist/adapters/volcengine-coding-plan.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/volcengine-coding-plan.d.ts",
+        "default": "./dist/adapters/volcengine-coding-plan.js"
       }
     },
     "./cloudferro-sherlock": {
@@ -1619,6 +1639,16 @@
       "require": {
         "types": "./dist/adapters/scnet-token-plan.d.ts",
         "default": "./dist/adapters/scnet-token-plan.js"
+      }
+    },
+    "./openreason": {
+      "import": {
+        "types": "./dist/adapters/openreason.d.mts",
+        "default": "./dist/adapters/openreason.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/openreason.d.ts",
+        "default": "./dist/adapters/openreason.js"
       }
     },
     "./cerebras": {

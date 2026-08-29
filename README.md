@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**193 providers · 7002 models · Updated 2026-08-28**
+**196 providers · 7049 models · Updated 2026-08-29**
 <!-- STATS:END -->
 
 ## Installation
@@ -132,6 +132,7 @@ filterModels({
 | Neuralwatt | `neuralwatt` |
 | Umans AI Coding Plan | `umans-ai-coding-plan` |
 | IteraCompute | `iteracompute` |
+| Vancine | `vancine` |
 | Cloudflare Workers AI | `cloudflare-workers-ai` |
 | Meganova | `meganova` |
 | Infomaniak | `infomaniak` |
@@ -203,6 +204,7 @@ filterModels({
 | Vivgrid | `vivgrid` |
 | Nebius Token Factory | `nebius` |
 | Echo | `echo` |
+| Volcengine Ark Coding Plan | `volcengine-coding-plan` |
 | CloudFerro Sherlock | `cloudferro-sherlock` |
 | NEAR AI Cloud | `nearai` |
 | Xiaomi Token Plan (China) | `xiaomi-token-plan-cn` |
@@ -283,6 +285,7 @@ filterModels({
 | Tencent Coding Plan (China) | `tencent-coding-plan` |
 | Xiaomi Token Plan (Europe) | `xiaomi-token-plan-ams` |
 | SCNet Token Plan | `scnet-token-plan` |
+| OpenReason | `openreason` |
 | Cerebras | `cerebras` |
 | AMD | `amd` |
 | Bailing | `bailing` |
