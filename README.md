@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**196 providers · 7049 models · Updated 2026-08-29**
+**200 providers · 7053 models · Updated 2026-08-30**
 <!-- STATS:END -->
 
 ## Installation
@@ -171,6 +171,7 @@ filterModels({
 | Regolo AI | `regolo-ai` |
 | Lynkr | `lynkr` |
 | LucidQuery | `lucidquery` |
+| above.dev | `above` |
 | Standard Compute | `standardcompute` |
 | Auriko | `auriko` |
 | DaoXE | `daoxe` |
@@ -217,14 +218,17 @@ filterModels({
 | AKI.IO | `aki-io` |
 | StepFun (China) | `stepfun` |
 | Llama | `llama` |
+| Bothub | `bothub` |
 | Cloudflare AI Gateway | `cloudflare-ai-gateway` |
 | D.Run (China) | `drun` |
 | DigitalOcean | `digitalocean` |
 | Alibaba Coding Plan (China) | `alibaba-coding-plan-cn` |
 | NeoSmith | `neosmith` |
+| klokintegration.se | `klokintegration` |
 | FastRouter | `fastrouter` |
 | Privatemode AI | `privatemode-ai` |
 | Zeldoc | `zeldoc` |
+| TokenRouter | `tokenrouter` |
 | Lilac | `lilac` |
 | IO.NET | `io-net` |
 | Berget.AI | `berget` |

@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.8.29",
+  "version": "2026.8.30",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -501,6 +501,16 @@
         "default": "./dist/adapters/lucidquery.js"
       }
     },
+    "./above": {
+      "import": {
+        "types": "./dist/adapters/above.d.mts",
+        "default": "./dist/adapters/above.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/above.d.ts",
+        "default": "./dist/adapters/above.js"
+      }
+    },
     "./standardcompute": {
       "import": {
         "types": "./dist/adapters/standardcompute.d.mts",
@@ -961,6 +971,16 @@
         "default": "./dist/adapters/llama.js"
       }
     },
+    "./bothub": {
+      "import": {
+        "types": "./dist/adapters/bothub.d.mts",
+        "default": "./dist/adapters/bothub.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/bothub.d.ts",
+        "default": "./dist/adapters/bothub.js"
+      }
+    },
     "./cloudflare-ai-gateway": {
       "import": {
         "types": "./dist/adapters/cloudflare-ai-gateway.d.mts",
@@ -1011,6 +1031,16 @@
         "default": "./dist/adapters/neosmith.js"
       }
     },
+    "./klokintegration": {
+      "import": {
+        "types": "./dist/adapters/klokintegration.d.mts",
+        "default": "./dist/adapters/klokintegration.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/klokintegration.d.ts",
+        "default": "./dist/adapters/klokintegration.js"
+      }
+    },
     "./fastrouter": {
       "import": {
         "types": "./dist/adapters/fastrouter.d.mts",
@@ -1039,6 +1069,16 @@
       "require": {
         "types": "./dist/adapters/zeldoc.d.ts",
         "default": "./dist/adapters/zeldoc.js"
+      }
+    },
+    "./tokenrouter": {
+      "import": {
+        "types": "./dist/adapters/tokenrouter.d.mts",
+        "default": "./dist/adapters/tokenrouter.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/tokenrouter.d.ts",
+        "default": "./dist/adapters/tokenrouter.js"
       }
     },
     "./lilac": {
