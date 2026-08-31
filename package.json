@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.8.30",
+  "version": "2026.8.31",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -599,6 +599,16 @@
       "require": {
         "types": "./dist/adapters/cohere.d.ts",
         "default": "./dist/adapters/cohere.js"
+      }
+    },
+    "./sensenova": {
+      "import": {
+        "types": "./dist/adapters/sensenova.d.mts",
+        "default": "./dist/adapters/sensenova.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/sensenova.d.ts",
+        "default": "./dist/adapters/sensenova.js"
       }
     },
     "./zai": {

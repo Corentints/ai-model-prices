@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**200 providers · 7053 models · Updated 2026-08-30**
+**201 providers · 7058 models · Updated 2026-08-31**
 <!-- STATS:END -->
 
 ## Installation
@@ -181,6 +181,7 @@ filterModels({
 | Clarifai | `clarifai` |
 | Anthropic | `anthropic` |
 | Cohere | `cohere` |
+| SenseNova (China) | `sensenova` |
 | Z.AI | `zai` |
 | routing.run | `routing-run` |
 | STACKIT | `stackit` |
