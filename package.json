@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.9.3",
+  "version": "2026.9.4",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -319,6 +319,16 @@
       "require": {
         "types": "./dist/adapters/tencent-tokenhub.d.ts",
         "default": "./dist/adapters/tencent-tokenhub.js"
+      }
+    },
+    "./nan": {
+      "import": {
+        "types": "./dist/adapters/nan.d.mts",
+        "default": "./dist/adapters/nan.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/nan.d.ts",
+        "default": "./dist/adapters/nan.js"
       }
     },
     "./xiaomi-token-plan-sgp": {

@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**201 providers · 7061 models · Updated 2026-09-03**
+**202 providers · 7093 models · Updated 2026-09-04**
 <!-- STATS:END -->
 
 ## Installation
@@ -153,6 +153,7 @@ filterModels({
 | GreenPT | `greenpt` |
 | Xpersona | `xpersona` |
 | Tencent TokenHub | `tencent-tokenhub` |
+| NaN | `nan` |
 | Xiaomi Token Plan (Singapore) | `xiaomi-token-plan-sgp` |
 | Vertex | `google-vertex` |
 | Alibaba Token Plan | `alibaba-token-plan` |
