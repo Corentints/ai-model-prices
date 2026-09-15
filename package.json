@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.9.14",
+  "version": "2026.9.15",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -209,6 +209,16 @@
       "require": {
         "types": "./dist/adapters/vultr.d.ts",
         "default": "./dist/adapters/vultr.js"
+      }
+    },
+    "./ollama-cloud": {
+      "import": {
+        "types": "./dist/adapters/ollama-cloud.d.mts",
+        "default": "./dist/adapters/ollama-cloud.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/ollama-cloud.d.ts",
+        "default": "./dist/adapters/ollama-cloud.js"
       }
     },
     "./freemodel": {
@@ -499,6 +509,16 @@
       "require": {
         "types": "./dist/adapters/google-vertex.d.ts",
         "default": "./dist/adapters/google-vertex.js"
+      }
+    },
+    "./infer": {
+      "import": {
+        "types": "./dist/adapters/infer.d.mts",
+        "default": "./dist/adapters/infer.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/infer.d.ts",
+        "default": "./dist/adapters/infer.js"
       }
     },
     "./stepfun-ai": {
@@ -1641,6 +1661,16 @@
         "default": "./dist/adapters/meganova.js"
       }
     },
+    "./melious": {
+      "import": {
+        "types": "./dist/adapters/melious.d.mts",
+        "default": "./dist/adapters/melious.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/melious.d.ts",
+        "default": "./dist/adapters/melious.js"
+      }
+    },
     "./moonshotai": {
       "import": {
         "types": "./dist/adapters/moonshotai.d.mts",
@@ -1891,6 +1921,16 @@
         "default": "./dist/adapters/cortecs.js"
       }
     },
+    "./wallaby": {
+      "import": {
+        "types": "./dist/adapters/wallaby.d.mts",
+        "default": "./dist/adapters/wallaby.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/wallaby.d.ts",
+        "default": "./dist/adapters/wallaby.js"
+      }
+    },
     "./hpc-ai": {
       "import": {
         "types": "./dist/adapters/hpc-ai.d.mts",
@@ -2009,6 +2049,16 @@
       "require": {
         "types": "./dist/adapters/gitlab.d.ts",
         "default": "./dist/adapters/gitlab.js"
+      }
+    },
+    "./vispark": {
+      "import": {
+        "types": "./dist/adapters/vispark.d.mts",
+        "default": "./dist/adapters/vispark.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/vispark.d.ts",
+        "default": "./dist/adapters/vispark.js"
       }
     },
     "./neosmith": {

@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**202 providers · 7347 models · Updated 2026-09-14**
+**207 providers · 7388 models · Updated 2026-09-15**
 <!-- STATS:END -->
 
 ## Installation
@@ -142,6 +142,7 @@ filterModels({
 | Nova | `nova` |
 | Inceptron | `inceptron` |
 | Vultr | `vultr` |
+| Ollama Cloud | `ollama-cloud` |
 | FreeModel | `freemodel` |
 | iFlow | `iflowcn` |
 | SCX.ai | `scx-ai` |
@@ -171,6 +172,7 @@ filterModels({
 | Regolo AI | `regolo-ai` |
 | Kenari | `kenari` |
 | Vertex | `google-vertex` |
+| Infer by Flow7 | `infer` |
 | StepFun (Global) | `stepfun-ai` |
 | Pendra | `pendra` |
 | above.dev | `above` |
@@ -285,6 +287,7 @@ filterModels({
 | SiliconFlow | `siliconflow` |
 | Hetzner | `hetzner` |
 | Meganova | `meganova` |
+| Melious | `melious` |
 | Moonshot AI | `moonshotai` |
 | Volcengine Ark Coding Plan | `volcengine-coding-plan` |
 | 302.AI | `302ai` |
@@ -310,6 +313,7 @@ filterModels({
 | Vancine | `vancine` |
 | MiniMax (minimaxi.com) | `minimax-cn` |
 | Cortecs | `cortecs` |
+| Wallaby | `wallaby` |
 | HPC-AI | `hpc-ai` |
 | Tencent Coding Plan (China) | `tencent-coding-plan` |
 | v0 | `v0` |
@@ -322,6 +326,7 @@ filterModels({
 | OpenCode Go | `opencode-go` |
 | Tencent Token Plan | `tencent-token-plan` |
 | GitLab Duo | `gitlab` |
+| Vispark | `vispark` |
 | NeoSmith | `neosmith` |
 | Tinfoil | `tinfoil` |
 | Eden AI | `edenai` |
