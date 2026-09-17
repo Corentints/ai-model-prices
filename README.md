@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**207 providers · 7403 models · Updated 2026-09-16**
+**210 providers · 7423 models · Updated 2026-09-17**
 <!-- STATS:END -->
 
 ## Installation
@@ -216,7 +216,7 @@ filterModels({
 | Baseten | `baseten` |
 | Vercel AI Gateway | `vercel` |
 | QVAC | `qvac` |
-| Weights & Biases | `wandb` |
+| CoreWeave | `wandb` |
 | Friendli | `friendli` |
 | TokenRouter | `tokenrouter` |
 | Thinking Machines | `thinkingmachines` |
@@ -293,6 +293,7 @@ filterModels({
 | 302.AI | `302ai` |
 | Cohere | `cohere` |
 | Upstage | `upstage` |
+| Inco | `inco` |
 | xAI | `xai` |
 | Zenifra | `zenifra` |
 | Z.AI | `zai` |
@@ -318,9 +319,11 @@ filterModels({
 | Tencent Coding Plan (China) | `tencent-coding-plan` |
 | v0 | `v0` |
 | NaN | `nan` |
+| AI21 Labs | `ai21` |
 | Perplexity | `perplexity` |
 | Kimi For Coding | `kimi-for-coding` |
 | Alibaba Token Plan (China) | `alibaba-token-plan-cn` |
+| OCI Generative AI | `oci` |
 | D.Run (China) | `drun` |
 | Vertex (Anthropic) | `google-vertex-anthropic` |
 | OpenCode Go | `opencode-go` |

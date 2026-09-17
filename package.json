@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.9.16",
+  "version": "2026.9.17",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -1721,6 +1721,16 @@
         "default": "./dist/adapters/upstage.js"
       }
     },
+    "./inco": {
+      "import": {
+        "types": "./dist/adapters/inco.d.mts",
+        "default": "./dist/adapters/inco.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/inco.d.ts",
+        "default": "./dist/adapters/inco.js"
+      }
+    },
     "./xai": {
       "import": {
         "types": "./dist/adapters/xai.d.mts",
@@ -1971,6 +1981,16 @@
         "default": "./dist/adapters/nan.js"
       }
     },
+    "./ai21": {
+      "import": {
+        "types": "./dist/adapters/ai21.d.mts",
+        "default": "./dist/adapters/ai21.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/ai21.d.ts",
+        "default": "./dist/adapters/ai21.js"
+      }
+    },
     "./perplexity": {
       "import": {
         "types": "./dist/adapters/perplexity.d.mts",
@@ -1999,6 +2019,16 @@
       "require": {
         "types": "./dist/adapters/alibaba-token-plan-cn.d.ts",
         "default": "./dist/adapters/alibaba-token-plan-cn.js"
+      }
+    },
+    "./oci": {
+      "import": {
+        "types": "./dist/adapters/oci.d.mts",
+        "default": "./dist/adapters/oci.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/oci.d.ts",
+        "default": "./dist/adapters/oci.js"
       }
     },
     "./drun": {
