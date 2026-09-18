@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.9.17",
+  "version": "2026.9.18",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -1939,6 +1939,16 @@
       "require": {
         "types": "./dist/adapters/wallaby.d.ts",
         "default": "./dist/adapters/wallaby.js"
+      }
+    },
+    "./ainetcafe": {
+      "import": {
+        "types": "./dist/adapters/ainetcafe.d.mts",
+        "default": "./dist/adapters/ainetcafe.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/ainetcafe.d.ts",
+        "default": "./dist/adapters/ainetcafe.js"
       }
     },
     "./hpc-ai": {

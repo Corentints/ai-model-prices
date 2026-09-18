@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**210 providers · 7423 models · Updated 2026-09-17**
+**211 providers · 7425 models · Updated 2026-09-18**
 <!-- STATS:END -->
 
 ## Installation
@@ -315,6 +315,7 @@ filterModels({
 | MiniMax (minimaxi.com) | `minimax-cn` |
 | Cortecs | `cortecs` |
 | Wallaby | `wallaby` |
+| ainetcafe | `ainetcafe` |
 | HPC-AI | `hpc-ai` |
 | Tencent Coding Plan (China) | `tencent-coding-plan` |
 | v0 | `v0` |
