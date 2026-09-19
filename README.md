@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**211 providers · 7425 models · Updated 2026-09-18**
+**212 providers · 7445 models · Updated 2026-09-19**
 <!-- STATS:END -->
 
 ## Installation
@@ -245,6 +245,7 @@ filterModels({
 | klokintegration.se | `klokintegration` |
 | Privatemode AI | `privatemode-ai` |
 | MiniMax Token Plan (minimax.io) | `minimax-coding-plan` |
+| Kimi For Coding (kimi.ai) | `kimi-code-plan-global` |
 | InferX | `inferx` |
 | Umans AI Coding Plan | `umans-ai-coding-plan` |
 | Databricks | `databricks` |
@@ -263,6 +264,7 @@ filterModels({
 | Amazon Bedrock | `amazon-bedrock` |
 | Merge Gateway | `merge-gateway` |
 | DeepSeek | `deepseek` |
+| Kimi For Coding (kimi.com) | `kimi-code-plan-cn` |
 | Abacus | `abacus` |
 | Kosmik Compute | `kosmik` |
 | OpenCode Zen | `opencode` |
@@ -322,7 +324,6 @@ filterModels({
 | NaN | `nan` |
 | AI21 Labs | `ai21` |
 | Perplexity | `perplexity` |
-| Kimi For Coding | `kimi-for-coding` |
 | Alibaba Token Plan (China) | `alibaba-token-plan-cn` |
 | OCI Generative AI | `oci` |
 | D.Run (China) | `drun` |

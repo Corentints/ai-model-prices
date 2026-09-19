@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.9.18",
+  "version": "2026.9.19",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -1241,6 +1241,16 @@
         "default": "./dist/adapters/minimax-coding-plan.js"
       }
     },
+    "./kimi-code-plan-global": {
+      "import": {
+        "types": "./dist/adapters/kimi-code-plan-global.d.mts",
+        "default": "./dist/adapters/kimi-code-plan-global.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/kimi-code-plan-global.d.ts",
+        "default": "./dist/adapters/kimi-code-plan-global.js"
+      }
+    },
     "./inferx": {
       "import": {
         "types": "./dist/adapters/inferx.d.mts",
@@ -1419,6 +1429,16 @@
       "require": {
         "types": "./dist/adapters/deepseek.d.ts",
         "default": "./dist/adapters/deepseek.js"
+      }
+    },
+    "./kimi-code-plan-cn": {
+      "import": {
+        "types": "./dist/adapters/kimi-code-plan-cn.d.mts",
+        "default": "./dist/adapters/kimi-code-plan-cn.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/kimi-code-plan-cn.d.ts",
+        "default": "./dist/adapters/kimi-code-plan-cn.js"
       }
     },
     "./abacus": {
@@ -2009,16 +2029,6 @@
       "require": {
         "types": "./dist/adapters/perplexity.d.ts",
         "default": "./dist/adapters/perplexity.js"
-      }
-    },
-    "./kimi-for-coding": {
-      "import": {
-        "types": "./dist/adapters/kimi-for-coding.d.mts",
-        "default": "./dist/adapters/kimi-for-coding.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/kimi-for-coding.d.ts",
-        "default": "./dist/adapters/kimi-for-coding.js"
       }
     },
     "./alibaba-token-plan-cn": {
