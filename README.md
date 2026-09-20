@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**212 providers · 7445 models · Updated 2026-09-19**
+**212 providers · 7452 models · Updated 2026-09-20**
 <!-- STATS:END -->
 
 ## Installation
@@ -184,7 +184,7 @@ filterModels({
 | Claudinio | `claudinio` |
 | NovitaAI | `novita-ai` |
 | Nebius Token Factory | `nebius` |
-| MiniMax Token Plan (minimaxi.com) | `minimax-cn-coding-plan` |
+| MiniMax Token Plan (minimax.cn) | `minimax-cn-coding-plan` |
 | Xiaomi Token Plan (Europe) | `xiaomi-token-plan-ams` |
 | Zeldoc | `zeldoc` |
 | DInference | `dinference` |
@@ -314,7 +314,7 @@ filterModels({
 | Moark | `moark` |
 | ZenMux | `zenmux` |
 | Vancine | `vancine` |
-| MiniMax (minimaxi.com) | `minimax-cn` |
+| MiniMax (minimax.cn) | `minimax-cn` |
 | Cortecs | `cortecs` |
 | Wallaby | `wallaby` |
 | ainetcafe | `ainetcafe` |
