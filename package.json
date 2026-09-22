@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.9.21",
+  "version": "2026.9.22",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -109,6 +109,16 @@
       "require": {
         "types": "./dist/adapters/ambient.d.ts",
         "default": "./dist/adapters/ambient.js"
+      }
+    },
+    "./tempr": {
+      "import": {
+        "types": "./dist/adapters/tempr.d.mts",
+        "default": "./dist/adapters/tempr.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/tempr.d.ts",
+        "default": "./dist/adapters/tempr.js"
       }
     },
     "./xiaomi-token-plan-cn": {
