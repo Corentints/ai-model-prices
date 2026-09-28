@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.9.27",
+  "version": "2026.9.28",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -1451,6 +1451,16 @@
         "default": "./dist/adapters/wallaby.js"
       }
     },
+    "./bee": {
+      "import": {
+        "types": "./dist/adapters/bee.d.mts",
+        "default": "./dist/adapters/bee.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/bee.d.ts",
+        "default": "./dist/adapters/bee.js"
+      }
+    },
     "./scnet-token-plan": {
       "import": {
         "types": "./dist/adapters/scnet-token-plan.d.mts",
@@ -1639,6 +1649,16 @@
       "require": {
         "types": "./dist/adapters/longcat.d.ts",
         "default": "./dist/adapters/longcat.js"
+      }
+    },
+    "./pareto": {
+      "import": {
+        "types": "./dist/adapters/pareto.d.mts",
+        "default": "./dist/adapters/pareto.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/pareto.d.ts",
+        "default": "./dist/adapters/pareto.js"
       }
     },
     "./chutes": {

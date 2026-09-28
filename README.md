@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**213 providers · 7750 models · Updated 2026-09-27**
+**215 providers · 7831 models · Updated 2026-09-28**
 <!-- STATS:END -->
 
 ## Installation
@@ -266,6 +266,7 @@ filterModels({
 | Moonshot AI | `moonshotai` |
 | ainetcafe | `ainetcafe` |
 | Wallaby | `wallaby` |
+| Bee by HEOSSI | `bee` |
 | SCNet Token Plan | `scnet-token-plan` |
 | Ofox | `ofox` |
 | Neon | `neon` |
@@ -285,6 +286,7 @@ filterModels({
 | AKI.IO | `aki-io` |
 | TensorX | `tensorx` |
 | LongCat | `longcat` |
+| Pareto Inference | `pareto` |
 | Chutes | `chutes` |
 | Eden AI | `edenai` |
 | StepFun (China) | `stepfun` |
