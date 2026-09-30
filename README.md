@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**215 providers · 7857 models · Updated 2026-09-29**
+**215 providers · 7903 models · Updated 2026-09-30**
 <!-- STATS:END -->
 
 ## Installation
@@ -293,7 +293,7 @@ filterModels({
 | HPC-AI | `hpc-ai` |
 | v0 | `v0` |
 | Tencent Coding Plan (China) | `tencent-coding-plan` |
-| Tempr | `tempr` |
+| Tempr Gateway | `tempr` |
 | Inception | `inception` |
 | Modelis | `modelis` |
 | OpenCode Zen | `opencode` |
