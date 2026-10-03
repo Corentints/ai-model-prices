@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**215 providers · 7923 models · Updated 2026-10-02**
+**216 providers · 7950 models · Updated 2026-10-03**
 <!-- STATS:END -->
 
 ## Installation
@@ -136,6 +136,7 @@ filterModels({
 | SenseNova (China) | `sensenova` |
 | Alibaba Token Plan | `alibaba-token-plan` |
 | Cloudflare Workers AI | `cloudflare-workers-ai` |
+| engy | `engy` |
 | Poolside | `poolside` |
 | NanoGPT | `nano-gpt` |
 | abliteration.ai | `abliteration-ai` |
