@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.10.8",
+  "version": "2026.10.9",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -1709,16 +1709,6 @@
       "require": {
         "types": "./dist/adapters/hpc-ai.d.ts",
         "default": "./dist/adapters/hpc-ai.js"
-      }
-    },
-    "./v0": {
-      "import": {
-        "types": "./dist/adapters/v0.d.mts",
-        "default": "./dist/adapters/v0.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/v0.d.ts",
-        "default": "./dist/adapters/v0.js"
       }
     },
     "./tencent-coding-plan": {

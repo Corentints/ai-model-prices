@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**216 providers · 8008 models · Updated 2026-10-08**
+**215 providers · 8020 models · Updated 2026-10-09**
 <!-- STATS:END -->
 
 ## Installation
@@ -292,7 +292,6 @@ filterModels({
 | Eden AI | `edenai` |
 | StepFun (China) | `stepfun` |
 | HPC-AI | `hpc-ai` |
-| v0 | `v0` |
 | Tencent Coding Plan (China) | `tencent-coding-plan` |
 | Tempr Gateway | `tempr` |
 | Inception | `inception` |
