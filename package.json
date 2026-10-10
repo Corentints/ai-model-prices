@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.10.9",
+  "version": "2026.10.10",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -509,6 +509,16 @@
       "require": {
         "types": "./dist/adapters/ai21.d.ts",
         "default": "./dist/adapters/ai21.js"
+      }
+    },
+    "./lowrouter": {
+      "import": {
+        "types": "./dist/adapters/lowrouter.d.mts",
+        "default": "./dist/adapters/lowrouter.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/lowrouter.d.ts",
+        "default": "./dist/adapters/lowrouter.js"
       }
     },
     "./inference": {
