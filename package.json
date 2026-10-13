@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.10.12",
+  "version": "2026.10.13",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -929,6 +929,16 @@
       "require": {
         "types": "./dist/adapters/inceptron.d.ts",
         "default": "./dist/adapters/inceptron.js"
+      }
+    },
+    "./aimlapi": {
+      "import": {
+        "types": "./dist/adapters/aimlapi.d.mts",
+        "default": "./dist/adapters/aimlapi.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/aimlapi.d.ts",
+        "default": "./dist/adapters/aimlapi.js"
       }
     },
     "./upstage": {
@@ -1909,6 +1919,16 @@
       "require": {
         "types": "./dist/adapters/vivgrid.d.ts",
         "default": "./dist/adapters/vivgrid.js"
+      }
+    },
+    "./prime": {
+      "import": {
+        "types": "./dist/adapters/prime.d.mts",
+        "default": "./dist/adapters/prime.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/prime.d.ts",
+        "default": "./dist/adapters/prime.js"
       }
     },
     "./klokintegration": {

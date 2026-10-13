@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**216 providers · 8017 models · Updated 2026-10-12**
+**218 providers · 8321 models · Updated 2026-10-13**
 <!-- STATS:END -->
 
 ## Installation
@@ -214,6 +214,7 @@ filterModels({
 | Regolo AI | `regolo-ai` |
 | Xiaomi Token Plan (Europe) | `xiaomi-token-plan-ams` |
 | Inceptron | `inceptron` |
+| AI/ML API | `aimlapi` |
 | Upstage | `upstage` |
 | Vultr | `vultr` |
 | Hugging Face | `huggingface` |
@@ -297,7 +298,7 @@ filterModels({
 | Tempr Gateway | `tempr` |
 | Inception | `inception` |
 | Modelis | `modelis` |
-| OpenCode Zen | `opencode` |
+| OpenCode | `opencode` |
 | Kenari | `kenari` |
 | Kimi For Coding (kimi.ai) | `kimi-code-plan-global` |
 | Wafer | `wafer.ai` |
@@ -312,6 +313,7 @@ filterModels({
 | DevPass (LLM Gateway) | `llmgateway` |
 | SAP AI Core | `sap-ai-core` |
 | Vivgrid | `vivgrid` |
+| Prime Inference | `prime` |
 | klokintegration.se | `klokintegration` |
 | Vertex | `google-vertex` |
 | evroc | `evroc` |
