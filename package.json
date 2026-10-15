@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.10.14",
+  "version": "2026.10.15",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -2209,6 +2209,16 @@
       "require": {
         "types": "./dist/adapters/digitalocean.d.ts",
         "default": "./dist/adapters/digitalocean.js"
+      }
+    },
+    "./boundless": {
+      "import": {
+        "types": "./dist/adapters/boundless.d.mts",
+        "default": "./dist/adapters/boundless.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/boundless.d.ts",
+        "default": "./dist/adapters/boundless.js"
       }
     },
     "./aixy": {

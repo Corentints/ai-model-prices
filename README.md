@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**219 providers · 8380 models · Updated 2026-10-14**
+**220 providers · 8418 models · Updated 2026-10-15**
 <!-- STATS:END -->
 
 ## Installation
@@ -342,6 +342,7 @@ filterModels({
 | RunInfra | `runinfra` |
 | Hetzner | `hetzner` |
 | DigitalOcean | `digitalocean` |
+| Boundless | `boundless` |
 | Aixy | `aixy` |
 | Alibaba (China) | `alibaba-cn` |
 <!-- PROVIDERS:END -->
