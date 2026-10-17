@@ -6,7 +6,7 @@
 Pricing data for AI models, typed and kept up to date daily from [models.dev](https://models.dev).
 
 <!-- STATS:START -->
-**220 providers · 8440 models · Updated 2026-10-16**
+**222 providers · 8534 models · Updated 2026-10-17**
 <!-- STATS:END -->
 
 ## Installation
@@ -172,7 +172,9 @@ filterModels({
 | Venice AI | `venice` |
 | Alibaba Token Plan (China) | `alibaba-token-plan-cn` |
 | AI21 Labs | `ai21` |
+| CommandCode | `commandcode` |
 | LowRouter | `lowrouter` |
+| Reflection | `reflection` |
 | Inference | `inference` |
 | iFlow | `iflowcn` |
 | MiniMax Token Plan (minimax.cn) | `minimax-cn-coding-plan` |
