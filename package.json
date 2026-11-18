@@ -1,6 +1,6 @@
 {
   "name": "ai-model-prices",
-  "version": "2026.11.17",
+  "version": "2026.11.18",
   "description": "Typed AI model pricing and capabilities data, auto-updated from models.dev",
   "keywords": [
     "ai",
@@ -41,1166 +41,6 @@
         "default": "./dist/async.js"
       }
     },
-    "./empiriolabs": {
-      "import": {
-        "types": "./dist/adapters/empiriolabs.d.mts",
-        "default": "./dist/adapters/empiriolabs.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/empiriolabs.d.ts",
-        "default": "./dist/adapters/empiriolabs.js"
-      }
-    },
-    "./inference-coop": {
-      "import": {
-        "types": "./dist/adapters/inference-coop.d.mts",
-        "default": "./dist/adapters/inference-coop.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/inference-coop.d.ts",
-        "default": "./dist/adapters/inference-coop.js"
-      }
-    },
-    "./llmgateway-providers": {
-      "import": {
-        "types": "./dist/adapters/llmgateway-providers.d.mts",
-        "default": "./dist/adapters/llmgateway-providers.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/llmgateway-providers.d.ts",
-        "default": "./dist/adapters/llmgateway-providers.js"
-      }
-    },
-    "./sap-ai-core": {
-      "import": {
-        "types": "./dist/adapters/sap-ai-core.d.mts",
-        "default": "./dist/adapters/sap-ai-core.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/sap-ai-core.d.ts",
-        "default": "./dist/adapters/sap-ai-core.js"
-      }
-    },
-    "./munito": {
-      "import": {
-        "types": "./dist/adapters/munito.d.mts",
-        "default": "./dist/adapters/munito.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/munito.d.ts",
-        "default": "./dist/adapters/munito.js"
-      }
-    },
-    "./klokintegration": {
-      "import": {
-        "types": "./dist/adapters/klokintegration.d.mts",
-        "default": "./dist/adapters/klokintegration.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/klokintegration.d.ts",
-        "default": "./dist/adapters/klokintegration.js"
-      }
-    },
-    "./pareto": {
-      "import": {
-        "types": "./dist/adapters/pareto.d.mts",
-        "default": "./dist/adapters/pareto.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/pareto.d.ts",
-        "default": "./dist/adapters/pareto.js"
-      }
-    },
-    "./lucidquery": {
-      "import": {
-        "types": "./dist/adapters/lucidquery.d.mts",
-        "default": "./dist/adapters/lucidquery.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/lucidquery.d.ts",
-        "default": "./dist/adapters/lucidquery.js"
-      }
-    },
-    "./teapot-router": {
-      "import": {
-        "types": "./dist/adapters/teapot-router.d.mts",
-        "default": "./dist/adapters/teapot-router.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/teapot-router.d.ts",
-        "default": "./dist/adapters/teapot-router.js"
-      }
-    },
-    "./stepfun-ai": {
-      "import": {
-        "types": "./dist/adapters/stepfun-ai.d.mts",
-        "default": "./dist/adapters/stepfun-ai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/stepfun-ai.d.ts",
-        "default": "./dist/adapters/stepfun-ai.js"
-      }
-    },
-    "./keln": {
-      "import": {
-        "types": "./dist/adapters/keln.d.mts",
-        "default": "./dist/adapters/keln.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/keln.d.ts",
-        "default": "./dist/adapters/keln.js"
-      }
-    },
-    "./moonshotai": {
-      "import": {
-        "types": "./dist/adapters/moonshotai.d.mts",
-        "default": "./dist/adapters/moonshotai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/moonshotai.d.ts",
-        "default": "./dist/adapters/moonshotai.js"
-      }
-    },
-    "./sensenova": {
-      "import": {
-        "types": "./dist/adapters/sensenova.d.mts",
-        "default": "./dist/adapters/sensenova.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/sensenova.d.ts",
-        "default": "./dist/adapters/sensenova.js"
-      }
-    },
-    "./xiaomi": {
-      "import": {
-        "types": "./dist/adapters/xiaomi.d.mts",
-        "default": "./dist/adapters/xiaomi.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/xiaomi.d.ts",
-        "default": "./dist/adapters/xiaomi.js"
-      }
-    },
-    "./entrim": {
-      "import": {
-        "types": "./dist/adapters/entrim.d.mts",
-        "default": "./dist/adapters/entrim.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/entrim.d.ts",
-        "default": "./dist/adapters/entrim.js"
-      }
-    },
-    "./minimax": {
-      "import": {
-        "types": "./dist/adapters/minimax.d.mts",
-        "default": "./dist/adapters/minimax.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/minimax.d.ts",
-        "default": "./dist/adapters/minimax.js"
-      }
-    },
-    "./zerogpu": {
-      "import": {
-        "types": "./dist/adapters/zerogpu.d.mts",
-        "default": "./dist/adapters/zerogpu.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/zerogpu.d.ts",
-        "default": "./dist/adapters/zerogpu.js"
-      }
-    },
-    "./neosmith": {
-      "import": {
-        "types": "./dist/adapters/neosmith.d.mts",
-        "default": "./dist/adapters/neosmith.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/neosmith.d.ts",
-        "default": "./dist/adapters/neosmith.js"
-      }
-    },
-    "./orcarouter": {
-      "import": {
-        "types": "./dist/adapters/orcarouter.d.mts",
-        "default": "./dist/adapters/orcarouter.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/orcarouter.d.ts",
-        "default": "./dist/adapters/orcarouter.js"
-      }
-    },
-    "./alibaba-cn": {
-      "import": {
-        "types": "./dist/adapters/alibaba-cn.d.mts",
-        "default": "./dist/adapters/alibaba-cn.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/alibaba-cn.d.ts",
-        "default": "./dist/adapters/alibaba-cn.js"
-      }
-    },
-    "./sparrowcodes": {
-      "import": {
-        "types": "./dist/adapters/sparrowcodes.d.mts",
-        "default": "./dist/adapters/sparrowcodes.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/sparrowcodes.d.ts",
-        "default": "./dist/adapters/sparrowcodes.js"
-      }
-    },
-    "./lowrouter": {
-      "import": {
-        "types": "./dist/adapters/lowrouter.d.mts",
-        "default": "./dist/adapters/lowrouter.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/lowrouter.d.ts",
-        "default": "./dist/adapters/lowrouter.js"
-      }
-    },
-    "./cerebras": {
-      "import": {
-        "types": "./dist/adapters/cerebras.d.mts",
-        "default": "./dist/adapters/cerebras.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/cerebras.d.ts",
-        "default": "./dist/adapters/cerebras.js"
-      }
-    },
-    "./google-vertex": {
-      "import": {
-        "types": "./dist/adapters/google-vertex.d.mts",
-        "default": "./dist/adapters/google-vertex.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/google-vertex.d.ts",
-        "default": "./dist/adapters/google-vertex.js"
-      }
-    },
-    "./cheapaimodel": {
-      "import": {
-        "types": "./dist/adapters/cheapaimodel.d.mts",
-        "default": "./dist/adapters/cheapaimodel.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/cheapaimodel.d.ts",
-        "default": "./dist/adapters/cheapaimodel.js"
-      }
-    },
-    "./reflection": {
-      "import": {
-        "types": "./dist/adapters/reflection.d.mts",
-        "default": "./dist/adapters/reflection.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/reflection.d.ts",
-        "default": "./dist/adapters/reflection.js"
-      }
-    },
-    "./echo": {
-      "import": {
-        "types": "./dist/adapters/echo.d.mts",
-        "default": "./dist/adapters/echo.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/echo.d.ts",
-        "default": "./dist/adapters/echo.js"
-      }
-    },
-    "./superbot-gg": {
-      "import": {
-        "types": "./dist/adapters/superbot-gg.d.mts",
-        "default": "./dist/adapters/superbot-gg.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/superbot-gg.d.ts",
-        "default": "./dist/adapters/superbot-gg.js"
-      }
-    },
-    "./sandbase": {
-      "import": {
-        "types": "./dist/adapters/sandbase.d.mts",
-        "default": "./dist/adapters/sandbase.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/sandbase.d.ts",
-        "default": "./dist/adapters/sandbase.js"
-      }
-    },
-    "./logits": {
-      "import": {
-        "types": "./dist/adapters/logits.d.mts",
-        "default": "./dist/adapters/logits.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/logits.d.ts",
-        "default": "./dist/adapters/logits.js"
-      }
-    },
-    "./tokenrouter": {
-      "import": {
-        "types": "./dist/adapters/tokenrouter.d.mts",
-        "default": "./dist/adapters/tokenrouter.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/tokenrouter.d.ts",
-        "default": "./dist/adapters/tokenrouter.js"
-      }
-    },
-    "./umans-ai-coding-plan": {
-      "import": {
-        "types": "./dist/adapters/umans-ai-coding-plan.d.mts",
-        "default": "./dist/adapters/umans-ai-coding-plan.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/umans-ai-coding-plan.d.ts",
-        "default": "./dist/adapters/umans-ai-coding-plan.js"
-      }
-    },
-    "./vercel": {
-      "import": {
-        "types": "./dist/adapters/vercel.d.mts",
-        "default": "./dist/adapters/vercel.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/vercel.d.ts",
-        "default": "./dist/adapters/vercel.js"
-      }
-    },
-    "./edenai": {
-      "import": {
-        "types": "./dist/adapters/edenai.d.mts",
-        "default": "./dist/adapters/edenai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/edenai.d.ts",
-        "default": "./dist/adapters/edenai.js"
-      }
-    },
-    "./inferall": {
-      "import": {
-        "types": "./dist/adapters/inferall.d.mts",
-        "default": "./dist/adapters/inferall.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/inferall.d.ts",
-        "default": "./dist/adapters/inferall.js"
-      }
-    },
-    "./minimax-coding-plan": {
-      "import": {
-        "types": "./dist/adapters/minimax-coding-plan.d.mts",
-        "default": "./dist/adapters/minimax-coding-plan.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/minimax-coding-plan.d.ts",
-        "default": "./dist/adapters/minimax-coding-plan.js"
-      }
-    },
-    "./moonshotai-cn": {
-      "import": {
-        "types": "./dist/adapters/moonshotai-cn.d.mts",
-        "default": "./dist/adapters/moonshotai-cn.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/moonshotai-cn.d.ts",
-        "default": "./dist/adapters/moonshotai-cn.js"
-      }
-    },
-    "./digitalocean": {
-      "import": {
-        "types": "./dist/adapters/digitalocean.d.mts",
-        "default": "./dist/adapters/digitalocean.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/digitalocean.d.ts",
-        "default": "./dist/adapters/digitalocean.js"
-      }
-    },
-    "./qiniu-ai": {
-      "import": {
-        "types": "./dist/adapters/qiniu-ai.d.mts",
-        "default": "./dist/adapters/qiniu-ai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/qiniu-ai.d.ts",
-        "default": "./dist/adapters/qiniu-ai.js"
-      }
-    },
-    "./nokeep": {
-      "import": {
-        "types": "./dist/adapters/nokeep.d.mts",
-        "default": "./dist/adapters/nokeep.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/nokeep.d.ts",
-        "default": "./dist/adapters/nokeep.js"
-      }
-    },
-    "./sambanova": {
-      "import": {
-        "types": "./dist/adapters/sambanova.d.mts",
-        "default": "./dist/adapters/sambanova.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/sambanova.d.ts",
-        "default": "./dist/adapters/sambanova.js"
-      }
-    },
-    "./qvac": {
-      "import": {
-        "types": "./dist/adapters/qvac.d.mts",
-        "default": "./dist/adapters/qvac.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/qvac.d.ts",
-        "default": "./dist/adapters/qvac.js"
-      }
-    },
-    "./zai": {
-      "import": {
-        "types": "./dist/adapters/zai.d.mts",
-        "default": "./dist/adapters/zai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/zai.d.ts",
-        "default": "./dist/adapters/zai.js"
-      }
-    },
-    "./cloudferro-sherlock": {
-      "import": {
-        "types": "./dist/adapters/cloudferro-sherlock.d.mts",
-        "default": "./dist/adapters/cloudferro-sherlock.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/cloudferro-sherlock.d.ts",
-        "default": "./dist/adapters/cloudferro-sherlock.js"
-      }
-    },
-    "./hetzner": {
-      "import": {
-        "types": "./dist/adapters/hetzner.d.mts",
-        "default": "./dist/adapters/hetzner.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/hetzner.d.ts",
-        "default": "./dist/adapters/hetzner.js"
-      }
-    },
-    "./thinkingmachines": {
-      "import": {
-        "types": "./dist/adapters/thinkingmachines.d.mts",
-        "default": "./dist/adapters/thinkingmachines.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/thinkingmachines.d.ts",
-        "default": "./dist/adapters/thinkingmachines.js"
-      }
-    },
-    "./engy": {
-      "import": {
-        "types": "./dist/adapters/engy.d.mts",
-        "default": "./dist/adapters/engy.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/engy.d.ts",
-        "default": "./dist/adapters/engy.js"
-      }
-    },
-    "./xiaomi-token-plan-sgp": {
-      "import": {
-        "types": "./dist/adapters/xiaomi-token-plan-sgp.d.mts",
-        "default": "./dist/adapters/xiaomi-token-plan-sgp.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/xiaomi-token-plan-sgp.d.ts",
-        "default": "./dist/adapters/xiaomi-token-plan-sgp.js"
-      }
-    },
-    "./ebcloud": {
-      "import": {
-        "types": "./dist/adapters/ebcloud.d.mts",
-        "default": "./dist/adapters/ebcloud.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/ebcloud.d.ts",
-        "default": "./dist/adapters/ebcloud.js"
-      }
-    },
-    "./aixy": {
-      "import": {
-        "types": "./dist/adapters/aixy.d.mts",
-        "default": "./dist/adapters/aixy.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/aixy.d.ts",
-        "default": "./dist/adapters/aixy.js"
-      }
-    },
-    "./salad-cloud": {
-      "import": {
-        "types": "./dist/adapters/salad-cloud.d.mts",
-        "default": "./dist/adapters/salad-cloud.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/salad-cloud.d.ts",
-        "default": "./dist/adapters/salad-cloud.js"
-      }
-    },
-    "./zhipuai": {
-      "import": {
-        "types": "./dist/adapters/zhipuai.d.mts",
-        "default": "./dist/adapters/zhipuai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/zhipuai.d.ts",
-        "default": "./dist/adapters/zhipuai.js"
-      }
-    },
-    "./inference": {
-      "import": {
-        "types": "./dist/adapters/inference.d.mts",
-        "default": "./dist/adapters/inference.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/inference.d.ts",
-        "default": "./dist/adapters/inference.js"
-      }
-    },
-    "./upstage": {
-      "import": {
-        "types": "./dist/adapters/upstage.d.mts",
-        "default": "./dist/adapters/upstage.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/upstage.d.ts",
-        "default": "./dist/adapters/upstage.js"
-      }
-    },
-    "./requesty": {
-      "import": {
-        "types": "./dist/adapters/requesty.d.mts",
-        "default": "./dist/adapters/requesty.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/requesty.d.ts",
-        "default": "./dist/adapters/requesty.js"
-      }
-    },
-    "./vispark": {
-      "import": {
-        "types": "./dist/adapters/vispark.d.mts",
-        "default": "./dist/adapters/vispark.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/vispark.d.ts",
-        "default": "./dist/adapters/vispark.js"
-      }
-    },
-    "./wafer.ai": {
-      "import": {
-        "types": "./dist/adapters/wafer.ai.d.mts",
-        "default": "./dist/adapters/wafer.ai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/wafer.ai.d.ts",
-        "default": "./dist/adapters/wafer.ai.js"
-      }
-    },
-    "./mallard": {
-      "import": {
-        "types": "./dist/adapters/mallard.d.mts",
-        "default": "./dist/adapters/mallard.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/mallard.d.ts",
-        "default": "./dist/adapters/mallard.js"
-      }
-    },
-    "./poolside": {
-      "import": {
-        "types": "./dist/adapters/poolside.d.mts",
-        "default": "./dist/adapters/poolside.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/poolside.d.ts",
-        "default": "./dist/adapters/poolside.js"
-      }
-    },
-    "./openreason": {
-      "import": {
-        "types": "./dist/adapters/openreason.d.mts",
-        "default": "./dist/adapters/openreason.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/openreason.d.ts",
-        "default": "./dist/adapters/openreason.js"
-      }
-    },
-    "./fireworks-ai": {
-      "import": {
-        "types": "./dist/adapters/fireworks-ai.d.mts",
-        "default": "./dist/adapters/fireworks-ai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/fireworks-ai.d.ts",
-        "default": "./dist/adapters/fireworks-ai.js"
-      }
-    },
-    "./tinfoil": {
-      "import": {
-        "types": "./dist/adapters/tinfoil.d.mts",
-        "default": "./dist/adapters/tinfoil.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/tinfoil.d.ts",
-        "default": "./dist/adapters/tinfoil.js"
-      }
-    },
-    "./302ai": {
-      "import": {
-        "types": "./dist/adapters/302ai.d.mts",
-        "default": "./dist/adapters/302ai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/302ai.d.ts",
-        "default": "./dist/adapters/302ai.js"
-      }
-    },
-    "./aigrow": {
-      "import": {
-        "types": "./dist/adapters/aigrow.d.mts",
-        "default": "./dist/adapters/aigrow.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/aigrow.d.ts",
-        "default": "./dist/adapters/aigrow.js"
-      }
-    },
-    "./xai": {
-      "import": {
-        "types": "./dist/adapters/xai.d.mts",
-        "default": "./dist/adapters/xai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/xai.d.ts",
-        "default": "./dist/adapters/xai.js"
-      }
-    },
-    "./joingonka": {
-      "import": {
-        "types": "./dist/adapters/joingonka.d.mts",
-        "default": "./dist/adapters/joingonka.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/joingonka.d.ts",
-        "default": "./dist/adapters/joingonka.js"
-      }
-    },
-    "./hostinger-router": {
-      "import": {
-        "types": "./dist/adapters/hostinger-router.d.mts",
-        "default": "./dist/adapters/hostinger-router.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/hostinger-router.d.ts",
-        "default": "./dist/adapters/hostinger-router.js"
-      }
-    },
-    "./hyper": {
-      "import": {
-        "types": "./dist/adapters/hyper.d.mts",
-        "default": "./dist/adapters/hyper.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/hyper.d.ts",
-        "default": "./dist/adapters/hyper.js"
-      }
-    },
-    "./regolo-ai": {
-      "import": {
-        "types": "./dist/adapters/regolo-ai.d.mts",
-        "default": "./dist/adapters/regolo-ai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/regolo-ai.d.ts",
-        "default": "./dist/adapters/regolo-ai.js"
-      }
-    },
-    "./liquid": {
-      "import": {
-        "types": "./dist/adapters/liquid.d.mts",
-        "default": "./dist/adapters/liquid.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/liquid.d.ts",
-        "default": "./dist/adapters/liquid.js"
-      }
-    },
-    "./dinference": {
-      "import": {
-        "types": "./dist/adapters/dinference.d.mts",
-        "default": "./dist/adapters/dinference.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/dinference.d.ts",
-        "default": "./dist/adapters/dinference.js"
-      }
-    },
-    "./volcengine-coding-plan": {
-      "import": {
-        "types": "./dist/adapters/volcengine-coding-plan.d.mts",
-        "default": "./dist/adapters/volcengine-coding-plan.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/volcengine-coding-plan.d.ts",
-        "default": "./dist/adapters/volcengine-coding-plan.js"
-      }
-    },
-    "./oci": {
-      "import": {
-        "types": "./dist/adapters/oci.d.mts",
-        "default": "./dist/adapters/oci.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/oci.d.ts",
-        "default": "./dist/adapters/oci.js"
-      }
-    },
-    "./dothoosh": {
-      "import": {
-        "types": "./dist/adapters/dothoosh.d.mts",
-        "default": "./dist/adapters/dothoosh.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/dothoosh.d.ts",
-        "default": "./dist/adapters/dothoosh.js"
-      }
-    },
-    "./tencent-coding-plan": {
-      "import": {
-        "types": "./dist/adapters/tencent-coding-plan.d.mts",
-        "default": "./dist/adapters/tencent-coding-plan.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/tencent-coding-plan.d.ts",
-        "default": "./dist/adapters/tencent-coding-plan.js"
-      }
-    },
-    "./azure-cognitive-services": {
-      "import": {
-        "types": "./dist/adapters/azure-cognitive-services.d.mts",
-        "default": "./dist/adapters/azure-cognitive-services.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/azure-cognitive-services.d.ts",
-        "default": "./dist/adapters/azure-cognitive-services.js"
-      }
-    },
-    "./ainetcafe": {
-      "import": {
-        "types": "./dist/adapters/ainetcafe.d.mts",
-        "default": "./dist/adapters/ainetcafe.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/ainetcafe.d.ts",
-        "default": "./dist/adapters/ainetcafe.js"
-      }
-    },
-    "./jzstoken": {
-      "import": {
-        "types": "./dist/adapters/jzstoken.d.mts",
-        "default": "./dist/adapters/jzstoken.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/jzstoken.d.ts",
-        "default": "./dist/adapters/jzstoken.js"
-      }
-    },
-    "./doubleword": {
-      "import": {
-        "types": "./dist/adapters/doubleword.d.mts",
-        "default": "./dist/adapters/doubleword.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/doubleword.d.ts",
-        "default": "./dist/adapters/doubleword.js"
-      }
-    },
-    "./nano-gpt": {
-      "import": {
-        "types": "./dist/adapters/nano-gpt.d.mts",
-        "default": "./dist/adapters/nano-gpt.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/nano-gpt.d.ts",
-        "default": "./dist/adapters/nano-gpt.js"
-      }
-    },
-    "./bothub": {
-      "import": {
-        "types": "./dist/adapters/bothub.d.mts",
-        "default": "./dist/adapters/bothub.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/bothub.d.ts",
-        "default": "./dist/adapters/bothub.js"
-      }
-    },
-    "./subconscious": {
-      "import": {
-        "types": "./dist/adapters/subconscious.d.mts",
-        "default": "./dist/adapters/subconscious.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/subconscious.d.ts",
-        "default": "./dist/adapters/subconscious.js"
-      }
-    },
-    "./lithosai": {
-      "import": {
-        "types": "./dist/adapters/lithosai.d.mts",
-        "default": "./dist/adapters/lithosai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/lithosai.d.ts",
-        "default": "./dist/adapters/lithosai.js"
-      }
-    },
-    "./databricks": {
-      "import": {
-        "types": "./dist/adapters/databricks.d.mts",
-        "default": "./dist/adapters/databricks.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/databricks.d.ts",
-        "default": "./dist/adapters/databricks.js"
-      }
-    },
-    "./anthropic": {
-      "import": {
-        "types": "./dist/adapters/anthropic.d.mts",
-        "default": "./dist/adapters/anthropic.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/anthropic.d.ts",
-        "default": "./dist/adapters/anthropic.js"
-      }
-    },
-    "./nan": {
-      "import": {
-        "types": "./dist/adapters/nan.d.mts",
-        "default": "./dist/adapters/nan.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/nan.d.ts",
-        "default": "./dist/adapters/nan.js"
-      }
-    },
-    "./uncensuredai": {
-      "import": {
-        "types": "./dist/adapters/uncensuredai.d.mts",
-        "default": "./dist/adapters/uncensuredai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/uncensuredai.d.ts",
-        "default": "./dist/adapters/uncensuredai.js"
-      }
-    },
-    "./lynkr": {
-      "import": {
-        "types": "./dist/adapters/lynkr.d.mts",
-        "default": "./dist/adapters/lynkr.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/lynkr.d.ts",
-        "default": "./dist/adapters/lynkr.js"
-      }
-    },
-    "./cloudcode": {
-      "import": {
-        "types": "./dist/adapters/cloudcode.d.mts",
-        "default": "./dist/adapters/cloudcode.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/cloudcode.d.ts",
-        "default": "./dist/adapters/cloudcode.js"
-      }
-    },
-    "./auriko": {
-      "import": {
-        "types": "./dist/adapters/auriko.d.mts",
-        "default": "./dist/adapters/auriko.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/auriko.d.ts",
-        "default": "./dist/adapters/auriko.js"
-      }
-    },
-    "./kosmik": {
-      "import": {
-        "types": "./dist/adapters/kosmik.d.mts",
-        "default": "./dist/adapters/kosmik.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/kosmik.d.ts",
-        "default": "./dist/adapters/kosmik.js"
-      }
-    },
-    "./agnes": {
-      "import": {
-        "types": "./dist/adapters/agnes.d.mts",
-        "default": "./dist/adapters/agnes.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/agnes.d.ts",
-        "default": "./dist/adapters/agnes.js"
-      }
-    },
-    "./chutes": {
-      "import": {
-        "types": "./dist/adapters/chutes.d.mts",
-        "default": "./dist/adapters/chutes.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/chutes.d.ts",
-        "default": "./dist/adapters/chutes.js"
-      }
-    },
-    "./cheapllm": {
-      "import": {
-        "types": "./dist/adapters/cheapllm.d.mts",
-        "default": "./dist/adapters/cheapllm.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/cheapllm.d.ts",
-        "default": "./dist/adapters/cheapllm.js"
-      }
-    },
-    "./inception": {
-      "import": {
-        "types": "./dist/adapters/inception.d.mts",
-        "default": "./dist/adapters/inception.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/inception.d.ts",
-        "default": "./dist/adapters/inception.js"
-      }
-    },
-    "./stackit": {
-      "import": {
-        "types": "./dist/adapters/stackit.d.mts",
-        "default": "./dist/adapters/stackit.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/stackit.d.ts",
-        "default": "./dist/adapters/stackit.js"
-      }
-    },
-    "./google-vertex-anthropic": {
-      "import": {
-        "types": "./dist/adapters/google-vertex-anthropic.d.mts",
-        "default": "./dist/adapters/google-vertex-anthropic.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/google-vertex-anthropic.d.ts",
-        "default": "./dist/adapters/google-vertex-anthropic.js"
-      }
-    },
-    "./runcrate": {
-      "import": {
-        "types": "./dist/adapters/runcrate.d.mts",
-        "default": "./dist/adapters/runcrate.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/runcrate.d.ts",
-        "default": "./dist/adapters/runcrate.js"
-      }
-    },
-    "./meragpt": {
-      "import": {
-        "types": "./dist/adapters/meragpt.d.mts",
-        "default": "./dist/adapters/meragpt.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/meragpt.d.ts",
-        "default": "./dist/adapters/meragpt.js"
-      }
-    },
-    "./tencent-tokenhub": {
-      "import": {
-        "types": "./dist/adapters/tencent-tokenhub.d.mts",
-        "default": "./dist/adapters/tencent-tokenhub.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/tencent-tokenhub.d.ts",
-        "default": "./dist/adapters/tencent-tokenhub.js"
-      }
-    },
-    "./phase": {
-      "import": {
-        "types": "./dist/adapters/phase.d.mts",
-        "default": "./dist/adapters/phase.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/phase.d.ts",
-        "default": "./dist/adapters/phase.js"
-      }
-    },
-    "./cheapest-token": {
-      "import": {
-        "types": "./dist/adapters/cheapest-token.d.mts",
-        "default": "./dist/adapters/cheapest-token.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/cheapest-token.d.ts",
-        "default": "./dist/adapters/cheapest-token.js"
-      }
-    },
-    "./mixlayer": {
-      "import": {
-        "types": "./dist/adapters/mixlayer.d.mts",
-        "default": "./dist/adapters/mixlayer.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/mixlayer.d.ts",
-        "default": "./dist/adapters/mixlayer.js"
-      }
-    },
-    "./tokenwatt": {
-      "import": {
-        "types": "./dist/adapters/tokenwatt.d.mts",
-        "default": "./dist/adapters/tokenwatt.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/tokenwatt.d.ts",
-        "default": "./dist/adapters/tokenwatt.js"
-      }
-    },
-    "./obscurify": {
-      "import": {
-        "types": "./dist/adapters/obscurify.d.mts",
-        "default": "./dist/adapters/obscurify.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/obscurify.d.ts",
-        "default": "./dist/adapters/obscurify.js"
-      }
-    },
-    "./gitlab": {
-      "import": {
-        "types": "./dist/adapters/gitlab.d.mts",
-        "default": "./dist/adapters/gitlab.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/gitlab.d.ts",
-        "default": "./dist/adapters/gitlab.js"
-      }
-    },
-    "./alibaba-coding-plan": {
-      "import": {
-        "types": "./dist/adapters/alibaba-coding-plan.d.mts",
-        "default": "./dist/adapters/alibaba-coding-plan.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/alibaba-coding-plan.d.ts",
-        "default": "./dist/adapters/alibaba-coding-plan.js"
-      }
-    },
-    "./iteracompute": {
-      "import": {
-        "types": "./dist/adapters/iteracompute.d.mts",
-        "default": "./dist/adapters/iteracompute.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/iteracompute.d.ts",
-        "default": "./dist/adapters/iteracompute.js"
-      }
-    },
-    "./adaption": {
-      "import": {
-        "types": "./dist/adapters/adaption.d.mts",
-        "default": "./dist/adapters/adaption.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/adaption.d.ts",
-        "default": "./dist/adapters/adaption.js"
-      }
-    },
-    "./io-net": {
-      "import": {
-        "types": "./dist/adapters/io-net.d.mts",
-        "default": "./dist/adapters/io-net.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/io-net.d.ts",
-        "default": "./dist/adapters/io-net.js"
-      }
-    },
-    "./modular": {
-      "import": {
-        "types": "./dist/adapters/modular.d.mts",
-        "default": "./dist/adapters/modular.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/modular.d.ts",
-        "default": "./dist/adapters/modular.js"
-      }
-    },
-    "./freemodel": {
-      "import": {
-        "types": "./dist/adapters/freemodel.d.mts",
-        "default": "./dist/adapters/freemodel.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/freemodel.d.ts",
-        "default": "./dist/adapters/freemodel.js"
-      }
-    },
-    "./paraloncloud": {
-      "import": {
-        "types": "./dist/adapters/paraloncloud.d.mts",
-        "default": "./dist/adapters/paraloncloud.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/paraloncloud.d.ts",
-        "default": "./dist/adapters/paraloncloud.js"
-      }
-    },
-    "./standardcompute": {
-      "import": {
-        "types": "./dist/adapters/standardcompute.d.mts",
-        "default": "./dist/adapters/standardcompute.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/standardcompute.d.ts",
-        "default": "./dist/adapters/standardcompute.js"
-      }
-    },
-    "./amd": {
-      "import": {
-        "types": "./dist/adapters/amd.d.mts",
-        "default": "./dist/adapters/amd.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/amd.d.ts",
-        "default": "./dist/adapters/amd.js"
-      }
-    },
-    "./llmtr": {
-      "import": {
-        "types": "./dist/adapters/llmtr.d.mts",
-        "default": "./dist/adapters/llmtr.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/llmtr.d.ts",
-        "default": "./dist/adapters/llmtr.js"
-      }
-    },
     "./ai-router": {
       "import": {
         "types": "./dist/adapters/ai-router.d.mts",
@@ -1209,636 +49,6 @@
       "require": {
         "types": "./dist/adapters/ai-router.d.ts",
         "default": "./dist/adapters/ai-router.js"
-      }
-    },
-    "./unorouter": {
-      "import": {
-        "types": "./dist/adapters/unorouter.d.mts",
-        "default": "./dist/adapters/unorouter.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/unorouter.d.ts",
-        "default": "./dist/adapters/unorouter.js"
-      }
-    },
-    "./byteplus": {
-      "import": {
-        "types": "./dist/adapters/byteplus.d.mts",
-        "default": "./dist/adapters/byteplus.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/byteplus.d.ts",
-        "default": "./dist/adapters/byteplus.js"
-      }
-    },
-    "./meta": {
-      "import": {
-        "types": "./dist/adapters/meta.d.mts",
-        "default": "./dist/adapters/meta.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/meta.d.ts",
-        "default": "./dist/adapters/meta.js"
-      }
-    },
-    "./amazon-bedrock": {
-      "import": {
-        "types": "./dist/adapters/amazon-bedrock.d.mts",
-        "default": "./dist/adapters/amazon-bedrock.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/amazon-bedrock.d.ts",
-        "default": "./dist/adapters/amazon-bedrock.js"
-      }
-    },
-    "./opper": {
-      "import": {
-        "types": "./dist/adapters/opper.d.mts",
-        "default": "./dist/adapters/opper.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/opper.d.ts",
-        "default": "./dist/adapters/opper.js"
-      }
-    },
-    "./nvidia": {
-      "import": {
-        "types": "./dist/adapters/nvidia.d.mts",
-        "default": "./dist/adapters/nvidia.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/nvidia.d.ts",
-        "default": "./dist/adapters/nvidia.js"
-      }
-    },
-    "./berget": {
-      "import": {
-        "types": "./dist/adapters/berget.d.mts",
-        "default": "./dist/adapters/berget.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/berget.d.ts",
-        "default": "./dist/adapters/berget.js"
-      }
-    },
-    "./inferenceapis": {
-      "import": {
-        "types": "./dist/adapters/inferenceapis.d.mts",
-        "default": "./dist/adapters/inferenceapis.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/inferenceapis.d.ts",
-        "default": "./dist/adapters/inferenceapis.js"
-      }
-    },
-    "./volcengine": {
-      "import": {
-        "types": "./dist/adapters/volcengine.d.mts",
-        "default": "./dist/adapters/volcengine.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/volcengine.d.ts",
-        "default": "./dist/adapters/volcengine.js"
-      }
-    },
-    "./zeldoc": {
-      "import": {
-        "types": "./dist/adapters/zeldoc.d.mts",
-        "default": "./dist/adapters/zeldoc.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/zeldoc.d.ts",
-        "default": "./dist/adapters/zeldoc.js"
-      }
-    },
-    "./vivgrid": {
-      "import": {
-        "types": "./dist/adapters/vivgrid.d.mts",
-        "default": "./dist/adapters/vivgrid.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/vivgrid.d.ts",
-        "default": "./dist/adapters/vivgrid.js"
-      }
-    },
-    "./verda": {
-      "import": {
-        "types": "./dist/adapters/verda.d.mts",
-        "default": "./dist/adapters/verda.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/verda.d.ts",
-        "default": "./dist/adapters/verda.js"
-      }
-    },
-    "./openrouter": {
-      "import": {
-        "types": "./dist/adapters/openrouter.d.mts",
-        "default": "./dist/adapters/openrouter.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/openrouter.d.ts",
-        "default": "./dist/adapters/openrouter.js"
-      }
-    },
-    "./confidential-ai": {
-      "import": {
-        "types": "./dist/adapters/confidential-ai.d.mts",
-        "default": "./dist/adapters/confidential-ai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/confidential-ai.d.ts",
-        "default": "./dist/adapters/confidential-ai.js"
-      }
-    },
-    "./commandcode": {
-      "import": {
-        "types": "./dist/adapters/commandcode.d.mts",
-        "default": "./dist/adapters/commandcode.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/commandcode.d.ts",
-        "default": "./dist/adapters/commandcode.js"
-      }
-    },
-    "./abliteratedllm": {
-      "import": {
-        "types": "./dist/adapters/abliteratedllm.d.mts",
-        "default": "./dist/adapters/abliteratedllm.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/abliteratedllm.d.ts",
-        "default": "./dist/adapters/abliteratedllm.js"
-      }
-    },
-    "./opencode-go": {
-      "import": {
-        "types": "./dist/adapters/opencode-go.d.mts",
-        "default": "./dist/adapters/opencode-go.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/opencode-go.d.ts",
-        "default": "./dist/adapters/opencode-go.js"
-      }
-    },
-    "./greenpt": {
-      "import": {
-        "types": "./dist/adapters/greenpt.d.mts",
-        "default": "./dist/adapters/greenpt.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/greenpt.d.ts",
-        "default": "./dist/adapters/greenpt.js"
-      }
-    },
-    "./watt": {
-      "import": {
-        "types": "./dist/adapters/watt.d.mts",
-        "default": "./dist/adapters/watt.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/watt.d.ts",
-        "default": "./dist/adapters/watt.js"
-      }
-    },
-    "./alibaba": {
-      "import": {
-        "types": "./dist/adapters/alibaba.d.mts",
-        "default": "./dist/adapters/alibaba.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/alibaba.d.ts",
-        "default": "./dist/adapters/alibaba.js"
-      }
-    },
-    "./ofox": {
-      "import": {
-        "types": "./dist/adapters/ofox.d.mts",
-        "default": "./dist/adapters/ofox.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/ofox.d.ts",
-        "default": "./dist/adapters/ofox.js"
-      }
-    },
-    "./hpc-ai": {
-      "import": {
-        "types": "./dist/adapters/hpc-ai.d.mts",
-        "default": "./dist/adapters/hpc-ai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/hpc-ai.d.ts",
-        "default": "./dist/adapters/hpc-ai.js"
-      }
-    },
-    "./klavo": {
-      "import": {
-        "types": "./dist/adapters/klavo.d.mts",
-        "default": "./dist/adapters/klavo.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/klavo.d.ts",
-        "default": "./dist/adapters/klavo.js"
-      }
-    },
-    "./inceptron": {
-      "import": {
-        "types": "./dist/adapters/inceptron.d.mts",
-        "default": "./dist/adapters/inceptron.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/inceptron.d.ts",
-        "default": "./dist/adapters/inceptron.js"
-      }
-    },
-    "./jad-ai": {
-      "import": {
-        "types": "./dist/adapters/jad-ai.d.mts",
-        "default": "./dist/adapters/jad-ai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/jad-ai.d.ts",
-        "default": "./dist/adapters/jad-ai.js"
-      }
-    },
-    "./submodel": {
-      "import": {
-        "types": "./dist/adapters/submodel.d.mts",
-        "default": "./dist/adapters/submodel.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/submodel.d.ts",
-        "default": "./dist/adapters/submodel.js"
-      }
-    },
-    "./friendli": {
-      "import": {
-        "types": "./dist/adapters/friendli.d.mts",
-        "default": "./dist/adapters/friendli.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/friendli.d.ts",
-        "default": "./dist/adapters/friendli.js"
-      }
-    },
-    "./ai21": {
-      "import": {
-        "types": "./dist/adapters/ai21.d.mts",
-        "default": "./dist/adapters/ai21.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/ai21.d.ts",
-        "default": "./dist/adapters/ai21.js"
-      }
-    },
-    "./synthetic": {
-      "import": {
-        "types": "./dist/adapters/synthetic.d.mts",
-        "default": "./dist/adapters/synthetic.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/synthetic.d.ts",
-        "default": "./dist/adapters/synthetic.js"
-      }
-    },
-    "./cloudflare-workers-ai": {
-      "import": {
-        "types": "./dist/adapters/cloudflare-workers-ai.d.mts",
-        "default": "./dist/adapters/cloudflare-workers-ai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/cloudflare-workers-ai.d.ts",
-        "default": "./dist/adapters/cloudflare-workers-ai.js"
-      }
-    },
-    "./vancine": {
-      "import": {
-        "types": "./dist/adapters/vancine.d.mts",
-        "default": "./dist/adapters/vancine.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/vancine.d.ts",
-        "default": "./dist/adapters/vancine.js"
-      }
-    },
-    "./kenari": {
-      "import": {
-        "types": "./dist/adapters/kenari.d.mts",
-        "default": "./dist/adapters/kenari.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/kenari.d.ts",
-        "default": "./dist/adapters/kenari.js"
-      }
-    },
-    "./perplexity": {
-      "import": {
-        "types": "./dist/adapters/perplexity.d.mts",
-        "default": "./dist/adapters/perplexity.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/perplexity.d.ts",
-        "default": "./dist/adapters/perplexity.js"
-      }
-    },
-    "./zro": {
-      "import": {
-        "types": "./dist/adapters/zro.d.mts",
-        "default": "./dist/adapters/zro.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/zro.d.ts",
-        "default": "./dist/adapters/zro.js"
-      }
-    },
-    "./zenifra": {
-      "import": {
-        "types": "./dist/adapters/zenifra.d.mts",
-        "default": "./dist/adapters/zenifra.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/zenifra.d.ts",
-        "default": "./dist/adapters/zenifra.js"
-      }
-    },
-    "./outerlabs": {
-      "import": {
-        "types": "./dist/adapters/outerlabs.d.mts",
-        "default": "./dist/adapters/outerlabs.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/outerlabs.d.ts",
-        "default": "./dist/adapters/outerlabs.js"
-      }
-    },
-    "./frogbot": {
-      "import": {
-        "types": "./dist/adapters/frogbot.d.mts",
-        "default": "./dist/adapters/frogbot.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/frogbot.d.ts",
-        "default": "./dist/adapters/frogbot.js"
-      }
-    },
-    "./siliconflow-cn": {
-      "import": {
-        "types": "./dist/adapters/siliconflow-cn.d.mts",
-        "default": "./dist/adapters/siliconflow-cn.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/siliconflow-cn.d.ts",
-        "default": "./dist/adapters/siliconflow-cn.js"
-      }
-    },
-    "./powerspring": {
-      "import": {
-        "types": "./dist/adapters/powerspring.d.mts",
-        "default": "./dist/adapters/powerspring.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/powerspring.d.ts",
-        "default": "./dist/adapters/powerspring.js"
-      }
-    },
-    "./perplexity-agent": {
-      "import": {
-        "types": "./dist/adapters/perplexity-agent.d.mts",
-        "default": "./dist/adapters/perplexity-agent.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/perplexity-agent.d.ts",
-        "default": "./dist/adapters/perplexity-agent.js"
-      }
-    },
-    "./ollama-cloud": {
-      "import": {
-        "types": "./dist/adapters/ollama-cloud.d.mts",
-        "default": "./dist/adapters/ollama-cloud.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/ollama-cloud.d.ts",
-        "default": "./dist/adapters/ollama-cloud.js"
-      }
-    },
-    "./sarvam": {
-      "import": {
-        "types": "./dist/adapters/sarvam.d.mts",
-        "default": "./dist/adapters/sarvam.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/sarvam.d.ts",
-        "default": "./dist/adapters/sarvam.js"
-      }
-    },
-    "./zhipuai-coding-plan": {
-      "import": {
-        "types": "./dist/adapters/zhipuai-coding-plan.d.mts",
-        "default": "./dist/adapters/zhipuai-coding-plan.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/zhipuai-coding-plan.d.ts",
-        "default": "./dist/adapters/zhipuai-coding-plan.js"
-      }
-    },
-    "./hopper": {
-      "import": {
-        "types": "./dist/adapters/hopper.d.mts",
-        "default": "./dist/adapters/hopper.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/hopper.d.ts",
-        "default": "./dist/adapters/hopper.js"
-      }
-    },
-    "./coralbricks": {
-      "import": {
-        "types": "./dist/adapters/coralbricks.d.mts",
-        "default": "./dist/adapters/coralbricks.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/coralbricks.d.ts",
-        "default": "./dist/adapters/coralbricks.js"
-      }
-    },
-    "./xpersona": {
-      "import": {
-        "types": "./dist/adapters/xpersona.d.mts",
-        "default": "./dist/adapters/xpersona.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/xpersona.d.ts",
-        "default": "./dist/adapters/xpersona.js"
-      }
-    },
-    "./inferx": {
-      "import": {
-        "types": "./dist/adapters/inferx.d.mts",
-        "default": "./dist/adapters/inferx.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/inferx.d.ts",
-        "default": "./dist/adapters/inferx.js"
-      }
-    },
-    "./graphn": {
-      "import": {
-        "types": "./dist/adapters/graphn.d.mts",
-        "default": "./dist/adapters/graphn.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/graphn.d.ts",
-        "default": "./dist/adapters/graphn.js"
-      }
-    },
-    "./unbiased": {
-      "import": {
-        "types": "./dist/adapters/unbiased.d.mts",
-        "default": "./dist/adapters/unbiased.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/unbiased.d.ts",
-        "default": "./dist/adapters/unbiased.js"
-      }
-    },
-    "./kimi-code-plan-global": {
-      "import": {
-        "types": "./dist/adapters/kimi-code-plan-global.d.mts",
-        "default": "./dist/adapters/kimi-code-plan-global.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/kimi-code-plan-global.d.ts",
-        "default": "./dist/adapters/kimi-code-plan-global.js"
-      }
-    },
-    "./frequency": {
-      "import": {
-        "types": "./dist/adapters/frequency.d.mts",
-        "default": "./dist/adapters/frequency.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/frequency.d.ts",
-        "default": "./dist/adapters/frequency.js"
-      }
-    },
-    "./moneo": {
-      "import": {
-        "types": "./dist/adapters/moneo.d.mts",
-        "default": "./dist/adapters/moneo.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/moneo.d.ts",
-        "default": "./dist/adapters/moneo.js"
-      }
-    },
-    "./sakana": {
-      "import": {
-        "types": "./dist/adapters/sakana.d.mts",
-        "default": "./dist/adapters/sakana.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/sakana.d.ts",
-        "default": "./dist/adapters/sakana.js"
-      }
-    },
-    "./helicone": {
-      "import": {
-        "types": "./dist/adapters/helicone.d.mts",
-        "default": "./dist/adapters/helicone.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/helicone.d.ts",
-        "default": "./dist/adapters/helicone.js"
-      }
-    },
-    "./tokenify": {
-      "import": {
-        "types": "./dist/adapters/tokenify.d.mts",
-        "default": "./dist/adapters/tokenify.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/tokenify.d.ts",
-        "default": "./dist/adapters/tokenify.js"
-      }
-    },
-    "./kuae-cloud-coding-plan": {
-      "import": {
-        "types": "./dist/adapters/kuae-cloud-coding-plan.d.mts",
-        "default": "./dist/adapters/kuae-cloud-coding-plan.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/kuae-cloud-coding-plan.d.ts",
-        "default": "./dist/adapters/kuae-cloud-coding-plan.js"
-      }
-    },
-    "./aimlapi": {
-      "import": {
-        "types": "./dist/adapters/aimlapi.d.mts",
-        "default": "./dist/adapters/aimlapi.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/aimlapi.d.ts",
-        "default": "./dist/adapters/aimlapi.js"
-      }
-    },
-    "./groq": {
-      "import": {
-        "types": "./dist/adapters/groq.d.mts",
-        "default": "./dist/adapters/groq.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/groq.d.ts",
-        "default": "./dist/adapters/groq.js"
-      }
-    },
-    "./impossibl": {
-      "import": {
-        "types": "./dist/adapters/impossibl.d.mts",
-        "default": "./dist/adapters/impossibl.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/impossibl.d.ts",
-        "default": "./dist/adapters/impossibl.js"
-      }
-    },
-    "./claudinio": {
-      "import": {
-        "types": "./dist/adapters/claudinio.d.mts",
-        "default": "./dist/adapters/claudinio.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/claudinio.d.ts",
-        "default": "./dist/adapters/claudinio.js"
-      }
-    },
-    "./aipg": {
-      "import": {
-        "types": "./dist/adapters/aipg.d.mts",
-        "default": "./dist/adapters/aipg.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/aipg.d.ts",
-        "default": "./dist/adapters/aipg.js"
-      }
-    },
-    "./umans-ai": {
-      "import": {
-        "types": "./dist/adapters/umans-ai.d.mts",
-        "default": "./dist/adapters/umans-ai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/umans-ai.d.ts",
-        "default": "./dist/adapters/umans-ai.js"
-      }
-    },
-    "./google": {
-      "import": {
-        "types": "./dist/adapters/google.d.mts",
-        "default": "./dist/adapters/google.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/google.d.ts",
-        "default": "./dist/adapters/google.js"
       }
     },
     "./cortecs": {
@@ -1851,34 +61,24 @@
         "default": "./dist/adapters/cortecs.js"
       }
     },
-    "./baseten": {
+    "./fireworks-ai": {
       "import": {
-        "types": "./dist/adapters/baseten.d.mts",
-        "default": "./dist/adapters/baseten.mjs"
+        "types": "./dist/adapters/fireworks-ai.d.mts",
+        "default": "./dist/adapters/fireworks-ai.mjs"
       },
       "require": {
-        "types": "./dist/adapters/baseten.d.ts",
-        "default": "./dist/adapters/baseten.js"
+        "types": "./dist/adapters/fireworks-ai.d.ts",
+        "default": "./dist/adapters/fireworks-ai.js"
       }
     },
-    "./modelscope": {
+    "./salad-cloud": {
       "import": {
-        "types": "./dist/adapters/modelscope.d.mts",
-        "default": "./dist/adapters/modelscope.mjs"
+        "types": "./dist/adapters/salad-cloud.d.mts",
+        "default": "./dist/adapters/salad-cloud.mjs"
       },
       "require": {
-        "types": "./dist/adapters/modelscope.d.ts",
-        "default": "./dist/adapters/modelscope.js"
-      }
-    },
-    "./ezkielyna": {
-      "import": {
-        "types": "./dist/adapters/ezkielyna.d.mts",
-        "default": "./dist/adapters/ezkielyna.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/ezkielyna.d.ts",
-        "default": "./dist/adapters/ezkielyna.js"
+        "types": "./dist/adapters/salad-cloud.d.ts",
+        "default": "./dist/adapters/salad-cloud.js"
       }
     },
     "./munito-eu": {
@@ -1891,1064 +91,14 @@
         "default": "./dist/adapters/munito-eu.js"
       }
     },
-    "./inferris": {
+    "./aigrow": {
       "import": {
-        "types": "./dist/adapters/inferris.d.mts",
-        "default": "./dist/adapters/inferris.mjs"
+        "types": "./dist/adapters/aigrow.d.mts",
+        "default": "./dist/adapters/aigrow.mjs"
       },
       "require": {
-        "types": "./dist/adapters/inferris.d.ts",
-        "default": "./dist/adapters/inferris.js"
-      }
-    },
-    "./atomic-chat": {
-      "import": {
-        "types": "./dist/adapters/atomic-chat.d.mts",
-        "default": "./dist/adapters/atomic-chat.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/atomic-chat.d.ts",
-        "default": "./dist/adapters/atomic-chat.js"
-      }
-    },
-    "./wandb": {
-      "import": {
-        "types": "./dist/adapters/wandb.d.mts",
-        "default": "./dist/adapters/wandb.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/wandb.d.ts",
-        "default": "./dist/adapters/wandb.js"
-      }
-    },
-    "./minimax-cn-coding-plan": {
-      "import": {
-        "types": "./dist/adapters/minimax-cn-coding-plan.d.mts",
-        "default": "./dist/adapters/minimax-cn-coding-plan.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/minimax-cn-coding-plan.d.ts",
-        "default": "./dist/adapters/minimax-cn-coding-plan.js"
-      }
-    },
-    "./crusoe": {
-      "import": {
-        "types": "./dist/adapters/crusoe.d.mts",
-        "default": "./dist/adapters/crusoe.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/crusoe.d.ts",
-        "default": "./dist/adapters/crusoe.js"
-      }
-    },
-    "./proxystacks": {
-      "import": {
-        "types": "./dist/adapters/proxystacks.d.mts",
-        "default": "./dist/adapters/proxystacks.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/proxystacks.d.ts",
-        "default": "./dist/adapters/proxystacks.js"
-      }
-    },
-    "./nova": {
-      "import": {
-        "types": "./dist/adapters/nova.d.mts",
-        "default": "./dist/adapters/nova.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/nova.d.ts",
-        "default": "./dist/adapters/nova.js"
-      }
-    },
-    "./nebius": {
-      "import": {
-        "types": "./dist/adapters/nebius.d.mts",
-        "default": "./dist/adapters/nebius.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/nebius.d.ts",
-        "default": "./dist/adapters/nebius.js"
-      }
-    },
-    "./zai-coding-plan": {
-      "import": {
-        "types": "./dist/adapters/zai-coding-plan.d.mts",
-        "default": "./dist/adapters/zai-coding-plan.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/zai-coding-plan.d.ts",
-        "default": "./dist/adapters/zai-coding-plan.js"
-      }
-    },
-    "./runinfra": {
-      "import": {
-        "types": "./dist/adapters/runinfra.d.mts",
-        "default": "./dist/adapters/runinfra.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/runinfra.d.ts",
-        "default": "./dist/adapters/runinfra.js"
-      }
-    },
-    "./therouter": {
-      "import": {
-        "types": "./dist/adapters/therouter.d.mts",
-        "default": "./dist/adapters/therouter.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/therouter.d.ts",
-        "default": "./dist/adapters/therouter.js"
-      }
-    },
-    "./opencode": {
-      "import": {
-        "types": "./dist/adapters/opencode.d.mts",
-        "default": "./dist/adapters/opencode.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/opencode.d.ts",
-        "default": "./dist/adapters/opencode.js"
-      }
-    },
-    "./tensorx": {
-      "import": {
-        "types": "./dist/adapters/tensorx.d.mts",
-        "default": "./dist/adapters/tensorx.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/tensorx.d.ts",
-        "default": "./dist/adapters/tensorx.js"
-      }
-    },
-    "./abacus": {
-      "import": {
-        "types": "./dist/adapters/abacus.d.mts",
-        "default": "./dist/adapters/abacus.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/abacus.d.ts",
-        "default": "./dist/adapters/abacus.js"
-      }
-    },
-    "./sagg": {
-      "import": {
-        "types": "./dist/adapters/sagg.d.mts",
-        "default": "./dist/adapters/sagg.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/sagg.d.ts",
-        "default": "./dist/adapters/sagg.js"
-      }
-    },
-    "./moark": {
-      "import": {
-        "types": "./dist/adapters/moark.d.mts",
-        "default": "./dist/adapters/moark.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/moark.d.ts",
-        "default": "./dist/adapters/moark.js"
-      }
-    },
-    "./llmgateway": {
-      "import": {
-        "types": "./dist/adapters/llmgateway.d.mts",
-        "default": "./dist/adapters/llmgateway.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/llmgateway.d.ts",
-        "default": "./dist/adapters/llmgateway.js"
-      }
-    },
-    "./bumo": {
-      "import": {
-        "types": "./dist/adapters/bumo.d.mts",
-        "default": "./dist/adapters/bumo.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/bumo.d.ts",
-        "default": "./dist/adapters/bumo.js"
-      }
-    },
-    "./autarcho": {
-      "import": {
-        "types": "./dist/adapters/autarcho.d.mts",
-        "default": "./dist/adapters/autarcho.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/autarcho.d.ts",
-        "default": "./dist/adapters/autarcho.js"
-      }
-    },
-    "./crossmodel": {
-      "import": {
-        "types": "./dist/adapters/crossmodel.d.mts",
-        "default": "./dist/adapters/crossmodel.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/crossmodel.d.ts",
-        "default": "./dist/adapters/crossmodel.js"
-      }
-    },
-    "./xiaomi-token-plan-cn": {
-      "import": {
-        "types": "./dist/adapters/xiaomi-token-plan-cn.d.mts",
-        "default": "./dist/adapters/xiaomi-token-plan-cn.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/xiaomi-token-plan-cn.d.ts",
-        "default": "./dist/adapters/xiaomi-token-plan-cn.js"
-      }
-    },
-    "./wally": {
-      "import": {
-        "types": "./dist/adapters/wally.d.mts",
-        "default": "./dist/adapters/wally.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/wally.d.ts",
-        "default": "./dist/adapters/wally.js"
-      }
-    },
-    "./alibaba-coding-plan-cn": {
-      "import": {
-        "types": "./dist/adapters/alibaba-coding-plan-cn.d.mts",
-        "default": "./dist/adapters/alibaba-coding-plan-cn.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/alibaba-coding-plan-cn.d.ts",
-        "default": "./dist/adapters/alibaba-coding-plan-cn.js"
-      }
-    },
-    "./ruapi": {
-      "import": {
-        "types": "./dist/adapters/ruapi.d.mts",
-        "default": "./dist/adapters/ruapi.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/ruapi.d.ts",
-        "default": "./dist/adapters/ruapi.js"
-      }
-    },
-    "./huawei-maas": {
-      "import": {
-        "types": "./dist/adapters/huawei-maas.d.mts",
-        "default": "./dist/adapters/huawei-maas.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/huawei-maas.d.ts",
-        "default": "./dist/adapters/huawei-maas.js"
-      }
-    },
-    "./evroc": {
-      "import": {
-        "types": "./dist/adapters/evroc.d.mts",
-        "default": "./dist/adapters/evroc.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/evroc.d.ts",
-        "default": "./dist/adapters/evroc.js"
-      }
-    },
-    "./aihubmix": {
-      "import": {
-        "types": "./dist/adapters/aihubmix.d.mts",
-        "default": "./dist/adapters/aihubmix.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/aihubmix.d.ts",
-        "default": "./dist/adapters/aihubmix.js"
-      }
-    },
-    "./merge-gateway": {
-      "import": {
-        "types": "./dist/adapters/merge-gateway.d.mts",
-        "default": "./dist/adapters/merge-gateway.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/merge-gateway.d.ts",
-        "default": "./dist/adapters/merge-gateway.js"
-      }
-    },
-    "./kunavo": {
-      "import": {
-        "types": "./dist/adapters/kunavo.d.mts",
-        "default": "./dist/adapters/kunavo.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/kunavo.d.ts",
-        "default": "./dist/adapters/kunavo.js"
-      }
-    },
-    "./refuseless": {
-      "import": {
-        "types": "./dist/adapters/refuseless.d.mts",
-        "default": "./dist/adapters/refuseless.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/refuseless.d.ts",
-        "default": "./dist/adapters/refuseless.js"
-      }
-    },
-    "./deepseek": {
-      "import": {
-        "types": "./dist/adapters/deepseek.d.mts",
-        "default": "./dist/adapters/deepseek.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/deepseek.d.ts",
-        "default": "./dist/adapters/deepseek.js"
-      }
-    },
-    "./ovhcloud": {
-      "import": {
-        "types": "./dist/adapters/ovhcloud.d.mts",
-        "default": "./dist/adapters/ovhcloud.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/ovhcloud.d.ts",
-        "default": "./dist/adapters/ovhcloud.js"
-      }
-    },
-    "./daoxe": {
-      "import": {
-        "types": "./dist/adapters/daoxe.d.mts",
-        "default": "./dist/adapters/daoxe.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/daoxe.d.ts",
-        "default": "./dist/adapters/daoxe.js"
-      }
-    },
-    "./anonrouter": {
-      "import": {
-        "types": "./dist/adapters/anonrouter.d.mts",
-        "default": "./dist/adapters/anonrouter.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/anonrouter.d.ts",
-        "default": "./dist/adapters/anonrouter.js"
-      }
-    },
-    "./watsonx": {
-      "import": {
-        "types": "./dist/adapters/watsonx.d.mts",
-        "default": "./dist/adapters/watsonx.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/watsonx.d.ts",
-        "default": "./dist/adapters/watsonx.js"
-      }
-    },
-    "./inco": {
-      "import": {
-        "types": "./dist/adapters/inco.d.mts",
-        "default": "./dist/adapters/inco.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/inco.d.ts",
-        "default": "./dist/adapters/inco.js"
-      }
-    },
-    "./fortytwo": {
-      "import": {
-        "types": "./dist/adapters/fortytwo.d.mts",
-        "default": "./dist/adapters/fortytwo.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/fortytwo.d.ts",
-        "default": "./dist/adapters/fortytwo.js"
-      }
-    },
-    "./kilo": {
-      "import": {
-        "types": "./dist/adapters/kilo.d.mts",
-        "default": "./dist/adapters/kilo.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/kilo.d.ts",
-        "default": "./dist/adapters/kilo.js"
-      }
-    },
-    "./cedarllm": {
-      "import": {
-        "types": "./dist/adapters/cedarllm.d.mts",
-        "default": "./dist/adapters/cedarllm.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/cedarllm.d.ts",
-        "default": "./dist/adapters/cedarllm.js"
-      }
-    },
-    "./humain": {
-      "import": {
-        "types": "./dist/adapters/humain.d.mts",
-        "default": "./dist/adapters/humain.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/humain.d.ts",
-        "default": "./dist/adapters/humain.js"
-      }
-    },
-    "./deepinfra": {
-      "import": {
-        "types": "./dist/adapters/deepinfra.d.mts",
-        "default": "./dist/adapters/deepinfra.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/deepinfra.d.ts",
-        "default": "./dist/adapters/deepinfra.js"
-      }
-    },
-    "./apiko": {
-      "import": {
-        "types": "./dist/adapters/apiko.d.mts",
-        "default": "./dist/adapters/apiko.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/apiko.d.ts",
-        "default": "./dist/adapters/apiko.js"
-      }
-    },
-    "./neon": {
-      "import": {
-        "types": "./dist/adapters/neon.d.mts",
-        "default": "./dist/adapters/neon.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/neon.d.ts",
-        "default": "./dist/adapters/neon.js"
-      }
-    },
-    "./tencent-token-plan": {
-      "import": {
-        "types": "./dist/adapters/tencent-token-plan.d.mts",
-        "default": "./dist/adapters/tencent-token-plan.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/tencent-token-plan.d.ts",
-        "default": "./dist/adapters/tencent-token-plan.js"
-      }
-    },
-    "./stepping-stone": {
-      "import": {
-        "types": "./dist/adapters/stepping-stone.d.mts",
-        "default": "./dist/adapters/stepping-stone.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/stepping-stone.d.ts",
-        "default": "./dist/adapters/stepping-stone.js"
-      }
-    },
-    "./github-copilot": {
-      "import": {
-        "types": "./dist/adapters/github-copilot.d.mts",
-        "default": "./dist/adapters/github-copilot.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/github-copilot.d.ts",
-        "default": "./dist/adapters/github-copilot.js"
-      }
-    },
-    "./gmicloud": {
-      "import": {
-        "types": "./dist/adapters/gmicloud.d.mts",
-        "default": "./dist/adapters/gmicloud.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/gmicloud.d.ts",
-        "default": "./dist/adapters/gmicloud.js"
-      }
-    },
-    "./pendra": {
-      "import": {
-        "types": "./dist/adapters/pendra.d.mts",
-        "default": "./dist/adapters/pendra.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/pendra.d.ts",
-        "default": "./dist/adapters/pendra.js"
-      }
-    },
-    "./tokenlab": {
-      "import": {
-        "types": "./dist/adapters/tokenlab.d.mts",
-        "default": "./dist/adapters/tokenlab.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/tokenlab.d.ts",
-        "default": "./dist/adapters/tokenlab.js"
-      }
-    },
-    "./huggingface": {
-      "import": {
-        "types": "./dist/adapters/huggingface.d.mts",
-        "default": "./dist/adapters/huggingface.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/huggingface.d.ts",
-        "default": "./dist/adapters/huggingface.js"
-      }
-    },
-    "./gisoo": {
-      "import": {
-        "types": "./dist/adapters/gisoo.d.mts",
-        "default": "./dist/adapters/gisoo.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/gisoo.d.ts",
-        "default": "./dist/adapters/gisoo.js"
-      }
-    },
-    "./modal": {
-      "import": {
-        "types": "./dist/adapters/modal.d.mts",
-        "default": "./dist/adapters/modal.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/modal.d.ts",
-        "default": "./dist/adapters/modal.js"
-      }
-    },
-    "./siliconflow": {
-      "import": {
-        "types": "./dist/adapters/siliconflow.d.mts",
-        "default": "./dist/adapters/siliconflow.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/siliconflow.d.ts",
-        "default": "./dist/adapters/siliconflow.js"
-      }
-    },
-    "./venice": {
-      "import": {
-        "types": "./dist/adapters/venice.d.mts",
-        "default": "./dist/adapters/venice.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/venice.d.ts",
-        "default": "./dist/adapters/venice.js"
-      }
-    },
-    "./xxapi": {
-      "import": {
-        "types": "./dist/adapters/xxapi.d.mts",
-        "default": "./dist/adapters/xxapi.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/xxapi.d.ts",
-        "default": "./dist/adapters/xxapi.js"
-      }
-    },
-    "./sokkan": {
-      "import": {
-        "types": "./dist/adapters/sokkan.d.mts",
-        "default": "./dist/adapters/sokkan.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/sokkan.d.ts",
-        "default": "./dist/adapters/sokkan.js"
-      }
-    },
-    "./infomaniak": {
-      "import": {
-        "types": "./dist/adapters/infomaniak.d.mts",
-        "default": "./dist/adapters/infomaniak.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/infomaniak.d.ts",
-        "default": "./dist/adapters/infomaniak.js"
-      }
-    },
-    "./oathbreaker": {
-      "import": {
-        "types": "./dist/adapters/oathbreaker.d.mts",
-        "default": "./dist/adapters/oathbreaker.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/oathbreaker.d.ts",
-        "default": "./dist/adapters/oathbreaker.js"
-      }
-    },
-    "./infersia": {
-      "import": {
-        "types": "./dist/adapters/infersia.d.mts",
-        "default": "./dist/adapters/infersia.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/infersia.d.ts",
-        "default": "./dist/adapters/infersia.js"
-      }
-    },
-    "./jalapeno": {
-      "import": {
-        "types": "./dist/adapters/jalapeno.d.mts",
-        "default": "./dist/adapters/jalapeno.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/jalapeno.d.ts",
-        "default": "./dist/adapters/jalapeno.js"
-      }
-    },
-    "./aiand": {
-      "import": {
-        "types": "./dist/adapters/aiand.d.mts",
-        "default": "./dist/adapters/aiand.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/aiand.d.ts",
-        "default": "./dist/adapters/aiand.js"
-      }
-    },
-    "./meganova": {
-      "import": {
-        "types": "./dist/adapters/meganova.d.mts",
-        "default": "./dist/adapters/meganova.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/meganova.d.ts",
-        "default": "./dist/adapters/meganova.js"
-      }
-    },
-    "./modelis": {
-      "import": {
-        "types": "./dist/adapters/modelis.d.mts",
-        "default": "./dist/adapters/modelis.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/modelis.d.ts",
-        "default": "./dist/adapters/modelis.js"
-      }
-    },
-    "./cloudflare-ai-gateway": {
-      "import": {
-        "types": "./dist/adapters/cloudflare-ai-gateway.d.mts",
-        "default": "./dist/adapters/cloudflare-ai-gateway.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/cloudflare-ai-gateway.d.ts",
-        "default": "./dist/adapters/cloudflare-ai-gateway.js"
-      }
-    },
-    "./cohere": {
-      "import": {
-        "types": "./dist/adapters/cohere.d.mts",
-        "default": "./dist/adapters/cohere.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/cohere.d.ts",
-        "default": "./dist/adapters/cohere.js"
-      }
-    },
-    "./alibaba-token-plan": {
-      "import": {
-        "types": "./dist/adapters/alibaba-token-plan.d.mts",
-        "default": "./dist/adapters/alibaba-token-plan.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/alibaba-token-plan.d.ts",
-        "default": "./dist/adapters/alibaba-token-plan.js"
-      }
-    },
-    "./fastrouter": {
-      "import": {
-        "types": "./dist/adapters/fastrouter.d.mts",
-        "default": "./dist/adapters/fastrouter.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/fastrouter.d.ts",
-        "default": "./dist/adapters/fastrouter.js"
-      }
-    },
-    "./abliteration-ai": {
-      "import": {
-        "types": "./dist/adapters/abliteration-ai.d.mts",
-        "default": "./dist/adapters/abliteration-ai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/abliteration-ai.d.ts",
-        "default": "./dist/adapters/abliteration-ai.js"
-      }
-    },
-    "./augure": {
-      "import": {
-        "types": "./dist/adapters/augure.d.mts",
-        "default": "./dist/adapters/augure.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/augure.d.ts",
-        "default": "./dist/adapters/augure.js"
-      }
-    },
-    "./wallaby": {
-      "import": {
-        "types": "./dist/adapters/wallaby.d.mts",
-        "default": "./dist/adapters/wallaby.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/wallaby.d.ts",
-        "default": "./dist/adapters/wallaby.js"
-      }
-    },
-    "./isoquant": {
-      "import": {
-        "types": "./dist/adapters/isoquant.d.mts",
-        "default": "./dist/adapters/isoquant.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/isoquant.d.ts",
-        "default": "./dist/adapters/isoquant.js"
-      }
-    },
-    "./pioneer": {
-      "import": {
-        "types": "./dist/adapters/pioneer.d.mts",
-        "default": "./dist/adapters/pioneer.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/pioneer.d.ts",
-        "default": "./dist/adapters/pioneer.js"
-      }
-    },
-    "./phala": {
-      "import": {
-        "types": "./dist/adapters/phala.d.mts",
-        "default": "./dist/adapters/phala.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/phala.d.ts",
-        "default": "./dist/adapters/phala.js"
-      }
-    },
-    "./adzuki": {
-      "import": {
-        "types": "./dist/adapters/adzuki.d.mts",
-        "default": "./dist/adapters/adzuki.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/adzuki.d.ts",
-        "default": "./dist/adapters/adzuki.js"
-      }
-    },
-    "./routing-run": {
-      "import": {
-        "types": "./dist/adapters/routing-run.d.mts",
-        "default": "./dist/adapters/routing-run.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/routing-run.d.ts",
-        "default": "./dist/adapters/routing-run.js"
-      }
-    },
-    "./bailing": {
-      "import": {
-        "types": "./dist/adapters/bailing.d.mts",
-        "default": "./dist/adapters/bailing.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/bailing.d.ts",
-        "default": "./dist/adapters/bailing.js"
-      }
-    },
-    "./arcee": {
-      "import": {
-        "types": "./dist/adapters/arcee.d.mts",
-        "default": "./dist/adapters/arcee.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/arcee.d.ts",
-        "default": "./dist/adapters/arcee.js"
-      }
-    },
-    "./morph": {
-      "import": {
-        "types": "./dist/adapters/morph.d.mts",
-        "default": "./dist/adapters/morph.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/morph.d.ts",
-        "default": "./dist/adapters/morph.js"
-      }
-    },
-    "./tenstorrent": {
-      "import": {
-        "types": "./dist/adapters/tenstorrent.d.mts",
-        "default": "./dist/adapters/tenstorrent.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/tenstorrent.d.ts",
-        "default": "./dist/adapters/tenstorrent.js"
-      }
-    },
-    "./alibaba-token-plan-cn": {
-      "import": {
-        "types": "./dist/adapters/alibaba-token-plan-cn.d.mts",
-        "default": "./dist/adapters/alibaba-token-plan-cn.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/alibaba-token-plan-cn.d.ts",
-        "default": "./dist/adapters/alibaba-token-plan-cn.js"
-      }
-    },
-    "./poe": {
-      "import": {
-        "types": "./dist/adapters/poe.d.mts",
-        "default": "./dist/adapters/poe.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/poe.d.ts",
-        "default": "./dist/adapters/poe.js"
-      }
-    },
-    "./togetherai": {
-      "import": {
-        "types": "./dist/adapters/togetherai.d.mts",
-        "default": "./dist/adapters/togetherai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/togetherai.d.ts",
-        "default": "./dist/adapters/togetherai.js"
-      }
-    },
-    "./scx-ai": {
-      "import": {
-        "types": "./dist/adapters/scx-ai.d.mts",
-        "default": "./dist/adapters/scx-ai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/scx-ai.d.ts",
-        "default": "./dist/adapters/scx-ai.js"
-      }
-    },
-    "./llmtech": {
-      "import": {
-        "types": "./dist/adapters/llmtech.d.mts",
-        "default": "./dist/adapters/llmtech.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/llmtech.d.ts",
-        "default": "./dist/adapters/llmtech.js"
-      }
-    },
-    "./unrestricted": {
-      "import": {
-        "types": "./dist/adapters/unrestricted.d.mts",
-        "default": "./dist/adapters/unrestricted.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/unrestricted.d.ts",
-        "default": "./dist/adapters/unrestricted.js"
-      }
-    },
-    "./synthorai": {
-      "import": {
-        "types": "./dist/adapters/synthorai.d.mts",
-        "default": "./dist/adapters/synthorai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/synthorai.d.ts",
-        "default": "./dist/adapters/synthorai.js"
-      }
-    },
-    "./kimi-code-plan-cn": {
-      "import": {
-        "types": "./dist/adapters/kimi-code-plan-cn.d.mts",
-        "default": "./dist/adapters/kimi-code-plan-cn.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/kimi-code-plan-cn.d.ts",
-        "default": "./dist/adapters/kimi-code-plan-cn.js"
-      }
-    },
-    "./privatemode-ai": {
-      "import": {
-        "types": "./dist/adapters/privatemode-ai.d.mts",
-        "default": "./dist/adapters/privatemode-ai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/privatemode-ai.d.ts",
-        "default": "./dist/adapters/privatemode-ai.js"
-      }
-    },
-    "./nodecode": {
-      "import": {
-        "types": "./dist/adapters/nodecode.d.mts",
-        "default": "./dist/adapters/nodecode.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/nodecode.d.ts",
-        "default": "./dist/adapters/nodecode.js"
-      }
-    },
-    "./melious": {
-      "import": {
-        "types": "./dist/adapters/melious.d.mts",
-        "default": "./dist/adapters/melious.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/melious.d.ts",
-        "default": "./dist/adapters/melious.js"
-      }
-    },
-    "./aki-io": {
-      "import": {
-        "types": "./dist/adapters/aki-io.d.mts",
-        "default": "./dist/adapters/aki-io.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/aki-io.d.ts",
-        "default": "./dist/adapters/aki-io.js"
-      }
-    },
-    "./mistral": {
-      "import": {
-        "types": "./dist/adapters/mistral.d.mts",
-        "default": "./dist/adapters/mistral.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/mistral.d.ts",
-        "default": "./dist/adapters/mistral.js"
-      }
-    },
-    "./teamorouter": {
-      "import": {
-        "types": "./dist/adapters/teamorouter.d.mts",
-        "default": "./dist/adapters/teamorouter.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/teamorouter.d.ts",
-        "default": "./dist/adapters/teamorouter.js"
-      }
-    },
-    "./clarifai": {
-      "import": {
-        "types": "./dist/adapters/clarifai.d.mts",
-        "default": "./dist/adapters/clarifai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/clarifai.d.ts",
-        "default": "./dist/adapters/clarifai.js"
-      }
-    },
-    "./lmstudio": {
-      "import": {
-        "types": "./dist/adapters/lmstudio.d.mts",
-        "default": "./dist/adapters/lmstudio.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/lmstudio.d.ts",
-        "default": "./dist/adapters/lmstudio.js"
-      }
-    },
-    "./drun": {
-      "import": {
-        "types": "./dist/adapters/drun.d.mts",
-        "default": "./dist/adapters/drun.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/drun.d.ts",
-        "default": "./dist/adapters/drun.js"
-      }
-    },
-    "./prime": {
-      "import": {
-        "types": "./dist/adapters/prime.d.mts",
-        "default": "./dist/adapters/prime.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/prime.d.ts",
-        "default": "./dist/adapters/prime.js"
-      }
-    },
-    "./fiftyx": {
-      "import": {
-        "types": "./dist/adapters/fiftyx.d.mts",
-        "default": "./dist/adapters/fiftyx.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/fiftyx.d.ts",
-        "default": "./dist/adapters/fiftyx.js"
-      }
-    },
-    "./infer": {
-      "import": {
-        "types": "./dist/adapters/infer.d.mts",
-        "default": "./dist/adapters/infer.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/infer.d.ts",
-        "default": "./dist/adapters/infer.js"
-      }
-    },
-    "./longcat": {
-      "import": {
-        "types": "./dist/adapters/longcat.d.mts",
-        "default": "./dist/adapters/longcat.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/longcat.d.ts",
-        "default": "./dist/adapters/longcat.js"
-      }
-    },
-    "./lyceum": {
-      "import": {
-        "types": "./dist/adapters/lyceum.d.mts",
-        "default": "./dist/adapters/lyceum.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/lyceum.d.ts",
-        "default": "./dist/adapters/lyceum.js"
-      }
-    },
-    "./minimax-cn": {
-      "import": {
-        "types": "./dist/adapters/minimax-cn.d.mts",
-        "default": "./dist/adapters/minimax-cn.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/minimax-cn.d.ts",
-        "default": "./dist/adapters/minimax-cn.js"
-      }
-    },
-    "./scaleway": {
-      "import": {
-        "types": "./dist/adapters/scaleway.d.mts",
-        "default": "./dist/adapters/scaleway.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/scaleway.d.ts",
-        "default": "./dist/adapters/scaleway.js"
-      }
-    },
-    "./openai": {
-      "import": {
-        "types": "./dist/adapters/openai.d.mts",
-        "default": "./dist/adapters/openai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/openai.d.ts",
-        "default": "./dist/adapters/openai.js"
-      }
-    },
-    "./cline-pass": {
-      "import": {
-        "types": "./dist/adapters/cline-pass.d.mts",
-        "default": "./dist/adapters/cline-pass.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/cline-pass.d.ts",
-        "default": "./dist/adapters/cline-pass.js"
-      }
-    },
-    "./qihang-ai": {
-      "import": {
-        "types": "./dist/adapters/qihang-ai.d.mts",
-        "default": "./dist/adapters/qihang-ai.mjs"
-      },
-      "require": {
-        "types": "./dist/adapters/qihang-ai.d.ts",
-        "default": "./dist/adapters/qihang-ai.js"
+        "types": "./dist/adapters/aigrow.d.ts",
+        "default": "./dist/adapters/aigrow.js"
       }
     },
     "./scnet-token-plan": {
@@ -2961,174 +111,534 @@
         "default": "./dist/adapters/scnet-token-plan.js"
       }
     },
-    "./uplinkswitch": {
+    "./xiaomi-token-plan-sgp": {
       "import": {
-        "types": "./dist/adapters/uplinkswitch.d.mts",
-        "default": "./dist/adapters/uplinkswitch.mjs"
+        "types": "./dist/adapters/xiaomi-token-plan-sgp.d.mts",
+        "default": "./dist/adapters/xiaomi-token-plan-sgp.mjs"
       },
       "require": {
-        "types": "./dist/adapters/uplinkswitch.d.ts",
-        "default": "./dist/adapters/uplinkswitch.js"
+        "types": "./dist/adapters/xiaomi-token-plan-sgp.d.ts",
+        "default": "./dist/adapters/xiaomi-token-plan-sgp.js"
       }
     },
-    "./novita-ai": {
+    "./scaleway": {
       "import": {
-        "types": "./dist/adapters/novita-ai.d.mts",
-        "default": "./dist/adapters/novita-ai.mjs"
+        "types": "./dist/adapters/scaleway.d.mts",
+        "default": "./dist/adapters/scaleway.mjs"
       },
       "require": {
-        "types": "./dist/adapters/novita-ai.d.ts",
-        "default": "./dist/adapters/novita-ai.js"
+        "types": "./dist/adapters/scaleway.d.ts",
+        "default": "./dist/adapters/scaleway.js"
       }
     },
-    "./above": {
+    "./inceptron": {
       "import": {
-        "types": "./dist/adapters/above.d.mts",
-        "default": "./dist/adapters/above.mjs"
+        "types": "./dist/adapters/inceptron.d.mts",
+        "default": "./dist/adapters/inceptron.mjs"
       },
       "require": {
-        "types": "./dist/adapters/above.d.ts",
-        "default": "./dist/adapters/above.js"
+        "types": "./dist/adapters/inceptron.d.ts",
+        "default": "./dist/adapters/inceptron.js"
       }
     },
-    "./kitani": {
+    "./google": {
       "import": {
-        "types": "./dist/adapters/kitani.d.mts",
-        "default": "./dist/adapters/kitani.mjs"
+        "types": "./dist/adapters/google.d.mts",
+        "default": "./dist/adapters/google.mjs"
       },
       "require": {
-        "types": "./dist/adapters/kitani.d.ts",
-        "default": "./dist/adapters/kitani.js"
+        "types": "./dist/adapters/google.d.ts",
+        "default": "./dist/adapters/google.js"
       }
     },
-    "./jiekou": {
+    "./amazon-bedrock": {
       "import": {
-        "types": "./dist/adapters/jiekou.d.mts",
-        "default": "./dist/adapters/jiekou.mjs"
+        "types": "./dist/adapters/amazon-bedrock.d.mts",
+        "default": "./dist/adapters/amazon-bedrock.mjs"
       },
       "require": {
-        "types": "./dist/adapters/jiekou.d.ts",
-        "default": "./dist/adapters/jiekou.js"
+        "types": "./dist/adapters/amazon-bedrock.d.ts",
+        "default": "./dist/adapters/amazon-bedrock.js"
       }
     },
-    "./nearai": {
+    "./privatemode-ai": {
       "import": {
-        "types": "./dist/adapters/nearai.d.mts",
-        "default": "./dist/adapters/nearai.mjs"
+        "types": "./dist/adapters/privatemode-ai.d.mts",
+        "default": "./dist/adapters/privatemode-ai.mjs"
       },
       "require": {
-        "types": "./dist/adapters/nearai.d.ts",
-        "default": "./dist/adapters/nearai.js"
+        "types": "./dist/adapters/privatemode-ai.d.ts",
+        "default": "./dist/adapters/privatemode-ai.js"
       }
     },
-    "./bee": {
+    "./huawei-maas": {
       "import": {
-        "types": "./dist/adapters/bee.d.mts",
-        "default": "./dist/adapters/bee.mjs"
+        "types": "./dist/adapters/huawei-maas.d.mts",
+        "default": "./dist/adapters/huawei-maas.mjs"
       },
       "require": {
-        "types": "./dist/adapters/bee.d.ts",
-        "default": "./dist/adapters/bee.js"
+        "types": "./dist/adapters/huawei-maas.d.ts",
+        "default": "./dist/adapters/huawei-maas.js"
       }
     },
-    "./vultr": {
+    "./zro": {
       "import": {
-        "types": "./dist/adapters/vultr.d.mts",
-        "default": "./dist/adapters/vultr.mjs"
+        "types": "./dist/adapters/zro.d.mts",
+        "default": "./dist/adapters/zro.mjs"
       },
       "require": {
-        "types": "./dist/adapters/vultr.d.ts",
-        "default": "./dist/adapters/vultr.js"
+        "types": "./dist/adapters/zro.d.ts",
+        "default": "./dist/adapters/zro.js"
       }
     },
-    "./tokengo": {
+    "./openai": {
       "import": {
-        "types": "./dist/adapters/tokengo.d.mts",
-        "default": "./dist/adapters/tokengo.mjs"
+        "types": "./dist/adapters/openai.d.mts",
+        "default": "./dist/adapters/openai.mjs"
       },
       "require": {
-        "types": "./dist/adapters/tokengo.d.ts",
-        "default": "./dist/adapters/tokengo.js"
+        "types": "./dist/adapters/openai.d.ts",
+        "default": "./dist/adapters/openai.js"
       }
     },
-    "./xiaomi-token-plan-ams": {
+    "./uncensuredai": {
       "import": {
-        "types": "./dist/adapters/xiaomi-token-plan-ams.d.mts",
-        "default": "./dist/adapters/xiaomi-token-plan-ams.mjs"
+        "types": "./dist/adapters/uncensuredai.d.mts",
+        "default": "./dist/adapters/uncensuredai.mjs"
       },
       "require": {
-        "types": "./dist/adapters/xiaomi-token-plan-ams.d.ts",
-        "default": "./dist/adapters/xiaomi-token-plan-ams.js"
+        "types": "./dist/adapters/uncensuredai.d.ts",
+        "default": "./dist/adapters/uncensuredai.js"
       }
     },
-    "./azure": {
+    "./pioneer": {
       "import": {
-        "types": "./dist/adapters/azure.d.mts",
-        "default": "./dist/adapters/azure.mjs"
+        "types": "./dist/adapters/pioneer.d.mts",
+        "default": "./dist/adapters/pioneer.mjs"
       },
       "require": {
-        "types": "./dist/adapters/azure.d.ts",
-        "default": "./dist/adapters/azure.js"
+        "types": "./dist/adapters/pioneer.d.ts",
+        "default": "./dist/adapters/pioneer.js"
       }
     },
-    "./hubris": {
+    "./tencent-token-plan": {
       "import": {
-        "types": "./dist/adapters/hubris.d.mts",
-        "default": "./dist/adapters/hubris.mjs"
+        "types": "./dist/adapters/tencent-token-plan.d.mts",
+        "default": "./dist/adapters/tencent-token-plan.mjs"
       },
       "require": {
-        "types": "./dist/adapters/hubris.d.ts",
-        "default": "./dist/adapters/hubris.js"
+        "types": "./dist/adapters/tencent-token-plan.d.ts",
+        "default": "./dist/adapters/tencent-token-plan.js"
       }
     },
-    "./rayline": {
+    "./merge-gateway": {
       "import": {
-        "types": "./dist/adapters/rayline.d.mts",
-        "default": "./dist/adapters/rayline.mjs"
+        "types": "./dist/adapters/merge-gateway.d.mts",
+        "default": "./dist/adapters/merge-gateway.mjs"
       },
       "require": {
-        "types": "./dist/adapters/rayline.d.ts",
-        "default": "./dist/adapters/rayline.js"
+        "types": "./dist/adapters/merge-gateway.d.ts",
+        "default": "./dist/adapters/merge-gateway.js"
       }
     },
-    "./neuralwatt": {
+    "./aipg": {
       "import": {
-        "types": "./dist/adapters/neuralwatt.d.mts",
-        "default": "./dist/adapters/neuralwatt.mjs"
+        "types": "./dist/adapters/aipg.d.mts",
+        "default": "./dist/adapters/aipg.mjs"
       },
       "require": {
-        "types": "./dist/adapters/neuralwatt.d.ts",
-        "default": "./dist/adapters/neuralwatt.js"
+        "types": "./dist/adapters/aipg.d.ts",
+        "default": "./dist/adapters/aipg.js"
       }
     },
-    "./snowflake-cortex": {
+    "./wally": {
       "import": {
-        "types": "./dist/adapters/snowflake-cortex.d.mts",
-        "default": "./dist/adapters/snowflake-cortex.mjs"
+        "types": "./dist/adapters/wally.d.mts",
+        "default": "./dist/adapters/wally.mjs"
       },
       "require": {
-        "types": "./dist/adapters/snowflake-cortex.d.ts",
-        "default": "./dist/adapters/snowflake-cortex.js"
+        "types": "./dist/adapters/wally.d.ts",
+        "default": "./dist/adapters/wally.js"
       }
     },
-    "./zenmux": {
+    "./agnes": {
       "import": {
-        "types": "./dist/adapters/zenmux.d.mts",
-        "default": "./dist/adapters/zenmux.mjs"
+        "types": "./dist/adapters/agnes.d.mts",
+        "default": "./dist/adapters/agnes.mjs"
       },
       "require": {
-        "types": "./dist/adapters/zenmux.d.ts",
-        "default": "./dist/adapters/zenmux.js"
+        "types": "./dist/adapters/agnes.d.ts",
+        "default": "./dist/adapters/agnes.js"
       }
     },
-    "./boundless": {
+    "./aiand": {
       "import": {
-        "types": "./dist/adapters/boundless.d.mts",
-        "default": "./dist/adapters/boundless.mjs"
+        "types": "./dist/adapters/aiand.d.mts",
+        "default": "./dist/adapters/aiand.mjs"
       },
       "require": {
-        "types": "./dist/adapters/boundless.d.ts",
-        "default": "./dist/adapters/boundless.js"
+        "types": "./dist/adapters/aiand.d.ts",
+        "default": "./dist/adapters/aiand.js"
+      }
+    },
+    "./sokkan": {
+      "import": {
+        "types": "./dist/adapters/sokkan.d.mts",
+        "default": "./dist/adapters/sokkan.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/sokkan.d.ts",
+        "default": "./dist/adapters/sokkan.js"
+      }
+    },
+    "./synthorai": {
+      "import": {
+        "types": "./dist/adapters/synthorai.d.mts",
+        "default": "./dist/adapters/synthorai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/synthorai.d.ts",
+        "default": "./dist/adapters/synthorai.js"
+      }
+    },
+    "./tokenify": {
+      "import": {
+        "types": "./dist/adapters/tokenify.d.mts",
+        "default": "./dist/adapters/tokenify.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/tokenify.d.ts",
+        "default": "./dist/adapters/tokenify.js"
+      }
+    },
+    "./phala": {
+      "import": {
+        "types": "./dist/adapters/phala.d.mts",
+        "default": "./dist/adapters/phala.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/phala.d.ts",
+        "default": "./dist/adapters/phala.js"
+      }
+    },
+    "./cohere": {
+      "import": {
+        "types": "./dist/adapters/cohere.d.mts",
+        "default": "./dist/adapters/cohere.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/cohere.d.ts",
+        "default": "./dist/adapters/cohere.js"
+      }
+    },
+    "./lucidquery": {
+      "import": {
+        "types": "./dist/adapters/lucidquery.d.mts",
+        "default": "./dist/adapters/lucidquery.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/lucidquery.d.ts",
+        "default": "./dist/adapters/lucidquery.js"
+      }
+    },
+    "./kilo": {
+      "import": {
+        "types": "./dist/adapters/kilo.d.mts",
+        "default": "./dist/adapters/kilo.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/kilo.d.ts",
+        "default": "./dist/adapters/kilo.js"
+      }
+    },
+    "./doubleword": {
+      "import": {
+        "types": "./dist/adapters/doubleword.d.mts",
+        "default": "./dist/adapters/doubleword.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/doubleword.d.ts",
+        "default": "./dist/adapters/doubleword.js"
+      }
+    },
+    "./regolo-ai": {
+      "import": {
+        "types": "./dist/adapters/regolo-ai.d.mts",
+        "default": "./dist/adapters/regolo-ai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/regolo-ai.d.ts",
+        "default": "./dist/adapters/regolo-ai.js"
+      }
+    },
+    "./ezkielyna": {
+      "import": {
+        "types": "./dist/adapters/ezkielyna.d.mts",
+        "default": "./dist/adapters/ezkielyna.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/ezkielyna.d.ts",
+        "default": "./dist/adapters/ezkielyna.js"
+      }
+    },
+    "./inception": {
+      "import": {
+        "types": "./dist/adapters/inception.d.mts",
+        "default": "./dist/adapters/inception.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/inception.d.ts",
+        "default": "./dist/adapters/inception.js"
+      }
+    },
+    "./perplexity-agent": {
+      "import": {
+        "types": "./dist/adapters/perplexity-agent.d.mts",
+        "default": "./dist/adapters/perplexity-agent.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/perplexity-agent.d.ts",
+        "default": "./dist/adapters/perplexity-agent.js"
+      }
+    },
+    "./vancine": {
+      "import": {
+        "types": "./dist/adapters/vancine.d.mts",
+        "default": "./dist/adapters/vancine.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/vancine.d.ts",
+        "default": "./dist/adapters/vancine.js"
+      }
+    },
+    "./mallard": {
+      "import": {
+        "types": "./dist/adapters/mallard.d.mts",
+        "default": "./dist/adapters/mallard.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/mallard.d.ts",
+        "default": "./dist/adapters/mallard.js"
+      }
+    },
+    "./superbot-gg": {
+      "import": {
+        "types": "./dist/adapters/superbot-gg.d.mts",
+        "default": "./dist/adapters/superbot-gg.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/superbot-gg.d.ts",
+        "default": "./dist/adapters/superbot-gg.js"
+      }
+    },
+    "./mixlayer": {
+      "import": {
+        "types": "./dist/adapters/mixlayer.d.mts",
+        "default": "./dist/adapters/mixlayer.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/mixlayer.d.ts",
+        "default": "./dist/adapters/mixlayer.js"
+      }
+    },
+    "./reflection": {
+      "import": {
+        "types": "./dist/adapters/reflection.d.mts",
+        "default": "./dist/adapters/reflection.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/reflection.d.ts",
+        "default": "./dist/adapters/reflection.js"
+      }
+    },
+    "./jalapeno": {
+      "import": {
+        "types": "./dist/adapters/jalapeno.d.mts",
+        "default": "./dist/adapters/jalapeno.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/jalapeno.d.ts",
+        "default": "./dist/adapters/jalapeno.js"
+      }
+    },
+    "./humain": {
+      "import": {
+        "types": "./dist/adapters/humain.d.mts",
+        "default": "./dist/adapters/humain.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/humain.d.ts",
+        "default": "./dist/adapters/humain.js"
+      }
+    },
+    "./frequency": {
+      "import": {
+        "types": "./dist/adapters/frequency.d.mts",
+        "default": "./dist/adapters/frequency.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/frequency.d.ts",
+        "default": "./dist/adapters/frequency.js"
+      }
+    },
+    "./wafer.ai": {
+      "import": {
+        "types": "./dist/adapters/wafer.ai.d.mts",
+        "default": "./dist/adapters/wafer.ai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/wafer.ai.d.ts",
+        "default": "./dist/adapters/wafer.ai.js"
+      }
+    },
+    "./melious": {
+      "import": {
+        "types": "./dist/adapters/melious.d.mts",
+        "default": "./dist/adapters/melious.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/melious.d.ts",
+        "default": "./dist/adapters/melious.js"
+      }
+    },
+    "./anonrouter": {
+      "import": {
+        "types": "./dist/adapters/anonrouter.d.mts",
+        "default": "./dist/adapters/anonrouter.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/anonrouter.d.ts",
+        "default": "./dist/adapters/anonrouter.js"
+      }
+    },
+    "./hyper": {
+      "import": {
+        "types": "./dist/adapters/hyper.d.mts",
+        "default": "./dist/adapters/hyper.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/hyper.d.ts",
+        "default": "./dist/adapters/hyper.js"
+      }
+    },
+    "./tenstorrent": {
+      "import": {
+        "types": "./dist/adapters/tenstorrent.d.mts",
+        "default": "./dist/adapters/tenstorrent.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/tenstorrent.d.ts",
+        "default": "./dist/adapters/tenstorrent.js"
+      }
+    },
+    "./lyceum": {
+      "import": {
+        "types": "./dist/adapters/lyceum.d.mts",
+        "default": "./dist/adapters/lyceum.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/lyceum.d.ts",
+        "default": "./dist/adapters/lyceum.js"
+      }
+    },
+    "./opper": {
+      "import": {
+        "types": "./dist/adapters/opper.d.mts",
+        "default": "./dist/adapters/opper.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/opper.d.ts",
+        "default": "./dist/adapters/opper.js"
+      }
+    },
+    "./kosmik": {
+      "import": {
+        "types": "./dist/adapters/kosmik.d.mts",
+        "default": "./dist/adapters/kosmik.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/kosmik.d.ts",
+        "default": "./dist/adapters/kosmik.js"
+      }
+    },
+    "./zerogpu": {
+      "import": {
+        "types": "./dist/adapters/zerogpu.d.mts",
+        "default": "./dist/adapters/zerogpu.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/zerogpu.d.ts",
+        "default": "./dist/adapters/zerogpu.js"
+      }
+    },
+    "./thinkingmachines": {
+      "import": {
+        "types": "./dist/adapters/thinkingmachines.d.mts",
+        "default": "./dist/adapters/thinkingmachines.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/thinkingmachines.d.ts",
+        "default": "./dist/adapters/thinkingmachines.js"
+      }
+    },
+    "./llmgateway": {
+      "import": {
+        "types": "./dist/adapters/llmgateway.d.mts",
+        "default": "./dist/adapters/llmgateway.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/llmgateway.d.ts",
+        "default": "./dist/adapters/llmgateway.js"
+      }
+    },
+    "./google-vertex": {
+      "import": {
+        "types": "./dist/adapters/google-vertex.d.mts",
+        "default": "./dist/adapters/google-vertex.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/google-vertex.d.ts",
+        "default": "./dist/adapters/google-vertex.js"
+      }
+    },
+    "./digitalocean": {
+      "import": {
+        "types": "./dist/adapters/digitalocean.d.mts",
+        "default": "./dist/adapters/digitalocean.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/digitalocean.d.ts",
+        "default": "./dist/adapters/digitalocean.js"
+      }
+    },
+    "./hostinger-router": {
+      "import": {
+        "types": "./dist/adapters/hostinger-router.d.mts",
+        "default": "./dist/adapters/hostinger-router.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/hostinger-router.d.ts",
+        "default": "./dist/adapters/hostinger-router.js"
+      }
+    },
+    "./standardcompute": {
+      "import": {
+        "types": "./dist/adapters/standardcompute.d.mts",
+        "default": "./dist/adapters/standardcompute.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/standardcompute.d.ts",
+        "default": "./dist/adapters/standardcompute.js"
+      }
+    },
+    "./watsonx": {
+      "import": {
+        "types": "./dist/adapters/watsonx.d.mts",
+        "default": "./dist/adapters/watsonx.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/watsonx.d.ts",
+        "default": "./dist/adapters/watsonx.js"
       }
     },
     "./ambient": {
@@ -3141,14 +651,2354 @@
         "default": "./dist/adapters/ambient.js"
       }
     },
-    "./korouter": {
+    "./xxapi": {
       "import": {
-        "types": "./dist/adapters/korouter.d.mts",
-        "default": "./dist/adapters/korouter.mjs"
+        "types": "./dist/adapters/xxapi.d.mts",
+        "default": "./dist/adapters/xxapi.mjs"
       },
       "require": {
-        "types": "./dist/adapters/korouter.d.ts",
-        "default": "./dist/adapters/korouter.js"
+        "types": "./dist/adapters/xxapi.d.ts",
+        "default": "./dist/adapters/xxapi.js"
+      }
+    },
+    "./deepinfra": {
+      "import": {
+        "types": "./dist/adapters/deepinfra.d.mts",
+        "default": "./dist/adapters/deepinfra.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/deepinfra.d.ts",
+        "default": "./dist/adapters/deepinfra.js"
+      }
+    },
+    "./cheapllm": {
+      "import": {
+        "types": "./dist/adapters/cheapllm.d.mts",
+        "default": "./dist/adapters/cheapllm.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/cheapllm.d.ts",
+        "default": "./dist/adapters/cheapllm.js"
+      }
+    },
+    "./unbiased": {
+      "import": {
+        "types": "./dist/adapters/unbiased.d.mts",
+        "default": "./dist/adapters/unbiased.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/unbiased.d.ts",
+        "default": "./dist/adapters/unbiased.js"
+      }
+    },
+    "./ofox": {
+      "import": {
+        "types": "./dist/adapters/ofox.d.mts",
+        "default": "./dist/adapters/ofox.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/ofox.d.ts",
+        "default": "./dist/adapters/ofox.js"
+      }
+    },
+    "./augure": {
+      "import": {
+        "types": "./dist/adapters/augure.d.mts",
+        "default": "./dist/adapters/augure.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/augure.d.ts",
+        "default": "./dist/adapters/augure.js"
+      }
+    },
+    "./engy": {
+      "import": {
+        "types": "./dist/adapters/engy.d.mts",
+        "default": "./dist/adapters/engy.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/engy.d.ts",
+        "default": "./dist/adapters/engy.js"
+      }
+    },
+    "./stackit": {
+      "import": {
+        "types": "./dist/adapters/stackit.d.mts",
+        "default": "./dist/adapters/stackit.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/stackit.d.ts",
+        "default": "./dist/adapters/stackit.js"
+      }
+    },
+    "./wandb": {
+      "import": {
+        "types": "./dist/adapters/wandb.d.mts",
+        "default": "./dist/adapters/wandb.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/wandb.d.ts",
+        "default": "./dist/adapters/wandb.js"
+      }
+    },
+    "./atomic-chat": {
+      "import": {
+        "types": "./dist/adapters/atomic-chat.d.mts",
+        "default": "./dist/adapters/atomic-chat.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/atomic-chat.d.ts",
+        "default": "./dist/adapters/atomic-chat.js"
+      }
+    },
+    "./keln": {
+      "import": {
+        "types": "./dist/adapters/keln.d.mts",
+        "default": "./dist/adapters/keln.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/keln.d.ts",
+        "default": "./dist/adapters/keln.js"
+      }
+    },
+    "./nodecode": {
+      "import": {
+        "types": "./dist/adapters/nodecode.d.mts",
+        "default": "./dist/adapters/nodecode.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/nodecode.d.ts",
+        "default": "./dist/adapters/nodecode.js"
+      }
+    },
+    "./meta": {
+      "import": {
+        "types": "./dist/adapters/meta.d.mts",
+        "default": "./dist/adapters/meta.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/meta.d.ts",
+        "default": "./dist/adapters/meta.js"
+      }
+    },
+    "./unrestricted": {
+      "import": {
+        "types": "./dist/adapters/unrestricted.d.mts",
+        "default": "./dist/adapters/unrestricted.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/unrestricted.d.ts",
+        "default": "./dist/adapters/unrestricted.js"
+      }
+    },
+    "./openrouter": {
+      "import": {
+        "types": "./dist/adapters/openrouter.d.mts",
+        "default": "./dist/adapters/openrouter.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/openrouter.d.ts",
+        "default": "./dist/adapters/openrouter.js"
+      }
+    },
+    "./bothub": {
+      "import": {
+        "types": "./dist/adapters/bothub.d.mts",
+        "default": "./dist/adapters/bothub.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/bothub.d.ts",
+        "default": "./dist/adapters/bothub.js"
+      }
+    },
+    "./teapot-router": {
+      "import": {
+        "types": "./dist/adapters/teapot-router.d.mts",
+        "default": "./dist/adapters/teapot-router.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/teapot-router.d.ts",
+        "default": "./dist/adapters/teapot-router.js"
+      }
+    },
+    "./sparrowcodes": {
+      "import": {
+        "types": "./dist/adapters/sparrowcodes.d.mts",
+        "default": "./dist/adapters/sparrowcodes.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/sparrowcodes.d.ts",
+        "default": "./dist/adapters/sparrowcodes.js"
+      }
+    },
+    "./wallaby": {
+      "import": {
+        "types": "./dist/adapters/wallaby.d.mts",
+        "default": "./dist/adapters/wallaby.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/wallaby.d.ts",
+        "default": "./dist/adapters/wallaby.js"
+      }
+    },
+    "./llmgateway-providers": {
+      "import": {
+        "types": "./dist/adapters/llmgateway-providers.d.mts",
+        "default": "./dist/adapters/llmgateway-providers.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/llmgateway-providers.d.ts",
+        "default": "./dist/adapters/llmgateway-providers.js"
+      }
+    },
+    "./databricks": {
+      "import": {
+        "types": "./dist/adapters/databricks.d.mts",
+        "default": "./dist/adapters/databricks.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/databricks.d.ts",
+        "default": "./dist/adapters/databricks.js"
+      }
+    },
+    "./amd": {
+      "import": {
+        "types": "./dist/adapters/amd.d.mts",
+        "default": "./dist/adapters/amd.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/amd.d.ts",
+        "default": "./dist/adapters/amd.js"
+      }
+    },
+    "./alibaba-token-plan-cn": {
+      "import": {
+        "types": "./dist/adapters/alibaba-token-plan-cn.d.mts",
+        "default": "./dist/adapters/alibaba-token-plan-cn.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/alibaba-token-plan-cn.d.ts",
+        "default": "./dist/adapters/alibaba-token-plan-cn.js"
+      }
+    },
+    "./cerebras": {
+      "import": {
+        "types": "./dist/adapters/cerebras.d.mts",
+        "default": "./dist/adapters/cerebras.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/cerebras.d.ts",
+        "default": "./dist/adapters/cerebras.js"
+      }
+    },
+    "./xiaomi-token-plan-cn": {
+      "import": {
+        "types": "./dist/adapters/xiaomi-token-plan-cn.d.mts",
+        "default": "./dist/adapters/xiaomi-token-plan-cn.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/xiaomi-token-plan-cn.d.ts",
+        "default": "./dist/adapters/xiaomi-token-plan-cn.js"
+      }
+    },
+    "./impossibl": {
+      "import": {
+        "types": "./dist/adapters/impossibl.d.mts",
+        "default": "./dist/adapters/impossibl.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/impossibl.d.ts",
+        "default": "./dist/adapters/impossibl.js"
+      }
+    },
+    "./sandbase": {
+      "import": {
+        "types": "./dist/adapters/sandbase.d.mts",
+        "default": "./dist/adapters/sandbase.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/sandbase.d.ts",
+        "default": "./dist/adapters/sandbase.js"
+      }
+    },
+    "./apiko": {
+      "import": {
+        "types": "./dist/adapters/apiko.d.mts",
+        "default": "./dist/adapters/apiko.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/apiko.d.ts",
+        "default": "./dist/adapters/apiko.js"
+      }
+    },
+    "./hetzner": {
+      "import": {
+        "types": "./dist/adapters/hetzner.d.mts",
+        "default": "./dist/adapters/hetzner.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/hetzner.d.ts",
+        "default": "./dist/adapters/hetzner.js"
+      }
+    },
+    "./gitlab": {
+      "import": {
+        "types": "./dist/adapters/gitlab.d.mts",
+        "default": "./dist/adapters/gitlab.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/gitlab.d.ts",
+        "default": "./dist/adapters/gitlab.js"
+      }
+    },
+    "./groq": {
+      "import": {
+        "types": "./dist/adapters/groq.d.mts",
+        "default": "./dist/adapters/groq.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/groq.d.ts",
+        "default": "./dist/adapters/groq.js"
+      }
+    },
+    "./qihang-ai": {
+      "import": {
+        "types": "./dist/adapters/qihang-ai.d.mts",
+        "default": "./dist/adapters/qihang-ai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/qihang-ai.d.ts",
+        "default": "./dist/adapters/qihang-ai.js"
+      }
+    },
+    "./tokenlab": {
+      "import": {
+        "types": "./dist/adapters/tokenlab.d.mts",
+        "default": "./dist/adapters/tokenlab.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/tokenlab.d.ts",
+        "default": "./dist/adapters/tokenlab.js"
+      }
+    },
+    "./siliconflow-cn": {
+      "import": {
+        "types": "./dist/adapters/siliconflow-cn.d.mts",
+        "default": "./dist/adapters/siliconflow-cn.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/siliconflow-cn.d.ts",
+        "default": "./dist/adapters/siliconflow-cn.js"
+      }
+    },
+    "./refuseless": {
+      "import": {
+        "types": "./dist/adapters/refuseless.d.mts",
+        "default": "./dist/adapters/refuseless.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/refuseless.d.ts",
+        "default": "./dist/adapters/refuseless.js"
+      }
+    },
+    "./jzstoken": {
+      "import": {
+        "types": "./dist/adapters/jzstoken.d.mts",
+        "default": "./dist/adapters/jzstoken.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/jzstoken.d.ts",
+        "default": "./dist/adapters/jzstoken.js"
+      }
+    },
+    "./xiaomi": {
+      "import": {
+        "types": "./dist/adapters/xiaomi.d.mts",
+        "default": "./dist/adapters/xiaomi.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/xiaomi.d.ts",
+        "default": "./dist/adapters/xiaomi.js"
+      }
+    },
+    "./stepfun-ai": {
+      "import": {
+        "types": "./dist/adapters/stepfun-ai.d.mts",
+        "default": "./dist/adapters/stepfun-ai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/stepfun-ai.d.ts",
+        "default": "./dist/adapters/stepfun-ai.js"
+      }
+    },
+    "./teamorouter": {
+      "import": {
+        "types": "./dist/adapters/teamorouter.d.mts",
+        "default": "./dist/adapters/teamorouter.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/teamorouter.d.ts",
+        "default": "./dist/adapters/teamorouter.js"
+      }
+    },
+    "./pareto": {
+      "import": {
+        "types": "./dist/adapters/pareto.d.mts",
+        "default": "./dist/adapters/pareto.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/pareto.d.ts",
+        "default": "./dist/adapters/pareto.js"
+      }
+    },
+    "./gisoo": {
+      "import": {
+        "types": "./dist/adapters/gisoo.d.mts",
+        "default": "./dist/adapters/gisoo.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/gisoo.d.ts",
+        "default": "./dist/adapters/gisoo.js"
+      }
+    },
+    "./therouter": {
+      "import": {
+        "types": "./dist/adapters/therouter.d.mts",
+        "default": "./dist/adapters/therouter.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/therouter.d.ts",
+        "default": "./dist/adapters/therouter.js"
+      }
+    },
+    "./requesty": {
+      "import": {
+        "types": "./dist/adapters/requesty.d.mts",
+        "default": "./dist/adapters/requesty.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/requesty.d.ts",
+        "default": "./dist/adapters/requesty.js"
+      }
+    },
+    "./baseten": {
+      "import": {
+        "types": "./dist/adapters/baseten.d.mts",
+        "default": "./dist/adapters/baseten.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/baseten.d.ts",
+        "default": "./dist/adapters/baseten.js"
+      }
+    },
+    "./azure": {
+      "import": {
+        "types": "./dist/adapters/azure.d.mts",
+        "default": "./dist/adapters/azure.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/azure.d.ts",
+        "default": "./dist/adapters/azure.js"
+      }
+    },
+    "./paraloncloud": {
+      "import": {
+        "types": "./dist/adapters/paraloncloud.d.mts",
+        "default": "./dist/adapters/paraloncloud.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/paraloncloud.d.ts",
+        "default": "./dist/adapters/paraloncloud.js"
+      }
+    },
+    "./kuae-cloud-coding-plan": {
+      "import": {
+        "types": "./dist/adapters/kuae-cloud-coding-plan.d.mts",
+        "default": "./dist/adapters/kuae-cloud-coding-plan.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/kuae-cloud-coding-plan.d.ts",
+        "default": "./dist/adapters/kuae-cloud-coding-plan.js"
+      }
+    },
+    "./ainetcafe": {
+      "import": {
+        "types": "./dist/adapters/ainetcafe.d.mts",
+        "default": "./dist/adapters/ainetcafe.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/ainetcafe.d.ts",
+        "default": "./dist/adapters/ainetcafe.js"
+      }
+    },
+    "./scx-ai": {
+      "import": {
+        "types": "./dist/adapters/scx-ai.d.mts",
+        "default": "./dist/adapters/scx-ai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/scx-ai.d.ts",
+        "default": "./dist/adapters/scx-ai.js"
+      }
+    },
+    "./prime": {
+      "import": {
+        "types": "./dist/adapters/prime.d.mts",
+        "default": "./dist/adapters/prime.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/prime.d.ts",
+        "default": "./dist/adapters/prime.js"
+      }
+    },
+    "./klokintegration": {
+      "import": {
+        "types": "./dist/adapters/klokintegration.d.mts",
+        "default": "./dist/adapters/klokintegration.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/klokintegration.d.ts",
+        "default": "./dist/adapters/klokintegration.js"
+      }
+    },
+    "./inference": {
+      "import": {
+        "types": "./dist/adapters/inference.d.mts",
+        "default": "./dist/adapters/inference.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/inference.d.ts",
+        "default": "./dist/adapters/inference.js"
+      }
+    },
+    "./clarifai": {
+      "import": {
+        "types": "./dist/adapters/clarifai.d.mts",
+        "default": "./dist/adapters/clarifai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/clarifai.d.ts",
+        "default": "./dist/adapters/clarifai.js"
+      }
+    },
+    "./subconscious": {
+      "import": {
+        "types": "./dist/adapters/subconscious.d.mts",
+        "default": "./dist/adapters/subconscious.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/subconscious.d.ts",
+        "default": "./dist/adapters/subconscious.js"
+      }
+    },
+    "./watt": {
+      "import": {
+        "types": "./dist/adapters/watt.d.mts",
+        "default": "./dist/adapters/watt.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/watt.d.ts",
+        "default": "./dist/adapters/watt.js"
+      }
+    },
+    "./bumo": {
+      "import": {
+        "types": "./dist/adapters/bumo.d.mts",
+        "default": "./dist/adapters/bumo.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/bumo.d.ts",
+        "default": "./dist/adapters/bumo.js"
+      }
+    },
+    "./entrim": {
+      "import": {
+        "types": "./dist/adapters/entrim.d.mts",
+        "default": "./dist/adapters/entrim.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/entrim.d.ts",
+        "default": "./dist/adapters/entrim.js"
+      }
+    },
+    "./xpersona": {
+      "import": {
+        "types": "./dist/adapters/xpersona.d.mts",
+        "default": "./dist/adapters/xpersona.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/xpersona.d.ts",
+        "default": "./dist/adapters/xpersona.js"
+      }
+    },
+    "./modelscope": {
+      "import": {
+        "types": "./dist/adapters/modelscope.d.mts",
+        "default": "./dist/adapters/modelscope.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/modelscope.d.ts",
+        "default": "./dist/adapters/modelscope.js"
+      }
+    },
+    "./zeldoc": {
+      "import": {
+        "types": "./dist/adapters/zeldoc.d.mts",
+        "default": "./dist/adapters/zeldoc.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/zeldoc.d.ts",
+        "default": "./dist/adapters/zeldoc.js"
+      }
+    },
+    "./kenari": {
+      "import": {
+        "types": "./dist/adapters/kenari.d.mts",
+        "default": "./dist/adapters/kenari.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/kenari.d.ts",
+        "default": "./dist/adapters/kenari.js"
+      }
+    },
+    "./neuralwatt": {
+      "import": {
+        "types": "./dist/adapters/neuralwatt.d.mts",
+        "default": "./dist/adapters/neuralwatt.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/neuralwatt.d.ts",
+        "default": "./dist/adapters/neuralwatt.js"
+      }
+    },
+    "./nokeep": {
+      "import": {
+        "types": "./dist/adapters/nokeep.d.mts",
+        "default": "./dist/adapters/nokeep.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/nokeep.d.ts",
+        "default": "./dist/adapters/nokeep.js"
+      }
+    },
+    "./helicone": {
+      "import": {
+        "types": "./dist/adapters/helicone.d.mts",
+        "default": "./dist/adapters/helicone.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/helicone.d.ts",
+        "default": "./dist/adapters/helicone.js"
+      }
+    },
+    "./nova": {
+      "import": {
+        "types": "./dist/adapters/nova.d.mts",
+        "default": "./dist/adapters/nova.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/nova.d.ts",
+        "default": "./dist/adapters/nova.js"
+      }
+    },
+    "./runcrate": {
+      "import": {
+        "types": "./dist/adapters/runcrate.d.mts",
+        "default": "./dist/adapters/runcrate.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/runcrate.d.ts",
+        "default": "./dist/adapters/runcrate.js"
+      }
+    },
+    "./morph": {
+      "import": {
+        "types": "./dist/adapters/morph.d.mts",
+        "default": "./dist/adapters/morph.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/morph.d.ts",
+        "default": "./dist/adapters/morph.js"
+      }
+    },
+    "./coralbricks": {
+      "import": {
+        "types": "./dist/adapters/coralbricks.d.mts",
+        "default": "./dist/adapters/coralbricks.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/coralbricks.d.ts",
+        "default": "./dist/adapters/coralbricks.js"
+      }
+    },
+    "./crusoe": {
+      "import": {
+        "types": "./dist/adapters/crusoe.d.mts",
+        "default": "./dist/adapters/crusoe.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/crusoe.d.ts",
+        "default": "./dist/adapters/crusoe.js"
+      }
+    },
+    "./sagg": {
+      "import": {
+        "types": "./dist/adapters/sagg.d.mts",
+        "default": "./dist/adapters/sagg.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/sagg.d.ts",
+        "default": "./dist/adapters/sagg.js"
+      }
+    },
+    "./fastrouter": {
+      "import": {
+        "types": "./dist/adapters/fastrouter.d.mts",
+        "default": "./dist/adapters/fastrouter.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/fastrouter.d.ts",
+        "default": "./dist/adapters/fastrouter.js"
+      }
+    },
+    "./zai-coding-plan": {
+      "import": {
+        "types": "./dist/adapters/zai-coding-plan.d.mts",
+        "default": "./dist/adapters/zai-coding-plan.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/zai-coding-plan.d.ts",
+        "default": "./dist/adapters/zai-coding-plan.js"
+      }
+    },
+    "./minimax-cn-coding-plan": {
+      "import": {
+        "types": "./dist/adapters/minimax-cn-coding-plan.d.mts",
+        "default": "./dist/adapters/minimax-cn-coding-plan.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/minimax-cn-coding-plan.d.ts",
+        "default": "./dist/adapters/minimax-cn-coding-plan.js"
+      }
+    },
+    "./github-copilot": {
+      "import": {
+        "types": "./dist/adapters/github-copilot.d.mts",
+        "default": "./dist/adapters/github-copilot.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/github-copilot.d.ts",
+        "default": "./dist/adapters/github-copilot.js"
+      }
+    },
+    "./infomaniak": {
+      "import": {
+        "types": "./dist/adapters/infomaniak.d.mts",
+        "default": "./dist/adapters/infomaniak.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/infomaniak.d.ts",
+        "default": "./dist/adapters/infomaniak.js"
+      }
+    },
+    "./xai": {
+      "import": {
+        "types": "./dist/adapters/xai.d.mts",
+        "default": "./dist/adapters/xai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/xai.d.ts",
+        "default": "./dist/adapters/xai.js"
+      }
+    },
+    "./dothoosh": {
+      "import": {
+        "types": "./dist/adapters/dothoosh.d.mts",
+        "default": "./dist/adapters/dothoosh.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/dothoosh.d.ts",
+        "default": "./dist/adapters/dothoosh.js"
+      }
+    },
+    "./qiniu-ai": {
+      "import": {
+        "types": "./dist/adapters/qiniu-ai.d.mts",
+        "default": "./dist/adapters/qiniu-ai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/qiniu-ai.d.ts",
+        "default": "./dist/adapters/qiniu-ai.js"
+      }
+    },
+    "./obscurify": {
+      "import": {
+        "types": "./dist/adapters/obscurify.d.mts",
+        "default": "./dist/adapters/obscurify.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/obscurify.d.ts",
+        "default": "./dist/adapters/obscurify.js"
+      }
+    },
+    "./vercel": {
+      "import": {
+        "types": "./dist/adapters/vercel.d.mts",
+        "default": "./dist/adapters/vercel.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/vercel.d.ts",
+        "default": "./dist/adapters/vercel.js"
+      }
+    },
+    "./crossmodel": {
+      "import": {
+        "types": "./dist/adapters/crossmodel.d.mts",
+        "default": "./dist/adapters/crossmodel.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/crossmodel.d.ts",
+        "default": "./dist/adapters/crossmodel.js"
+      }
+    },
+    "./cloudcode": {
+      "import": {
+        "types": "./dist/adapters/cloudcode.d.mts",
+        "default": "./dist/adapters/cloudcode.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/cloudcode.d.ts",
+        "default": "./dist/adapters/cloudcode.js"
+      }
+    },
+    "./empiriolabs": {
+      "import": {
+        "types": "./dist/adapters/empiriolabs.d.mts",
+        "default": "./dist/adapters/empiriolabs.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/empiriolabs.d.ts",
+        "default": "./dist/adapters/empiriolabs.js"
+      }
+    },
+    "./abacus": {
+      "import": {
+        "types": "./dist/adapters/abacus.d.mts",
+        "default": "./dist/adapters/abacus.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/abacus.d.ts",
+        "default": "./dist/adapters/abacus.js"
+      }
+    },
+    "./vivgrid": {
+      "import": {
+        "types": "./dist/adapters/vivgrid.d.mts",
+        "default": "./dist/adapters/vivgrid.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/vivgrid.d.ts",
+        "default": "./dist/adapters/vivgrid.js"
+      }
+    },
+    "./orcarouter": {
+      "import": {
+        "types": "./dist/adapters/orcarouter.d.mts",
+        "default": "./dist/adapters/orcarouter.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/orcarouter.d.ts",
+        "default": "./dist/adapters/orcarouter.js"
+      }
+    },
+    "./echo": {
+      "import": {
+        "types": "./dist/adapters/echo.d.mts",
+        "default": "./dist/adapters/echo.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/echo.d.ts",
+        "default": "./dist/adapters/echo.js"
+      }
+    },
+    "./inferall": {
+      "import": {
+        "types": "./dist/adapters/inferall.d.mts",
+        "default": "./dist/adapters/inferall.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/inferall.d.ts",
+        "default": "./dist/adapters/inferall.js"
+      }
+    },
+    "./chutes": {
+      "import": {
+        "types": "./dist/adapters/chutes.d.mts",
+        "default": "./dist/adapters/chutes.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/chutes.d.ts",
+        "default": "./dist/adapters/chutes.js"
+      }
+    },
+    "./ollama-cloud": {
+      "import": {
+        "types": "./dist/adapters/ollama-cloud.d.mts",
+        "default": "./dist/adapters/ollama-cloud.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/ollama-cloud.d.ts",
+        "default": "./dist/adapters/ollama-cloud.js"
+      }
+    },
+    "./venice": {
+      "import": {
+        "types": "./dist/adapters/venice.d.mts",
+        "default": "./dist/adapters/venice.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/venice.d.ts",
+        "default": "./dist/adapters/venice.js"
+      }
+    },
+    "./pendra": {
+      "import": {
+        "types": "./dist/adapters/pendra.d.mts",
+        "default": "./dist/adapters/pendra.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/pendra.d.ts",
+        "default": "./dist/adapters/pendra.js"
+      }
+    },
+    "./google-vertex-anthropic": {
+      "import": {
+        "types": "./dist/adapters/google-vertex-anthropic.d.mts",
+        "default": "./dist/adapters/google-vertex-anthropic.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/google-vertex-anthropic.d.ts",
+        "default": "./dist/adapters/google-vertex-anthropic.js"
+      }
+    },
+    "./sakana": {
+      "import": {
+        "types": "./dist/adapters/sakana.d.mts",
+        "default": "./dist/adapters/sakana.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/sakana.d.ts",
+        "default": "./dist/adapters/sakana.js"
+      }
+    },
+    "./phase": {
+      "import": {
+        "types": "./dist/adapters/phase.d.mts",
+        "default": "./dist/adapters/phase.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/phase.d.ts",
+        "default": "./dist/adapters/phase.js"
+      }
+    },
+    "./abliteratedllm": {
+      "import": {
+        "types": "./dist/adapters/abliteratedllm.d.mts",
+        "default": "./dist/adapters/abliteratedllm.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/abliteratedllm.d.ts",
+        "default": "./dist/adapters/abliteratedllm.js"
+      }
+    },
+    "./tokengo": {
+      "import": {
+        "types": "./dist/adapters/tokengo.d.mts",
+        "default": "./dist/adapters/tokengo.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/tokengo.d.ts",
+        "default": "./dist/adapters/tokengo.js"
+      }
+    },
+    "./claudinio": {
+      "import": {
+        "types": "./dist/adapters/claudinio.d.mts",
+        "default": "./dist/adapters/claudinio.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/claudinio.d.ts",
+        "default": "./dist/adapters/claudinio.js"
+      }
+    },
+    "./zhipuai": {
+      "import": {
+        "types": "./dist/adapters/zhipuai.d.mts",
+        "default": "./dist/adapters/zhipuai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/zhipuai.d.ts",
+        "default": "./dist/adapters/zhipuai.js"
+      }
+    },
+    "./neosmith": {
+      "import": {
+        "types": "./dist/adapters/neosmith.d.mts",
+        "default": "./dist/adapters/neosmith.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/neosmith.d.ts",
+        "default": "./dist/adapters/neosmith.js"
+      }
+    },
+    "./nearai": {
+      "import": {
+        "types": "./dist/adapters/nearai.d.mts",
+        "default": "./dist/adapters/nearai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/nearai.d.ts",
+        "default": "./dist/adapters/nearai.js"
+      }
+    },
+    "./above": {
+      "import": {
+        "types": "./dist/adapters/above.d.mts",
+        "default": "./dist/adapters/above.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/above.d.ts",
+        "default": "./dist/adapters/above.js"
+      }
+    },
+    "./proxystacks": {
+      "import": {
+        "types": "./dist/adapters/proxystacks.d.mts",
+        "default": "./dist/adapters/proxystacks.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/proxystacks.d.ts",
+        "default": "./dist/adapters/proxystacks.js"
+      }
+    },
+    "./boundless": {
+      "import": {
+        "types": "./dist/adapters/boundless.d.mts",
+        "default": "./dist/adapters/boundless.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/boundless.d.ts",
+        "default": "./dist/adapters/boundless.js"
+      }
+    },
+    "./moneo": {
+      "import": {
+        "types": "./dist/adapters/moneo.d.mts",
+        "default": "./dist/adapters/moneo.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/moneo.d.ts",
+        "default": "./dist/adapters/moneo.js"
+      }
+    },
+    "./umans-ai-coding-plan": {
+      "import": {
+        "types": "./dist/adapters/umans-ai-coding-plan.d.mts",
+        "default": "./dist/adapters/umans-ai-coding-plan.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/umans-ai-coding-plan.d.ts",
+        "default": "./dist/adapters/umans-ai-coding-plan.js"
+      }
+    },
+    "./qvac": {
+      "import": {
+        "types": "./dist/adapters/qvac.d.mts",
+        "default": "./dist/adapters/qvac.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/qvac.d.ts",
+        "default": "./dist/adapters/qvac.js"
+      }
+    },
+    "./lithosai": {
+      "import": {
+        "types": "./dist/adapters/lithosai.d.mts",
+        "default": "./dist/adapters/lithosai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/lithosai.d.ts",
+        "default": "./dist/adapters/lithosai.js"
+      }
+    },
+    "./poe": {
+      "import": {
+        "types": "./dist/adapters/poe.d.mts",
+        "default": "./dist/adapters/poe.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/poe.d.ts",
+        "default": "./dist/adapters/poe.js"
+      }
+    },
+    "./outerlabs": {
+      "import": {
+        "types": "./dist/adapters/outerlabs.d.mts",
+        "default": "./dist/adapters/outerlabs.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/outerlabs.d.ts",
+        "default": "./dist/adapters/outerlabs.js"
+      }
+    },
+    "./zai": {
+      "import": {
+        "types": "./dist/adapters/zai.d.mts",
+        "default": "./dist/adapters/zai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/zai.d.ts",
+        "default": "./dist/adapters/zai.js"
+      }
+    },
+    "./klavo": {
+      "import": {
+        "types": "./dist/adapters/klavo.d.mts",
+        "default": "./dist/adapters/klavo.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/klavo.d.ts",
+        "default": "./dist/adapters/klavo.js"
+      }
+    },
+    "./submodel": {
+      "import": {
+        "types": "./dist/adapters/submodel.d.mts",
+        "default": "./dist/adapters/submodel.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/submodel.d.ts",
+        "default": "./dist/adapters/submodel.js"
+      }
+    },
+    "./alibaba-cn": {
+      "import": {
+        "types": "./dist/adapters/alibaba-cn.d.mts",
+        "default": "./dist/adapters/alibaba-cn.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/alibaba-cn.d.ts",
+        "default": "./dist/adapters/alibaba-cn.js"
+      }
+    },
+    "./vultr": {
+      "import": {
+        "types": "./dist/adapters/vultr.d.mts",
+        "default": "./dist/adapters/vultr.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/vultr.d.ts",
+        "default": "./dist/adapters/vultr.js"
+      }
+    },
+    "./deepseek": {
+      "import": {
+        "types": "./dist/adapters/deepseek.d.mts",
+        "default": "./dist/adapters/deepseek.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/deepseek.d.ts",
+        "default": "./dist/adapters/deepseek.js"
+      }
+    },
+    "./jiekou": {
+      "import": {
+        "types": "./dist/adapters/jiekou.d.mts",
+        "default": "./dist/adapters/jiekou.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/jiekou.d.ts",
+        "default": "./dist/adapters/jiekou.js"
+      }
+    },
+    "./oathbreaker": {
+      "import": {
+        "types": "./dist/adapters/oathbreaker.d.mts",
+        "default": "./dist/adapters/oathbreaker.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/oathbreaker.d.ts",
+        "default": "./dist/adapters/oathbreaker.js"
+      }
+    },
+    "./inferx": {
+      "import": {
+        "types": "./dist/adapters/inferx.d.mts",
+        "default": "./dist/adapters/inferx.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/inferx.d.ts",
+        "default": "./dist/adapters/inferx.js"
+      }
+    },
+    "./alibaba-coding-plan": {
+      "import": {
+        "types": "./dist/adapters/alibaba-coding-plan.d.mts",
+        "default": "./dist/adapters/alibaba-coding-plan.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/alibaba-coding-plan.d.ts",
+        "default": "./dist/adapters/alibaba-coding-plan.js"
+      }
+    },
+    "./inferenceapis": {
+      "import": {
+        "types": "./dist/adapters/inferenceapis.d.mts",
+        "default": "./dist/adapters/inferenceapis.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/inferenceapis.d.ts",
+        "default": "./dist/adapters/inferenceapis.js"
+      }
+    },
+    "./hopper": {
+      "import": {
+        "types": "./dist/adapters/hopper.d.mts",
+        "default": "./dist/adapters/hopper.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/hopper.d.ts",
+        "default": "./dist/adapters/hopper.js"
+      }
+    },
+    "./inferris": {
+      "import": {
+        "types": "./dist/adapters/inferris.d.mts",
+        "default": "./dist/adapters/inferris.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/inferris.d.ts",
+        "default": "./dist/adapters/inferris.js"
+      }
+    },
+    "./oci": {
+      "import": {
+        "types": "./dist/adapters/oci.d.mts",
+        "default": "./dist/adapters/oci.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/oci.d.ts",
+        "default": "./dist/adapters/oci.js"
+      }
+    },
+    "./isoquant": {
+      "import": {
+        "types": "./dist/adapters/isoquant.d.mts",
+        "default": "./dist/adapters/isoquant.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/isoquant.d.ts",
+        "default": "./dist/adapters/isoquant.js"
+      }
+    },
+    "./nvidia": {
+      "import": {
+        "types": "./dist/adapters/nvidia.d.mts",
+        "default": "./dist/adapters/nvidia.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/nvidia.d.ts",
+        "default": "./dist/adapters/nvidia.js"
+      }
+    },
+    "./cheapaimodel": {
+      "import": {
+        "types": "./dist/adapters/cheapaimodel.d.mts",
+        "default": "./dist/adapters/cheapaimodel.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/cheapaimodel.d.ts",
+        "default": "./dist/adapters/cheapaimodel.js"
+      }
+    },
+    "./azure-cognitive-services": {
+      "import": {
+        "types": "./dist/adapters/azure-cognitive-services.d.mts",
+        "default": "./dist/adapters/azure-cognitive-services.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/azure-cognitive-services.d.ts",
+        "default": "./dist/adapters/azure-cognitive-services.js"
+      }
+    },
+    "./sarvam": {
+      "import": {
+        "types": "./dist/adapters/sarvam.d.mts",
+        "default": "./dist/adapters/sarvam.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/sarvam.d.ts",
+        "default": "./dist/adapters/sarvam.js"
+      }
+    },
+    "./ruapi": {
+      "import": {
+        "types": "./dist/adapters/ruapi.d.mts",
+        "default": "./dist/adapters/ruapi.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/ruapi.d.ts",
+        "default": "./dist/adapters/ruapi.js"
+      }
+    },
+    "./iteracompute": {
+      "import": {
+        "types": "./dist/adapters/iteracompute.d.mts",
+        "default": "./dist/adapters/iteracompute.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/iteracompute.d.ts",
+        "default": "./dist/adapters/iteracompute.js"
+      }
+    },
+    "./cloudflare-workers-ai": {
+      "import": {
+        "types": "./dist/adapters/cloudflare-workers-ai.d.mts",
+        "default": "./dist/adapters/cloudflare-workers-ai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/cloudflare-workers-ai.d.ts",
+        "default": "./dist/adapters/cloudflare-workers-ai.js"
+      }
+    },
+    "./tencent-coding-plan": {
+      "import": {
+        "types": "./dist/adapters/tencent-coding-plan.d.mts",
+        "default": "./dist/adapters/tencent-coding-plan.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/tencent-coding-plan.d.ts",
+        "default": "./dist/adapters/tencent-coding-plan.js"
+      }
+    },
+    "./tensorx": {
+      "import": {
+        "types": "./dist/adapters/tensorx.d.mts",
+        "default": "./dist/adapters/tensorx.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/tensorx.d.ts",
+        "default": "./dist/adapters/tensorx.js"
+      }
+    },
+    "./confidential-ai": {
+      "import": {
+        "types": "./dist/adapters/confidential-ai.d.mts",
+        "default": "./dist/adapters/confidential-ai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/confidential-ai.d.ts",
+        "default": "./dist/adapters/confidential-ai.js"
+      }
+    },
+    "./nano-gpt": {
+      "import": {
+        "types": "./dist/adapters/nano-gpt.d.mts",
+        "default": "./dist/adapters/nano-gpt.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/nano-gpt.d.ts",
+        "default": "./dist/adapters/nano-gpt.js"
+      }
+    },
+    "./hpc-ai": {
+      "import": {
+        "types": "./dist/adapters/hpc-ai.d.mts",
+        "default": "./dist/adapters/hpc-ai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/hpc-ai.d.ts",
+        "default": "./dist/adapters/hpc-ai.js"
+      }
+    },
+    "./aihubmix": {
+      "import": {
+        "types": "./dist/adapters/aihubmix.d.mts",
+        "default": "./dist/adapters/aihubmix.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/aihubmix.d.ts",
+        "default": "./dist/adapters/aihubmix.js"
+      }
+    },
+    "./volcengine-coding-plan": {
+      "import": {
+        "types": "./dist/adapters/volcengine-coding-plan.d.mts",
+        "default": "./dist/adapters/volcengine-coding-plan.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/volcengine-coding-plan.d.ts",
+        "default": "./dist/adapters/volcengine-coding-plan.js"
+      }
+    },
+    "./unorouter": {
+      "import": {
+        "types": "./dist/adapters/unorouter.d.mts",
+        "default": "./dist/adapters/unorouter.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/unorouter.d.ts",
+        "default": "./dist/adapters/unorouter.js"
+      }
+    },
+    "./liquid": {
+      "import": {
+        "types": "./dist/adapters/liquid.d.mts",
+        "default": "./dist/adapters/liquid.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/liquid.d.ts",
+        "default": "./dist/adapters/liquid.js"
+      }
+    },
+    "./graphn": {
+      "import": {
+        "types": "./dist/adapters/graphn.d.mts",
+        "default": "./dist/adapters/graphn.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/graphn.d.ts",
+        "default": "./dist/adapters/graphn.js"
+      }
+    },
+    "./infer": {
+      "import": {
+        "types": "./dist/adapters/infer.d.mts",
+        "default": "./dist/adapters/infer.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/infer.d.ts",
+        "default": "./dist/adapters/infer.js"
+      }
+    },
+    "./nan": {
+      "import": {
+        "types": "./dist/adapters/nan.d.mts",
+        "default": "./dist/adapters/nan.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/nan.d.ts",
+        "default": "./dist/adapters/nan.js"
+      }
+    },
+    "./opencode": {
+      "import": {
+        "types": "./dist/adapters/opencode.d.mts",
+        "default": "./dist/adapters/opencode.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/opencode.d.ts",
+        "default": "./dist/adapters/opencode.js"
+      }
+    },
+    "./longcat": {
+      "import": {
+        "types": "./dist/adapters/longcat.d.mts",
+        "default": "./dist/adapters/longcat.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/longcat.d.ts",
+        "default": "./dist/adapters/longcat.js"
+      }
+    },
+    "./neon": {
+      "import": {
+        "types": "./dist/adapters/neon.d.mts",
+        "default": "./dist/adapters/neon.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/neon.d.ts",
+        "default": "./dist/adapters/neon.js"
+      }
+    },
+    "./minimax": {
+      "import": {
+        "types": "./dist/adapters/minimax.d.mts",
+        "default": "./dist/adapters/minimax.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/minimax.d.ts",
+        "default": "./dist/adapters/minimax.js"
+      }
+    },
+    "./nebius": {
+      "import": {
+        "types": "./dist/adapters/nebius.d.mts",
+        "default": "./dist/adapters/nebius.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/nebius.d.ts",
+        "default": "./dist/adapters/nebius.js"
+      }
+    },
+    "./cloudferro-sherlock": {
+      "import": {
+        "types": "./dist/adapters/cloudferro-sherlock.d.mts",
+        "default": "./dist/adapters/cloudferro-sherlock.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/cloudferro-sherlock.d.ts",
+        "default": "./dist/adapters/cloudferro-sherlock.js"
+      }
+    },
+    "./anthropic": {
+      "import": {
+        "types": "./dist/adapters/anthropic.d.mts",
+        "default": "./dist/adapters/anthropic.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/anthropic.d.ts",
+        "default": "./dist/adapters/anthropic.js"
+      }
+    },
+    "./cedarllm": {
+      "import": {
+        "types": "./dist/adapters/cedarllm.d.mts",
+        "default": "./dist/adapters/cedarllm.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/cedarllm.d.ts",
+        "default": "./dist/adapters/cedarllm.js"
+      }
+    },
+    "./tencent-tokenhub": {
+      "import": {
+        "types": "./dist/adapters/tencent-tokenhub.d.mts",
+        "default": "./dist/adapters/tencent-tokenhub.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/tencent-tokenhub.d.ts",
+        "default": "./dist/adapters/tencent-tokenhub.js"
+      }
+    },
+    "./modular": {
+      "import": {
+        "types": "./dist/adapters/modular.d.mts",
+        "default": "./dist/adapters/modular.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/modular.d.ts",
+        "default": "./dist/adapters/modular.js"
+      }
+    },
+    "./autarcho": {
+      "import": {
+        "types": "./dist/adapters/autarcho.d.mts",
+        "default": "./dist/adapters/autarcho.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/autarcho.d.ts",
+        "default": "./dist/adapters/autarcho.js"
+      }
+    },
+    "./jad-ai": {
+      "import": {
+        "types": "./dist/adapters/jad-ai.d.mts",
+        "default": "./dist/adapters/jad-ai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/jad-ai.d.ts",
+        "default": "./dist/adapters/jad-ai.js"
+      }
+    },
+    "./kitani": {
+      "import": {
+        "types": "./dist/adapters/kitani.d.mts",
+        "default": "./dist/adapters/kitani.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/kitani.d.ts",
+        "default": "./dist/adapters/kitani.js"
+      }
+    },
+    "./arcee": {
+      "import": {
+        "types": "./dist/adapters/arcee.d.mts",
+        "default": "./dist/adapters/arcee.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/arcee.d.ts",
+        "default": "./dist/adapters/arcee.js"
+      }
+    },
+    "./cheapest-token": {
+      "import": {
+        "types": "./dist/adapters/cheapest-token.d.mts",
+        "default": "./dist/adapters/cheapest-token.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/cheapest-token.d.ts",
+        "default": "./dist/adapters/cheapest-token.js"
+      }
+    },
+    "./togetherai": {
+      "import": {
+        "types": "./dist/adapters/togetherai.d.mts",
+        "default": "./dist/adapters/togetherai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/togetherai.d.ts",
+        "default": "./dist/adapters/togetherai.js"
+      }
+    },
+    "./tinfoil": {
+      "import": {
+        "types": "./dist/adapters/tinfoil.d.mts",
+        "default": "./dist/adapters/tinfoil.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/tinfoil.d.ts",
+        "default": "./dist/adapters/tinfoil.js"
+      }
+    },
+    "./joingonka": {
+      "import": {
+        "types": "./dist/adapters/joingonka.d.mts",
+        "default": "./dist/adapters/joingonka.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/joingonka.d.ts",
+        "default": "./dist/adapters/joingonka.js"
+      }
+    },
+    "./moonshotai-cn": {
+      "import": {
+        "types": "./dist/adapters/moonshotai-cn.d.mts",
+        "default": "./dist/adapters/moonshotai-cn.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/moonshotai-cn.d.ts",
+        "default": "./dist/adapters/moonshotai-cn.js"
+      }
+    },
+    "./verda": {
+      "import": {
+        "types": "./dist/adapters/verda.d.mts",
+        "default": "./dist/adapters/verda.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/verda.d.ts",
+        "default": "./dist/adapters/verda.js"
+      }
+    },
+    "./xiaomi-token-plan-ams": {
+      "import": {
+        "types": "./dist/adapters/xiaomi-token-plan-ams.d.mts",
+        "default": "./dist/adapters/xiaomi-token-plan-ams.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/xiaomi-token-plan-ams.d.ts",
+        "default": "./dist/adapters/xiaomi-token-plan-ams.js"
+      }
+    },
+    "./adzuki": {
+      "import": {
+        "types": "./dist/adapters/adzuki.d.mts",
+        "default": "./dist/adapters/adzuki.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/adzuki.d.ts",
+        "default": "./dist/adapters/adzuki.js"
+      }
+    },
+    "./runinfra": {
+      "import": {
+        "types": "./dist/adapters/runinfra.d.mts",
+        "default": "./dist/adapters/runinfra.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/runinfra.d.ts",
+        "default": "./dist/adapters/runinfra.js"
+      }
+    },
+    "./perplexity": {
+      "import": {
+        "types": "./dist/adapters/perplexity.d.mts",
+        "default": "./dist/adapters/perplexity.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/perplexity.d.ts",
+        "default": "./dist/adapters/perplexity.js"
+      }
+    },
+    "./modelis": {
+      "import": {
+        "types": "./dist/adapters/modelis.d.mts",
+        "default": "./dist/adapters/modelis.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/modelis.d.ts",
+        "default": "./dist/adapters/modelis.js"
+      }
+    },
+    "./mistral": {
+      "import": {
+        "types": "./dist/adapters/mistral.d.mts",
+        "default": "./dist/adapters/mistral.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/mistral.d.ts",
+        "default": "./dist/adapters/mistral.js"
+      }
+    },
+    "./byteplus": {
+      "import": {
+        "types": "./dist/adapters/byteplus.d.mts",
+        "default": "./dist/adapters/byteplus.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/byteplus.d.ts",
+        "default": "./dist/adapters/byteplus.js"
+      }
+    },
+    "./greenpt": {
+      "import": {
+        "types": "./dist/adapters/greenpt.d.mts",
+        "default": "./dist/adapters/greenpt.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/greenpt.d.ts",
+        "default": "./dist/adapters/greenpt.js"
+      }
+    },
+    "./snowflake-cortex": {
+      "import": {
+        "types": "./dist/adapters/snowflake-cortex.d.mts",
+        "default": "./dist/adapters/snowflake-cortex.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/snowflake-cortex.d.ts",
+        "default": "./dist/adapters/snowflake-cortex.js"
+      }
+    },
+    "./fiftyx": {
+      "import": {
+        "types": "./dist/adapters/fiftyx.d.mts",
+        "default": "./dist/adapters/fiftyx.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/fiftyx.d.ts",
+        "default": "./dist/adapters/fiftyx.js"
+      }
+    },
+    "./poolside": {
+      "import": {
+        "types": "./dist/adapters/poolside.d.mts",
+        "default": "./dist/adapters/poolside.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/poolside.d.ts",
+        "default": "./dist/adapters/poolside.js"
+      }
+    },
+    "./cline-pass": {
+      "import": {
+        "types": "./dist/adapters/cline-pass.d.mts",
+        "default": "./dist/adapters/cline-pass.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/cline-pass.d.ts",
+        "default": "./dist/adapters/cline-pass.js"
+      }
+    },
+    "./minimax-coding-plan": {
+      "import": {
+        "types": "./dist/adapters/minimax-coding-plan.d.mts",
+        "default": "./dist/adapters/minimax-coding-plan.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/minimax-coding-plan.d.ts",
+        "default": "./dist/adapters/minimax-coding-plan.js"
+      }
+    },
+    "./moark": {
+      "import": {
+        "types": "./dist/adapters/moark.d.mts",
+        "default": "./dist/adapters/moark.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/moark.d.ts",
+        "default": "./dist/adapters/moark.js"
+      }
+    },
+    "./volcengine": {
+      "import": {
+        "types": "./dist/adapters/volcengine.d.mts",
+        "default": "./dist/adapters/volcengine.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/volcengine.d.ts",
+        "default": "./dist/adapters/volcengine.js"
+      }
+    },
+    "./alibaba-token-plan": {
+      "import": {
+        "types": "./dist/adapters/alibaba-token-plan.d.mts",
+        "default": "./dist/adapters/alibaba-token-plan.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/alibaba-token-plan.d.ts",
+        "default": "./dist/adapters/alibaba-token-plan.js"
+      }
+    },
+    "./zenmux": {
+      "import": {
+        "types": "./dist/adapters/zenmux.d.mts",
+        "default": "./dist/adapters/zenmux.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/zenmux.d.ts",
+        "default": "./dist/adapters/zenmux.js"
+      }
+    },
+    "./edenai": {
+      "import": {
+        "types": "./dist/adapters/edenai.d.mts",
+        "default": "./dist/adapters/edenai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/edenai.d.ts",
+        "default": "./dist/adapters/edenai.js"
+      }
+    },
+    "./inference-coop": {
+      "import": {
+        "types": "./dist/adapters/inference-coop.d.mts",
+        "default": "./dist/adapters/inference-coop.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/inference-coop.d.ts",
+        "default": "./dist/adapters/inference-coop.js"
+      }
+    },
+    "./lynkr": {
+      "import": {
+        "types": "./dist/adapters/lynkr.d.mts",
+        "default": "./dist/adapters/lynkr.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/lynkr.d.ts",
+        "default": "./dist/adapters/lynkr.js"
+      }
+    },
+    "./sambanova": {
+      "import": {
+        "types": "./dist/adapters/sambanova.d.mts",
+        "default": "./dist/adapters/sambanova.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/sambanova.d.ts",
+        "default": "./dist/adapters/sambanova.js"
+      }
+    },
+    "./sap-ai-core": {
+      "import": {
+        "types": "./dist/adapters/sap-ai-core.d.mts",
+        "default": "./dist/adapters/sap-ai-core.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/sap-ai-core.d.ts",
+        "default": "./dist/adapters/sap-ai-core.js"
+      }
+    },
+    "./tokenrouter": {
+      "import": {
+        "types": "./dist/adapters/tokenrouter.d.mts",
+        "default": "./dist/adapters/tokenrouter.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/tokenrouter.d.ts",
+        "default": "./dist/adapters/tokenrouter.js"
+      }
+    },
+    "./infersia": {
+      "import": {
+        "types": "./dist/adapters/infersia.d.mts",
+        "default": "./dist/adapters/infersia.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/infersia.d.ts",
+        "default": "./dist/adapters/infersia.js"
+      }
+    },
+    "./sensenova": {
+      "import": {
+        "types": "./dist/adapters/sensenova.d.mts",
+        "default": "./dist/adapters/sensenova.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/sensenova.d.ts",
+        "default": "./dist/adapters/sensenova.js"
+      }
+    },
+    "./kimi-code-plan-global": {
+      "import": {
+        "types": "./dist/adapters/kimi-code-plan-global.d.mts",
+        "default": "./dist/adapters/kimi-code-plan-global.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/kimi-code-plan-global.d.ts",
+        "default": "./dist/adapters/kimi-code-plan-global.js"
+      }
+    },
+    "./llmtr": {
+      "import": {
+        "types": "./dist/adapters/llmtr.d.mts",
+        "default": "./dist/adapters/llmtr.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/llmtr.d.ts",
+        "default": "./dist/adapters/llmtr.js"
+      }
+    },
+    "./alibaba-coding-plan-cn": {
+      "import": {
+        "types": "./dist/adapters/alibaba-coding-plan-cn.d.mts",
+        "default": "./dist/adapters/alibaba-coding-plan-cn.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/alibaba-coding-plan-cn.d.ts",
+        "default": "./dist/adapters/alibaba-coding-plan-cn.js"
+      }
+    },
+    "./powerspring": {
+      "import": {
+        "types": "./dist/adapters/powerspring.d.mts",
+        "default": "./dist/adapters/powerspring.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/powerspring.d.ts",
+        "default": "./dist/adapters/powerspring.js"
+      }
+    },
+    "./hubris": {
+      "import": {
+        "types": "./dist/adapters/hubris.d.mts",
+        "default": "./dist/adapters/hubris.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/hubris.d.ts",
+        "default": "./dist/adapters/hubris.js"
+      }
+    },
+    "./berget": {
+      "import": {
+        "types": "./dist/adapters/berget.d.mts",
+        "default": "./dist/adapters/berget.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/berget.d.ts",
+        "default": "./dist/adapters/berget.js"
+      }
+    },
+    "./rayline": {
+      "import": {
+        "types": "./dist/adapters/rayline.d.mts",
+        "default": "./dist/adapters/rayline.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/rayline.d.ts",
+        "default": "./dist/adapters/rayline.js"
+      }
+    },
+    "./abliteration-ai": {
+      "import": {
+        "types": "./dist/adapters/abliteration-ai.d.mts",
+        "default": "./dist/adapters/abliteration-ai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/abliteration-ai.d.ts",
+        "default": "./dist/adapters/abliteration-ai.js"
+      }
+    },
+    "./novita-ai": {
+      "import": {
+        "types": "./dist/adapters/novita-ai.d.mts",
+        "default": "./dist/adapters/novita-ai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/novita-ai.d.ts",
+        "default": "./dist/adapters/novita-ai.js"
+      }
+    },
+    "./adaption": {
+      "import": {
+        "types": "./dist/adapters/adaption.d.mts",
+        "default": "./dist/adapters/adaption.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/adaption.d.ts",
+        "default": "./dist/adapters/adaption.js"
+      }
+    },
+    "./ovhcloud": {
+      "import": {
+        "types": "./dist/adapters/ovhcloud.d.mts",
+        "default": "./dist/adapters/ovhcloud.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/ovhcloud.d.ts",
+        "default": "./dist/adapters/ovhcloud.js"
+      }
+    },
+    "./bee": {
+      "import": {
+        "types": "./dist/adapters/bee.d.mts",
+        "default": "./dist/adapters/bee.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/bee.d.ts",
+        "default": "./dist/adapters/bee.js"
+      }
+    },
+    "./ebcloud": {
+      "import": {
+        "types": "./dist/adapters/ebcloud.d.mts",
+        "default": "./dist/adapters/ebcloud.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/ebcloud.d.ts",
+        "default": "./dist/adapters/ebcloud.js"
+      }
+    },
+    "./huggingface": {
+      "import": {
+        "types": "./dist/adapters/huggingface.d.mts",
+        "default": "./dist/adapters/huggingface.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/huggingface.d.ts",
+        "default": "./dist/adapters/huggingface.js"
+      }
+    },
+    "./synthetic": {
+      "import": {
+        "types": "./dist/adapters/synthetic.d.mts",
+        "default": "./dist/adapters/synthetic.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/synthetic.d.ts",
+        "default": "./dist/adapters/synthetic.js"
+      }
+    },
+    "./302ai": {
+      "import": {
+        "types": "./dist/adapters/302ai.d.mts",
+        "default": "./dist/adapters/302ai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/302ai.d.ts",
+        "default": "./dist/adapters/302ai.js"
+      }
+    },
+    "./freemodel": {
+      "import": {
+        "types": "./dist/adapters/freemodel.d.mts",
+        "default": "./dist/adapters/freemodel.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/freemodel.d.ts",
+        "default": "./dist/adapters/freemodel.js"
+      }
+    },
+    "./umans-ai": {
+      "import": {
+        "types": "./dist/adapters/umans-ai.d.mts",
+        "default": "./dist/adapters/umans-ai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/umans-ai.d.ts",
+        "default": "./dist/adapters/umans-ai.js"
+      }
+    },
+    "./openreason": {
+      "import": {
+        "types": "./dist/adapters/openreason.d.mts",
+        "default": "./dist/adapters/openreason.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/openreason.d.ts",
+        "default": "./dist/adapters/openreason.js"
+      }
+    },
+    "./munito": {
+      "import": {
+        "types": "./dist/adapters/munito.d.mts",
+        "default": "./dist/adapters/munito.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/munito.d.ts",
+        "default": "./dist/adapters/munito.js"
+      }
+    },
+    "./cloudflare-ai-gateway": {
+      "import": {
+        "types": "./dist/adapters/cloudflare-ai-gateway.d.mts",
+        "default": "./dist/adapters/cloudflare-ai-gateway.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/cloudflare-ai-gateway.d.ts",
+        "default": "./dist/adapters/cloudflare-ai-gateway.js"
+      }
+    },
+    "./minimax-cn": {
+      "import": {
+        "types": "./dist/adapters/minimax-cn.d.mts",
+        "default": "./dist/adapters/minimax-cn.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/minimax-cn.d.ts",
+        "default": "./dist/adapters/minimax-cn.js"
+      }
+    },
+    "./io-net": {
+      "import": {
+        "types": "./dist/adapters/io-net.d.mts",
+        "default": "./dist/adapters/io-net.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/io-net.d.ts",
+        "default": "./dist/adapters/io-net.js"
+      }
+    },
+    "./aki-io": {
+      "import": {
+        "types": "./dist/adapters/aki-io.d.mts",
+        "default": "./dist/adapters/aki-io.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/aki-io.d.ts",
+        "default": "./dist/adapters/aki-io.js"
+      }
+    },
+    "./frogbot": {
+      "import": {
+        "types": "./dist/adapters/frogbot.d.mts",
+        "default": "./dist/adapters/frogbot.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/frogbot.d.ts",
+        "default": "./dist/adapters/frogbot.js"
+      }
+    },
+    "./evroc": {
+      "import": {
+        "types": "./dist/adapters/evroc.d.mts",
+        "default": "./dist/adapters/evroc.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/evroc.d.ts",
+        "default": "./dist/adapters/evroc.js"
+      }
+    },
+    "./alibaba": {
+      "import": {
+        "types": "./dist/adapters/alibaba.d.mts",
+        "default": "./dist/adapters/alibaba.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/alibaba.d.ts",
+        "default": "./dist/adapters/alibaba.js"
+      }
+    },
+    "./uplinkswitch": {
+      "import": {
+        "types": "./dist/adapters/uplinkswitch.d.mts",
+        "default": "./dist/adapters/uplinkswitch.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/uplinkswitch.d.ts",
+        "default": "./dist/adapters/uplinkswitch.js"
+      }
+    },
+    "./inco": {
+      "import": {
+        "types": "./dist/adapters/inco.d.mts",
+        "default": "./dist/adapters/inco.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/inco.d.ts",
+        "default": "./dist/adapters/inco.js"
+      }
+    },
+    "./vispark": {
+      "import": {
+        "types": "./dist/adapters/vispark.d.mts",
+        "default": "./dist/adapters/vispark.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/vispark.d.ts",
+        "default": "./dist/adapters/vispark.js"
+      }
+    },
+    "./commandcode": {
+      "import": {
+        "types": "./dist/adapters/commandcode.d.mts",
+        "default": "./dist/adapters/commandcode.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/commandcode.d.ts",
+        "default": "./dist/adapters/commandcode.js"
+      }
+    },
+    "./drun": {
+      "import": {
+        "types": "./dist/adapters/drun.d.mts",
+        "default": "./dist/adapters/drun.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/drun.d.ts",
+        "default": "./dist/adapters/drun.js"
+      }
+    },
+    "./logits": {
+      "import": {
+        "types": "./dist/adapters/logits.d.mts",
+        "default": "./dist/adapters/logits.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/logits.d.ts",
+        "default": "./dist/adapters/logits.js"
+      }
+    },
+    "./dinference": {
+      "import": {
+        "types": "./dist/adapters/dinference.d.mts",
+        "default": "./dist/adapters/dinference.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/dinference.d.ts",
+        "default": "./dist/adapters/dinference.js"
+      }
+    },
+    "./meganova": {
+      "import": {
+        "types": "./dist/adapters/meganova.d.mts",
+        "default": "./dist/adapters/meganova.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/meganova.d.ts",
+        "default": "./dist/adapters/meganova.js"
+      }
+    },
+    "./modal": {
+      "import": {
+        "types": "./dist/adapters/modal.d.mts",
+        "default": "./dist/adapters/modal.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/modal.d.ts",
+        "default": "./dist/adapters/modal.js"
+      }
+    },
+    "./auriko": {
+      "import": {
+        "types": "./dist/adapters/auriko.d.mts",
+        "default": "./dist/adapters/auriko.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/auriko.d.ts",
+        "default": "./dist/adapters/auriko.js"
+      }
+    },
+    "./friendli": {
+      "import": {
+        "types": "./dist/adapters/friendli.d.mts",
+        "default": "./dist/adapters/friendli.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/friendli.d.ts",
+        "default": "./dist/adapters/friendli.js"
+      }
+    },
+    "./opencode-go": {
+      "import": {
+        "types": "./dist/adapters/opencode-go.d.mts",
+        "default": "./dist/adapters/opencode-go.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/opencode-go.d.ts",
+        "default": "./dist/adapters/opencode-go.js"
+      }
+    },
+    "./routing-run": {
+      "import": {
+        "types": "./dist/adapters/routing-run.d.mts",
+        "default": "./dist/adapters/routing-run.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/routing-run.d.ts",
+        "default": "./dist/adapters/routing-run.js"
+      }
+    },
+    "./stepping-stone": {
+      "import": {
+        "types": "./dist/adapters/stepping-stone.d.mts",
+        "default": "./dist/adapters/stepping-stone.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/stepping-stone.d.ts",
+        "default": "./dist/adapters/stepping-stone.js"
+      }
+    },
+    "./meragpt": {
+      "import": {
+        "types": "./dist/adapters/meragpt.d.mts",
+        "default": "./dist/adapters/meragpt.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/meragpt.d.ts",
+        "default": "./dist/adapters/meragpt.js"
+      }
+    },
+    "./siliconflow": {
+      "import": {
+        "types": "./dist/adapters/siliconflow.d.mts",
+        "default": "./dist/adapters/siliconflow.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/siliconflow.d.ts",
+        "default": "./dist/adapters/siliconflow.js"
+      }
+    },
+    "./upstage": {
+      "import": {
+        "types": "./dist/adapters/upstage.d.mts",
+        "default": "./dist/adapters/upstage.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/upstage.d.ts",
+        "default": "./dist/adapters/upstage.js"
+      }
+    },
+    "./ai21": {
+      "import": {
+        "types": "./dist/adapters/ai21.d.mts",
+        "default": "./dist/adapters/ai21.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/ai21.d.ts",
+        "default": "./dist/adapters/ai21.js"
+      }
+    },
+    "./moonshotai": {
+      "import": {
+        "types": "./dist/adapters/moonshotai.d.mts",
+        "default": "./dist/adapters/moonshotai.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/moonshotai.d.ts",
+        "default": "./dist/adapters/moonshotai.js"
       }
     },
     "./stepfun": {
@@ -3159,6 +3009,156 @@
       "require": {
         "types": "./dist/adapters/stepfun.d.ts",
         "default": "./dist/adapters/stepfun.js"
+      }
+    },
+    "./zenifra": {
+      "import": {
+        "types": "./dist/adapters/zenifra.d.mts",
+        "default": "./dist/adapters/zenifra.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/zenifra.d.ts",
+        "default": "./dist/adapters/zenifra.js"
+      }
+    },
+    "./bailing": {
+      "import": {
+        "types": "./dist/adapters/bailing.d.mts",
+        "default": "./dist/adapters/bailing.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/bailing.d.ts",
+        "default": "./dist/adapters/bailing.js"
+      }
+    },
+    "./daoxe": {
+      "import": {
+        "types": "./dist/adapters/daoxe.d.mts",
+        "default": "./dist/adapters/daoxe.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/daoxe.d.ts",
+        "default": "./dist/adapters/daoxe.js"
+      }
+    },
+    "./aimlapi": {
+      "import": {
+        "types": "./dist/adapters/aimlapi.d.mts",
+        "default": "./dist/adapters/aimlapi.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/aimlapi.d.ts",
+        "default": "./dist/adapters/aimlapi.js"
+      }
+    },
+    "./fortytwo": {
+      "import": {
+        "types": "./dist/adapters/fortytwo.d.mts",
+        "default": "./dist/adapters/fortytwo.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/fortytwo.d.ts",
+        "default": "./dist/adapters/fortytwo.js"
+      }
+    },
+    "./kimi-code-plan-cn": {
+      "import": {
+        "types": "./dist/adapters/kimi-code-plan-cn.d.mts",
+        "default": "./dist/adapters/kimi-code-plan-cn.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/kimi-code-plan-cn.d.ts",
+        "default": "./dist/adapters/kimi-code-plan-cn.js"
+      }
+    },
+    "./aixy": {
+      "import": {
+        "types": "./dist/adapters/aixy.d.mts",
+        "default": "./dist/adapters/aixy.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/aixy.d.ts",
+        "default": "./dist/adapters/aixy.js"
+      }
+    },
+    "./llmtech": {
+      "import": {
+        "types": "./dist/adapters/llmtech.d.mts",
+        "default": "./dist/adapters/llmtech.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/llmtech.d.ts",
+        "default": "./dist/adapters/llmtech.js"
+      }
+    },
+    "./lmstudio": {
+      "import": {
+        "types": "./dist/adapters/lmstudio.d.mts",
+        "default": "./dist/adapters/lmstudio.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/lmstudio.d.ts",
+        "default": "./dist/adapters/lmstudio.js"
+      }
+    },
+    "./korouter": {
+      "import": {
+        "types": "./dist/adapters/korouter.d.mts",
+        "default": "./dist/adapters/korouter.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/korouter.d.ts",
+        "default": "./dist/adapters/korouter.js"
+      }
+    },
+    "./lowrouter": {
+      "import": {
+        "types": "./dist/adapters/lowrouter.d.mts",
+        "default": "./dist/adapters/lowrouter.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/lowrouter.d.ts",
+        "default": "./dist/adapters/lowrouter.js"
+      }
+    },
+    "./zhipuai-coding-plan": {
+      "import": {
+        "types": "./dist/adapters/zhipuai-coding-plan.d.mts",
+        "default": "./dist/adapters/zhipuai-coding-plan.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/zhipuai-coding-plan.d.ts",
+        "default": "./dist/adapters/zhipuai-coding-plan.js"
+      }
+    },
+    "./kunavo": {
+      "import": {
+        "types": "./dist/adapters/kunavo.d.mts",
+        "default": "./dist/adapters/kunavo.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/kunavo.d.ts",
+        "default": "./dist/adapters/kunavo.js"
+      }
+    },
+    "./gmicloud": {
+      "import": {
+        "types": "./dist/adapters/gmicloud.d.mts",
+        "default": "./dist/adapters/gmicloud.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/gmicloud.d.ts",
+        "default": "./dist/adapters/gmicloud.js"
+      }
+    },
+    "./tokenwatt": {
+      "import": {
+        "types": "./dist/adapters/tokenwatt.d.mts",
+        "default": "./dist/adapters/tokenwatt.mjs"
+      },
+      "require": {
+        "types": "./dist/adapters/tokenwatt.d.ts",
+        "default": "./dist/adapters/tokenwatt.js"
       }
     }
   },
